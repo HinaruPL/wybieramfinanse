@@ -47,3 +47,32 @@ Potem:
 - dodać link do niej ze strony głównej
 - zaktualizować sitemap.xml
 - zrobić pierwsze artykuły pod ruch: /swiadczenia/800-plus/ i /swiadczenia/dobry-start-300-plus/
+
+## Aktualizacja — 31.05.2026
+
+Dodano pierwszą stronę zarabiającą:
+
+- /rankingi/konta-osobiste/
+
+Ranking zawiera 11 ofert z linkami afiliacyjnymi:
+- mBank eKonto do usług
+- BNP Paribas Konto Otwarte na Ciebie
+- Erste / Santander Konto Smart
+- PKO Konto za Zero
+- Bank Millennium Konto 360°
+- VeloBank VeloKonto
+- Credit Agricole Konto dla Ciebie
+- Alior Konto Plus
+- Nest Konto
+- Bank Pocztowy Konto w Porządku
+- UniCredit Konto Osobiste
+
+Poprawiono linkowanie ze strony głównej do rankingu kont osobistych.
+
+Do zrobienia:
+- dodać opisy ofert pod tabelą,
+- poprawić SEO strony rankingu,
+- dodać dane strukturalne FAQ,
+- rozważyć dodanie logo banków z legalnych źródeł,
+- wrócić do Google Search Console i sprawdzić sitemap.xml,
+- zaplanować AdSense jako dodatkowe źródło przychodu dla artykułów informacyjnych.
