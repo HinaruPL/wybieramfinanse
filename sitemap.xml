@@ -5,4 +5,29 @@
     <lastmod>2026-05-31</lastmod>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://wybieramfinanse.pl/o-nas/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wybieramfinanse.pl/kontakt/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wybieramfinanse.pl/informacja-o-afiliacji/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wybieramfinanse.pl/polityka-prywatnosci/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wybieramfinanse.pl/rankingi/konta-osobiste/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.9</priority>
+  </url>
 </urlset>
