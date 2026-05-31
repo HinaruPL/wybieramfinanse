@@ -35,13 +35,13 @@ Budujemy portal afiliacyjny finansowy pod domeną wybieramfinanse.pl. Strona ma 
 - /polityka-prywatnosci/
 - www przekierowuje na domenę bez www
 - SSL działa przez Cloudflare
+- /rankingi/konta-osobiste/ — pierwsza strona zarabiająca, wersja robocza z tabelą ofert, metodologią i FAQ
 
 ## Do sprawdzenia później
 - Google Search Console: sitemap.xml działa w przeglądarce, ale w GSC pokazało „nie udało się pobrać”.
 
 ## Najbliższy następny krok
-Stworzyć pierwszą stronę zarabiającą:
-/rankingi/konta-osobiste/
+Rozpocząć wybór pierwszych kampanii afiliacyjnych dla kont osobistych oraz przygotować wersję rankingu z prawdziwymi ofertami.
 
 Potem:
 - dodać link do niej ze strony głównej
