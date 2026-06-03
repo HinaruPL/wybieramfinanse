@@ -84,3 +84,12 @@ Do zrobienia:
 - Użyte logotypy: mBank, BNP Paribas, Erste, PKO BP, Nest Bank, Bank Pekao, Bank Pocztowy, UniCredit.
 - Dla banków bez pewnego pliku logo dodano tekstowe oznaczenia: Credit Agricole, Millennium, VeloBank, Alior Bank.
 - Poprawiono CSS, aby logo i badge’e wyglądały lżej i bardziej profesjonalnie.
+
+- ## Aktualizacja — SEO rankingu kont osobistych
+
+- Poprawiono meta title i meta description dla /rankingi/konta-osobiste/.
+- Dodano canonical URL.
+- Dodano podstawowe tagi Open Graph.
+- Dodano tekst SEO wyjaśniający, jak korzystać z rankingu kont osobistych.
+- Rozbudowano FAQ do 6 pytań.
+- Dodano dane strukturalne FAQPage w formacie JSON-LD.
