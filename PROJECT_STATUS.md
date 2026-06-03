@@ -156,3 +156,8 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — grafiki hero zasiłku rodzinnego i kosiniakowego
+
+- Dodano grafiki hero do artykułów /swiadczenia/zasilek-rodzinny/ i /swiadczenia/kosiniakowe/.
+- Dodano og:image i twitter:image dla tych artykułów, aby linki lepiej wyglądały przy udostępnianiu w social media.
