@@ -177,3 +177,12 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — dodatek na rozpoczęcie roku szkolnego
+
+- Dodano artykuł /swiadczenia/dodatek-rozpoczecie-roku-szkolnego/.
+- Artykuł wyjaśnia prostym językiem dodatek 100 zł na rozpoczęcie roku szkolnego i różnicę względem Dobry Start 300 plus.
+- Artykuł zawiera FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne/pomocnicze źródła.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
