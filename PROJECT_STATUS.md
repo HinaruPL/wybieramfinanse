@@ -148,3 +148,11 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — kosiniakowe
+
+- Dodano artykuł /swiadczenia/kosiniakowe/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
