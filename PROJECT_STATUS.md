@@ -76,3 +76,11 @@ Do zrobienia:
 - rozważyć dodanie logo banków z legalnych źródeł,
 - wrócić do Google Search Console i sprawdzić sitemap.xml,
 - zaplanować AdSense jako dodatkowe źródło przychodu dla artykułów informacyjnych.
+
+
+## Aktualizacja — logo w rankingu kont osobistych
+
+- Do tabeli rankingu kont osobistych dodano logotypy/badge’e przy numeracji.
+- Użyte logotypy: mBank, BNP Paribas, Erste, PKO BP, Nest Bank, Bank Pekao, Bank Pocztowy, UniCredit.
+- Dla banków bez pewnego pliku logo dodano tekstowe oznaczenia: Credit Agricole, Millennium, VeloBank, Alior Bank.
+- Poprawiono CSS, aby logo i badge’e wyglądały lżej i bardziej profesjonalnie.
