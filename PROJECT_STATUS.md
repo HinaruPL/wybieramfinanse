@@ -161,3 +161,11 @@ Do zrobienia:
 
 - Dodano grafiki hero do artykułów /swiadczenia/zasilek-rodzinny/ i /swiadczenia/kosiniakowe/.
 - Dodano og:image i twitter:image dla tych artykułów, aby linki lepiej wyglądały przy udostępnianiu w social media.
+
+## Aktualizacja — 03.06.2026 — świadczenie pielęgnacyjne
+
+- Dodano artykuł /swiadczenia/swiadczenie-pielegnacyjne/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
