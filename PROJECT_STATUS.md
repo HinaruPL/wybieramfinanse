@@ -169,3 +169,11 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — świadczenie wspierające
+
+- Dodano artykuł /swiadczenia/swiadczenie-wspierajace/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl/ZUS.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
