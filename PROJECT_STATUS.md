@@ -103,3 +103,7 @@ Do zrobienia:
   google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0
 - Utworzono komunikat zgody Google CMP dla użytkowników z EEA, UK i Szwajcarii.
 - Układ reklam zostanie dopracowany po przygotowaniu większej liczby treści.
+
+
+- Dodano pierwszy artykuł ruchowy: /swiadczenia/800-plus/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
