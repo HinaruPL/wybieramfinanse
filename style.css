@@ -534,3 +534,60 @@ h1 {
     min-width: 96px;
   }
 }
+
+/* Logo sizing refinements */
+.bank-logo-pko {
+  max-width: 128px;
+  max-height: 44px;
+}
+
+.bank-logo-nest {
+  max-width: 124px;
+  max-height: 34px;
+}
+
+/* Brand-colored text badges */
+.badge-credit-agricole {
+  background: #0b3b75;
+  color: #ffffff;
+  border: 1px solid #0b3b75;
+}
+
+.badge-credit-agricole::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-left: 7px;
+  border-radius: 999px;
+  background: #2fb344;
+}
+
+.badge-millennium {
+  background: #d71920;
+  color: #ffffff;
+  border: 1px solid #d71920;
+}
+
+.badge-velobank {
+  background: #1f8f4d;
+  color: #ffffff;
+  border: 1px solid #1f8f4d;
+}
+
+.badge-alior {
+  background: #8a1538;
+  color: #ffffff;
+  border: 1px solid #8a1538;
+}
+
+@media (max-width: 720px) {
+  .bank-logo-pko {
+    max-width: 136px;
+    max-height: 48px;
+  }
+
+  .bank-logo-nest {
+    max-width: 132px;
+    max-height: 38px;
+  }
+}
