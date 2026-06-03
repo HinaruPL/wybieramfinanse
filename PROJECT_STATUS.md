@@ -123,6 +123,7 @@ Do zrobienia:
 - Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
 - Dodano link ze strony głównej do artykułu Becikowe.
 - Zaktualizowano sitemap.xml.
+
 ## Aktualizacja — 03.06.2026 — grafiki hero artykułów
 
 - Dodano grafiki hero do artykułów /swiadczenia/800-plus/, /swiadczenia/dobry-start-300-plus/ i /swiadczenia/becikowe/.
