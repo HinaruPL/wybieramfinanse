@@ -107,3 +107,5 @@ Do zrobienia:
 
 - Dodano pierwszy artykuł ruchowy: /swiadczenia/800-plus/.
 - Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
+
+- Dodano link ze strony głównej do artykułu /swiadczenia/800-plus/.
