@@ -129,3 +129,10 @@ Do zrobienia:
 - Dodano grafiki hero do artykułów /swiadczenia/800-plus/, /swiadczenia/dobry-start-300-plus/ i /swiadczenia/becikowe/.
 - Dodano og:image i twitter:image dla tych artykułów, aby linki lepiej wyglądały przy udostępnianiu w social media.
 - Dodano wspólne style .article-image-section i .article-hero-image w style.css.
+
+## Aktualizacja — 03.06.2026 — strona zbiorcza świadczeń
+
+- Dodano stronę zbiorczą /swiadczenia/ dla poradników o świadczeniach rodzinnych.
+- Strona linkuje do artykułów: 800 plus, Dobry Start 300 plus i Becikowe.
+- Dodano linkowanie wewnętrzne do rankingu kont osobistych.
+- Zaktualizowano sitemap.xml.
