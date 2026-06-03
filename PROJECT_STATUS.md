@@ -140,3 +140,11 @@ Do zrobienia:
 ## Aktualizacja — 03.06.2026 — nawigacja świadczeń
 
 - Poprawiono link „Świadczenia” w głównej nawigacji, aby prowadził do /swiadczenia/ zamiast do anchora na stronie głównej.
+
+## Aktualizacja — 03.06.2026 — zasiłek rodzinny
+
+- Dodano artykuł /swiadczenia/zasilek-rodzinny/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
