@@ -711,3 +711,125 @@ h1 {
     font-size: 11px;
   }
 }
+
+/* Final clean ranking logo/badge style */
+.rank-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.rank-number {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #35527a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  flex: 0 0 auto;
+  font-size: 14px;
+}
+
+/* Logos without boxes */
+.bank-logo {
+  display: block;
+  width: auto;
+  max-width: 112px;
+  max-height: 32px;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* Individual logo corrections */
+.bank-logo-pko {
+  max-width: 90px;
+  max-height: 44px;
+  transform: scale(1.85);
+  transform-origin: center;
+}
+
+.bank-logo-nest {
+  max-width: 104px;
+  max-height: 34px;
+  transform: scale(1.35);
+  transform-origin: center;
+}
+
+/* Text badges without heavy pill background */
+.bank-badge {
+  width: auto;
+  min-width: 0;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+/* Brand-inspired text colors */
+.badge-millennium {
+  color: #d71920;
+}
+
+.badge-velobank {
+  color: #128143;
+}
+
+.badge-credit-agricole {
+  color: #0b3b75;
+}
+
+.badge-credit-agricole::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-left: 6px;
+  border-radius: 999px;
+  background: #2fb344;
+}
+
+.badge-alior {
+  color: #8a1538;
+}
+
+@media (max-width: 720px) {
+  .rank-brand {
+    gap: 12px;
+  }
+
+  .bank-logo {
+    max-width: 100px;
+    max-height: 30px;
+  }
+
+  .bank-logo-pko {
+    max-width: 82px;
+    max-height: 42px;
+    transform: scale(1.8);
+  }
+
+  .bank-logo-nest {
+    max-width: 96px;
+    max-height: 32px;
+    transform: scale(1.3);
+  }
+
+  .bank-badge {
+    font-size: 12px;
+  }
+}
