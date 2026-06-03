@@ -109,3 +109,10 @@ Do zrobienia:
 - Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
 
 - Dodano link ze strony głównej do artykułu /swiadczenia/800-plus/.
+
+## Aktualizacja — 03.06.2026
+
+- Dodano artykuł /swiadczenia/dobry-start-300-plus/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
+- Dodano link ze strony głównej do artykułu Dobry Start 300 plus.
+- Zaktualizowano sitemap.xml.
