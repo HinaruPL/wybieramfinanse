@@ -833,3 +833,28 @@ h1 {
     font-size: 12px;
   }
 }
+.article-image-section {
+  padding: 34px 0 10px;
+  background: var(--background);
+}
+
+.article-hero-image {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  display: block;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.08);
+}
+
+@media (max-width: 720px) {
+  .article-image-section {
+    padding: 22px 0 4px;
+  }
+
+  .article-hero-image {
+    max-height: 260px;
+    border-radius: 20px;
+  }
+}
