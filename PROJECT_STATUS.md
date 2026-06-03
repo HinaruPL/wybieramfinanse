@@ -93,3 +93,13 @@ Do zrobienia:
 - Dodano tekst SEO wyjaśniający, jak korzystać z rankingu kont osobistych.
 - Rozbudowano FAQ do 6 pytań.
 - Dodano dane strukturalne FAQPage w formacie JSON-LD.
+
+
+## Aktualizacja — AdSense
+
+- Dodano skrypt Google AdSense do plików HTML.
+- Publisher ID: pub-7645481846348914.
+- Dodano plik ads.txt:
+  google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0
+- Utworzono komunikat zgody Google CMP dla użytkowników z EEA, UK i Szwajcarii.
+- Układ reklam zostanie dopracowany po przygotowaniu większej liczby treści.
