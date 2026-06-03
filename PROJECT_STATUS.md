@@ -136,3 +136,7 @@ Do zrobienia:
 - Strona linkuje do artykułów: 800 plus, Dobry Start 300 plus i Becikowe.
 - Dodano linkowanie wewnętrzne do rankingu kont osobistych.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — nawigacja świadczeń
+
+- Poprawiono link „Świadczenia” w głównej nawigacji, aby prowadził do /swiadczenia/ zamiast do anchora na stronie głównej.
