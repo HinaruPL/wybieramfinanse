@@ -116,3 +116,10 @@ Do zrobienia:
 - Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
 - Dodano link ze strony głównej do artykułu Dobry Start 300 plus.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 03.06.2026 — becikowe
+
+- Dodano artykuł /swiadczenia/becikowe/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link ze strony głównej do artykułu Becikowe.
+- Zaktualizowano sitemap.xml.
