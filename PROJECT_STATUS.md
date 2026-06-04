@@ -265,3 +265,35 @@ Do zrobienia:
   - /swiadczenia/aktywnie-w-domu/
 - Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
 - Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
+
+## Aktualizacja — 04.06.2026 — klastry sekcji świadczeń
+
+- Uporządkowano sekcję /swiadczenia/ w klastry tematyczne:
+  - najważniejsze świadczenia rodzinne,
+  - zasiłek rodzinny i dodatki,
+  - program Aktywny Rodzic,
+  - niepełnosprawność i opieka.
+- Rozbudowano artykuł /swiadczenia/zasilek-rodzinny/ o linki do dodatków do zasiłku rodzinnego.
+- Upewniono się, że artykuły o dodatkach linkują do głównego artykułu o zasiłku rodzinnym.
+- Rozbudowano artykuł /swiadczenia/aktywny-rodzic/ o linki do trzech świadczeń programu.
+- Upewniono się, że artykuły szczegółowe Aktywny Rodzic linkują do przewodnika i pozostałych świadczeń.
+- Uporządkowano sekcję świadczeń na stronie głównej, aby nie była przeładowana zbyt dużą liczbą kart.
+
+## Aktualizacja — 04.06.2026 — audyt techniczny i SEO
+
+- Wykonano pełny audyt techniczny i SEO projektu.
+- Sprawdzono: GA4, AdSense, meta referrer, canonical, title, meta description, Open Graph, Twitter Card, FAQ Schema, grafiki hero, linkowanie wewnętrzne, linki zewnętrzne, stopkę, sitemap.xml, robots.txt, ads.txt i ranking kont osobistych.
+- Uporządkowano lub poprawiono wykryte drobne błędy techniczne i SEO.
+- Sprawdzono strukturę klastrów w sekcji /swiadczenia/.
+- Sprawdzono linkowanie między zasiłkiem rodzinnym i dodatkami oraz między artykułami programu Aktywny Rodzic.
+- Zanotowano ewentualne problemy wymagające decyzji właściciela.
+
+## Aktualizacja — 04.06.2026 — ranking kont firmowych
+
+- Dodano nową stronę /rankingi/konta-firmowe/ z rankingiem kont firmowych dla JDG.
+- Ranking zawiera porównanie ofert banków, szczegółowe opisy, metodologię, sekcje poradnikowe i FAQ z FAQPage JSON-LD.
+- Dodano linki afiliacyjne z rel="sponsored nofollow" i target="_blank".
+- Dodano krótkie zajawki przyszłych tematów: konto firmowe dla spółki, założenie firmy z kontem i Revolut Business.
+- Dodano link ze strony głównej do rankingu kont firmowych.
+- Zaktualizowano sitemap.xml.
+- Nie dodano grafiki hero, bo w assets/articles/ nie ma jeszcze dedykowanej grafiki dla kont firmowych.
