@@ -326,3 +326,17 @@ Do zrobienia:
 - Zwykły Revolut osobisty zostaje na przyszły osobny wpis.
 - Dodano linkowanie z klastra kont firmowych.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 04.06.2026 — uporządkowanie struktury portalu i branding
+
+- Utworzono stronę zbiorczą /rankingi/.
+- Utworzono dział /dla-firm/ dla treści o kontach firmowych i finansach działalności.
+- Utworzono stronę /poradniki/ jako katalog poradników finansowych.
+- Utworzono stronę /narzedzia/ jako katalog planowanych narzędzi.
+- Przebudowano /swiadczenia/ jako uporządkowany katalog świadczeń rodzinnych, dodatków, programu Aktywny Rodzic oraz świadczeń opiekuńczych.
+- Poprawiono stronę główną, aby prowadziła do głównych działów portalu.
+- Wdrożono logo i podstawowe pliki brandingu z /assets/brand/.
+- Dodano favicon, apple touch icon i domyślną grafikę og-logo.png dla nowych stron bez własnej grafiki.
+- Poprawiono menu i stopkę na nowych stronach oraz najważniejszych stronach rankingowych.
+- Dodano widoczne breadcrumbs na stronach zbiorczych i najważniejszych stronach rankingowych.
+- Zaktualizowano sitemap.xml.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wybieramfinanse.pl/</loc>
     <lastmod>2026-06-03</lastmod>
@@ -37,6 +37,12 @@
   </url>
 
   <url>
+    <loc>https://wybieramfinanse.pl/rankingi/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
     <loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/</loc>
     <lastmod>2026-06-04</lastmod>
     <priority>0.9</priority>
@@ -61,8 +67,26 @@
   </url>
 
   <url>
+    <loc>https://wybieramfinanse.pl/dla-firm/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://wybieramfinanse.pl/poradniki/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://wybieramfinanse.pl/narzedzia/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://wybieramfinanse.pl/swiadczenia/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <priority>0.7</priority>
   </url>
 
