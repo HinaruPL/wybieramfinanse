@@ -51,6 +51,12 @@ W każdym nowym pliku HTML należy w sekcji head dodać skrypt:
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
      crossorigin="anonymous"></script>
 
+W każdym pliku HTML należy dodać w <head> meta referrer:
+
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+Ten tag pomaga uniknąć problemów z Google AdSense Privacy & messaging / CMP message.
+
 ads.txt:
 
 google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0

@@ -228,3 +228,8 @@ Do zrobienia:
 - Dodano Google Analytics 4 do plików HTML.
 - Measurement ID: G-QWY5T45BG6.
 - Od teraz nowe pliki HTML powinny zawierać tag GA4 bezpośrednio po <head>, razem ze skryptem AdSense.
+
+## Aktualizacja — 04.06.2026 — meta referrer dla AdSense CMP
+
+- Dodano meta referrer strict-origin-when-cross-origin do plików HTML, aby pomóc w poprawnym wyświetlaniu Google AdSense CMP / Privacy & messaging message.
+- Sprawdzono obecność skryptu AdSense w sekcji head plików HTML.
