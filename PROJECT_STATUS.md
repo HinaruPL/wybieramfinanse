@@ -244,3 +244,14 @@ Do zrobienia:
 
 - Poprawiono obsługę linku „Ustawienia prywatności” w stopce.
 - Link korzysta z Google Funding Choices API i funkcji window.googlefc.showRevocationMessage() po zdarzeniu CONSENT_API_READY.
+
+## Aktualizacja — 04.06.2026 — pakiet Aktywny Rodzic
+
+- Dodano pakiet 4 artykułów o programie Aktywny Rodzic:
+  - /swiadczenia/aktywny-rodzic/
+  - /swiadczenia/aktywni-rodzice-w-pracy/
+  - /swiadczenia/aktywnie-w-zlobku/
+  - /swiadczenia/aktywnie-w-domu/
+- Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, GA4, linki wewnętrzne i oficjalne źródła.
+- Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
+- Grafiki hero dla tych artykułów zostaną dodane później.
