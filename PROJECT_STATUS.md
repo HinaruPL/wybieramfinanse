@@ -207,3 +207,18 @@ Do zrobienia:
 - Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne źródła.
 - Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
 - Grafiki hero dla tych artykułów zostaną dodane później.
+
+## Aktualizacja — 04.06.2026 — grafiki hero dla kolejnych świadczeń
+
+- Dodano grafiki hero do 9 artykułów w sekcji świadczeń:
+  - /swiadczenia/swiadczenie-pielegnacyjne/
+  - /swiadczenia/swiadczenie-wspierajace/
+  - /swiadczenia/dodatek-rozpoczecie-roku-szkolnego/
+  - /swiadczenia/dodatek-rodzina-wielodzietna/
+  - /swiadczenia/dodatek-samotne-wychowywanie-dziecka/
+  - /swiadczenia/dodatek-urodzenie-dziecka/
+  - /swiadczenia/dodatek-urlop-wychowawczy/
+  - /swiadczenia/dodatek-ksztalcenie-rehabilitacja/
+  - /swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/
+- Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
+- Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
