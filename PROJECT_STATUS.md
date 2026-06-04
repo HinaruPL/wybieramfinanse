@@ -318,3 +318,11 @@ Do zrobienia:
 
 - Dodano plik .assetsignore dla Cloudflare Workers Static Assets.
 - Wykluczono z uploadu assetów katalog .git oraz pliki techniczne repozytorium, aby uniknąć błędu Asset too large podczas deployu.
+
+## Aktualizacja — 04.06.2026 — Revolut Business
+
+- Dodano artykuł /rankingi/konta-firmowe/revolut-business/.
+- Artykuł dotyczy wyłącznie Revolut Business.
+- Zwykły Revolut osobisty zostaje na przyszły osobny wpis.
+- Dodano linkowanie z klastra kont firmowych.
+- Zaktualizowano sitemap.xml.
