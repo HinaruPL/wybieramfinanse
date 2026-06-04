@@ -56,24 +56,23 @@
   <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Wybieram Finanse</p><div><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/kontakt/">Kontakt</a><a href="/o-nas/">O nas</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div></footer>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ile wynosi dodatek na kształcenie i rehabilitację?","acceptedAnswer":{"@type":"Answer","text":"90 zł miesięcznie do 5 lat albo 110 zł miesięcznie powyżej 5 lat."}},{"@type":"Question","name":"Czy trzeba mieć zasiłek rodzinny?","acceptedAnswer":{"@type":"Answer","text":"Tak, co do zasady trzeba mieć prawo do zasiłku rodzinnego."}},{"@type":"Question","name":"Czy potrzebne jest orzeczenie?","acceptedAnswer":{"@type":"Answer","text":"Tak, potrzebne jest odpowiednie orzeczenie."}},{"@type":"Question","name":"Czy dodatek zależy od dochodu?","acceptedAnswer":{"@type":"Answer","text":"Tak, bo jest dodatkiem do zasiłku rodzinnego."}},{"@type":"Question","name":"Do jakiego wieku przysługuje dodatek?","acceptedAnswer":{"@type":"Answer","text":"W opisanych warunkach może dotyczyć dziecka do 24 lat."}},{"@type":"Question","name":"Gdzie złożyć wniosek?","acceptedAnswer":{"@type":"Answer","text":"W jednostce obsługującej świadczenia rodzinne."}}]}</script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
 
-      privacyLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-          event.preventDefault();
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
 
-          if (window.googlefc && googlefc.callbackQueue) {
-            googlefc.callbackQueue.push(function () {
-              if (googlefc.showRevocationMessage) {
-                googlefc.showRevocationMessage();
-              }
-            });
-          } else {
-            alert('Ustawienia prywatności będą dostępne po załadowaniu narzędzi Google. Odśwież stronę i spróbuj ponownie.');
-          }
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
         });
-      });
+      }
     });
   </script>
 </body>

@@ -239,3 +239,8 @@ Do zrobienia:
 - Dodano link „Ustawienia prywatności” w stopce plików HTML.
 - Dodano bezpieczny skrypt do ponownego otwierania ustawień zgody Google CMP / Funding Choices.
 - Nie instalowano zewnętrznego CMP, aby uniknąć dwóch banerów zgody na stronie.
+
+## Aktualizacja — 04.06.2026 — poprawka linku ustawień prywatności
+
+- Poprawiono obsługę linku „Ustawienia prywatności” w stopce.
+- Link korzysta z Google Funding Choices API i funkcji window.googlefc.showRevocationMessage() po zdarzeniu CONSENT_API_READY.

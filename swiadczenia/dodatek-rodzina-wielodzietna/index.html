@@ -469,24 +469,23 @@
   }
   </script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
 
-      privacyLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-          event.preventDefault();
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
 
-          if (window.googlefc && googlefc.callbackQueue) {
-            googlefc.callbackQueue.push(function () {
-              if (googlefc.showRevocationMessage) {
-                googlefc.showRevocationMessage();
-              }
-            });
-          } else {
-            alert('Ustawienia prywatności będą dostępne po załadowaniu narzędzi Google. Odśwież stronę i spróbuj ponownie.');
-          }
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
         });
-      });
+      }
     });
   </script>
 </body>
