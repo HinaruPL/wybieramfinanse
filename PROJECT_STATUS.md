@@ -255,3 +255,13 @@ Do zrobienia:
 - Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, GA4, linki wewnętrzne i oficjalne źródła.
 - Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
 - Grafiki hero dla tych artykułów zostaną dodane później.
+
+## Aktualizacja — 04.06.2026 — grafiki hero Aktywny Rodzic
+
+- Dodano grafiki hero do 4 artykułów o programie Aktywny Rodzic:
+  - /swiadczenia/aktywny-rodzic/
+  - /swiadczenia/aktywni-rodzice-w-pracy/
+  - /swiadczenia/aktywnie-w-zlobku/
+  - /swiadczenia/aktywnie-w-domu/
+- Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
+- Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
