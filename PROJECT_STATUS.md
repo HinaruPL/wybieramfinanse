@@ -297,3 +297,11 @@ Do zrobienia:
 - Dodano link ze strony głównej do rankingu kont firmowych.
 - Zaktualizowano sitemap.xml.
 - Nie dodano grafiki hero, bo w assets/articles/ nie ma jeszcze dedykowanej grafiki dla kont firmowych.
+
+## Aktualizacja — 04.06.2026 — ranking kont firmowych dla spółek
+
+- Dodano ranking kont firmowych dla spółek: /rankingi/konta-firmowe/konto-firmowe-dla-spolki/.
+- Poprawiono logo Revolut Business w rankingu kont firmowych dla JDG, używając assets/logos/revolut-business.svg.
+- Dodano linkowanie z rankingu kont firmowych dla JDG do nowej strony dla spółek.
+- Sprawdzono podstawowe SEO, FAQ Schema, linki afiliacyjne i linkowanie wewnętrzne dla nowego etapu.
+- Zaktualizowano sitemap.xml.
