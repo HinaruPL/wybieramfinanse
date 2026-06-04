@@ -54,7 +54,28 @@
     <section class="section section-light"><div class="container"><div class="section-heading"><p class="eyebrow">Źródła</p><h2>Oficjalne informacje</h2></div><div class="cards-grid"><article class="card"><h3>Gov.pl — urodzenie dziecka</h3><p>Oficjalne informacje o dodatku.</p><a href="https://www.gov.pl/web/rodzina/dodatek-z-tytulu-urodzenia-dziecka" class="card-link" target="_blank" rel="noopener nofollow">Przejdź do gov.pl →</a></article><article class="card"><h3>Gov.pl — zasiłek z dodatkami</h3><p>Wniosek i zasady dodatków.</p><a href="https://www.gov.pl/web/gov/uzyskaj-zasilek-rodzinny-wraz-z-dodatkami" class="card-link" target="_blank" rel="noopener nofollow">Przejdź do gov.pl →</a></article><article class="card"><h3>Gov.pl — becikowe</h3><p>Osobne świadczenie po urodzeniu dziecka.</p><a href="https://www.gov.pl/web/gov/uzyskaj-becikowe" class="card-link" target="_blank" rel="noopener nofollow">Przejdź do gov.pl →</a></article><article class="card"><h3>Zasiłek rodzinny</h3><p>Poradnik o zasiłku rodzinnym.</p><a href="/swiadczenia/zasilek-rodzinny/" class="card-link">Czytaj poradnik →</a></article><article class="card"><h3>Wszystkie świadczenia</h3><p>Lista poradników.</p><a href="/swiadczenia/" class="card-link">Przejdź do sekcji →</a></article></div></div></section>
     <section class="disclaimer"><div class="container"><p>Ostatnia aktualizacja: 4 czerwca 2026 r. Informacje na stronie mają charakter ogólny.</p></div></section>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Wybieram Finanse</p><div><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/kontakt/">Kontakt</a><a href="/o-nas/">O nas</a></div></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Wybieram Finanse</p><div><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/kontakt/">Kontakt</a><a href="/o-nas/">O nas</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div></footer>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ile wynosi dodatek z tytułu urodzenia dziecka?","acceptedAnswer":{"@type":"Answer","text":"1000 zł jednorazowo."}},{"@type":"Question","name":"Czy dodatek z tytułu urodzenia dziecka to becikowe?","acceptedAnswer":{"@type":"Answer","text":"Nie. To osobny dodatek do zasiłku rodzinnego."}},{"@type":"Question","name":"Czy trzeba mieć zasiłek rodzinny?","acceptedAnswer":{"@type":"Answer","text":"Tak, co do zasady trzeba mieć prawo do zasiłku rodzinnego."}},{"@type":"Question","name":"Czy potrzebne jest zaświadczenie od lekarza?","acceptedAnswer":{"@type":"Answer","text":"Może być potrzebne zaświadczenie od lekarza albo położnej o opiece medycznej od 10. tygodnia ciąży."}},{"@type":"Question","name":"Czy dodatek zależy od dochodu?","acceptedAnswer":{"@type":"Answer","text":"Tak, bo jest powiązany z zasiłkiem rodzinnym."}},{"@type":"Question","name":"Gdzie złożyć wniosek?","acceptedAnswer":{"@type":"Answer","text":"W jednostce obsługującej świadczenia rodzinne w gminie."}}]}</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+      privacyLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          if (window.googlefc && googlefc.callbackQueue) {
+            googlefc.callbackQueue.push(function () {
+              if (googlefc.showRevocationMessage) {
+                googlefc.showRevocationMessage();
+              }
+            });
+          } else {
+            alert('Ustawienia prywatności będą dostępne po załadowaniu narzędzi Google. Odśwież stronę i spróbuj ponownie.');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>

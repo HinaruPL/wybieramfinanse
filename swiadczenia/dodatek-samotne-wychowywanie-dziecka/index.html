@@ -171,7 +171,7 @@
     <section class="disclaimer"><div class="container"><p>Ostatnia aktualizacja: 4 czerwca 2026 r. Informacje na stronie mają charakter ogólny.</p></div></section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Wybieram Finanse</p><div><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/kontakt/">Kontakt</a><a href="/o-nas/">O nas</a></div></div></footer>
+  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Wybieram Finanse</p><div><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/kontakt/">Kontakt</a><a href="/o-nas/">O nas</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div></footer>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"Ile wynosi dodatek z tytułu samotnego wychowywania dziecka?","acceptedAnswer":{"@type":"Answer","text":"Dodatek wynosi 193 zł miesięcznie na dziecko, nie więcej niż 386 zł na wszystkie dzieci."}},
@@ -181,6 +181,27 @@
     {"@type":"Question","name":"Czy dodatek jest wyższy przy dziecku z niepełnosprawnością?","acceptedAnswer":{"@type":"Answer","text":"Może być zwiększony o 80 zł na dziecko, ale nie więcej niż o 160 zł na wszystkie dzieci."}},
     {"@type":"Question","name":"Gdzie złożyć wniosek?","acceptedAnswer":{"@type":"Answer","text":"W urzędzie gminy, miasta albo jednostce obsługującej świadczenia rodzinne."}}
   ]}
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+      privacyLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          if (window.googlefc && googlefc.callbackQueue) {
+            googlefc.callbackQueue.push(function () {
+              if (googlefc.showRevocationMessage) {
+                googlefc.showRevocationMessage();
+              }
+            });
+          } else {
+            alert('Ustawienia prywatności będą dostępne po załadowaniu narzędzi Google. Odśwież stronę i spróbuj ponownie.');
+          }
+        });
+      });
+    });
   </script>
 </body>
 </html>

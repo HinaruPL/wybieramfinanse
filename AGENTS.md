@@ -61,6 +61,10 @@ ads.txt:
 
 google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0
 
+W stopce stron HTML powinien znajdować się link „Ustawienia prywatności” z klasą privacy-settings-link.
+Link służy do ponownego otwarcia ustawień zgody Google AdSense CMP / Funding Choices.
+Nie dodawać drugiego CMP bez świadomej decyzji.
+
 ## Google Analytics 4
 
 - Projekt Wybieram Finanse używa Google Analytics 4.

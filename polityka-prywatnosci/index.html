@@ -123,9 +123,30 @@
         <a href="/informacja-o-afiliacji/">Informacja o afiliacji</a>
         <a href="/kontakt/">Kontakt</a>
         <a href="/o-nas/">O nas</a>
+        <a href="#" class="privacy-settings-link">Ustawienia prywatności</a>
       </div>
     </div>
   </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var privacyLinks = document.querySelectorAll('.privacy-settings-link');
 
+      privacyLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          if (window.googlefc && googlefc.callbackQueue) {
+            googlefc.callbackQueue.push(function () {
+              if (googlefc.showRevocationMessage) {
+                googlefc.showRevocationMessage();
+              }
+            });
+          } else {
+            alert('Ustawienia prywatności będą dostępne po załadowaniu narzędzi Google. Odśwież stronę i spróbuj ponownie.');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>

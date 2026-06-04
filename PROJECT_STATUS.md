@@ -233,3 +233,9 @@ Do zrobienia:
 
 - Dodano meta referrer strict-origin-when-cross-origin do plików HTML, aby pomóc w poprawnym wyświetlaniu Google AdSense CMP / Privacy & messaging message.
 - Sprawdzono obecność skryptu AdSense w sekcji head plików HTML.
+
+## Aktualizacja — 04.06.2026 — ustawienia prywatności w stopce
+
+- Dodano link „Ustawienia prywatności” w stopce plików HTML.
+- Dodano bezpieczny skrypt do ponownego otwierania ustawień zgody Google CMP / Funding Choices.
+- Nie instalowano zewnętrznego CMP, aby uniknąć dwóch banerów zgody na stronie.
