@@ -222,3 +222,9 @@ Do zrobienia:
   - /swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/
 - Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
 - Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
+
+## Aktualizacja — 04.06.2026 — Google Analytics 4
+
+- Dodano Google Analytics 4 do plików HTML.
+- Measurement ID: G-QWY5T45BG6.
+- Od teraz nowe pliki HTML powinny zawierać tag GA4 bezpośrednio po <head>, razem ze skryptem AdSense.

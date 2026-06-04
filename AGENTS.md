@@ -55,6 +55,13 @@ ads.txt:
 
 google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0
 
+## Google Analytics 4
+
+- Projekt Wybieram Finanse używa Google Analytics 4.
+- Measurement ID: G-QWY5T45BG6.
+- Przy każdym nowym pliku HTML należy dodać tag GA4 bezpośrednio po <head>.
+- Nie wolno dodawać więcej niż jednego tagu Google Analytics na stronie.
+
 ## Styl treści
 
 Artykuły mają być pisane prostym, naturalnym językiem dla zwykłych ludzi.
