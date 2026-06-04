@@ -305,3 +305,11 @@ Do zrobienia:
 - Dodano linkowanie z rankingu kont firmowych dla JDG do nowej strony dla spółek.
 - Sprawdzono podstawowe SEO, FAQ Schema, linki afiliacyjne i linkowanie wewnętrzne dla nowego etapu.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 04.06.2026 — zakładanie firmy z kontem firmowym
+
+- Poprawiono widoczność strony o kontach firmowych dla spółek na stronie głównej i w sekcji kont firmowych.
+- Dodano artykuł /rankingi/konta-firmowe/zalozenie-firmy-z-kontem/.
+- Wykorzystano oferty mBank i Credit Agricole pasujące do zakładania firmy z kontem.
+- Dodano linkowanie między rankingiem kont firmowych dla JDG, rankingiem dla spółek i poradnikiem o zakładaniu firmy z kontem.
+- Zaktualizowano sitemap.xml i linkowanie wewnętrzne.
