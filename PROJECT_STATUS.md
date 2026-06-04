@@ -313,3 +313,8 @@ Do zrobienia:
 - Wykorzystano oferty mBank i Credit Agricole pasujące do zakładania firmy z kontem.
 - Dodano linkowanie między rankingiem kont firmowych dla JDG, rankingiem dla spółek i poradnikiem o zakładaniu firmy z kontem.
 - Zaktualizowano sitemap.xml i linkowanie wewnętrzne.
+
+## Aktualizacja — 04.06.2026 — poprawka deployu Cloudflare Workers Assets
+
+- Dodano plik .assetsignore dla Cloudflare Workers Static Assets.
+- Wykluczono z uploadu assetów katalog .git oraz pliki techniczne repozytorium, aby uniknąć błędu Asset too large podczas deployu.
