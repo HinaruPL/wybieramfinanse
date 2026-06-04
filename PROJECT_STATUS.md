@@ -195,3 +195,15 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 04.06.2026 — pakiet dodatków do zasiłku rodzinnego
+
+- Dodano pakiet 5 artykułów o dodatkach do zasiłku rodzinnego:
+  - /swiadczenia/dodatek-samotne-wychowywanie-dziecka/
+  - /swiadczenia/dodatek-urodzenie-dziecka/
+  - /swiadczenia/dodatek-urlop-wychowawczy/
+  - /swiadczenia/dodatek-ksztalcenie-rehabilitacja/
+  - /swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/
+- Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne źródła.
+- Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
+- Grafiki hero dla tych artykułów zostaną dodane później.
