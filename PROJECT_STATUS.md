@@ -186,3 +186,12 @@ Do zrobienia:
 - Dodano link do artykułu ze strony /swiadczenia/.
 - Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 04.06.2026 — dodatek dla rodziny wielodzietnej
+
+- Dodano artykuł /swiadczenia/dodatek-rodzina-wielodzietna/.
+- Artykuł wyjaśnia prostym językiem dodatek 95 zł na trzecie i kolejne dziecko oraz powiązanie z zasiłkiem rodzinnym.
+- Artykuł zawiera FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
+- Zaktualizowano sitemap.xml.
