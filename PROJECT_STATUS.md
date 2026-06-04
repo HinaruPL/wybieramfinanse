@@ -352,3 +352,9 @@ Do zrobienia:
 - Dodano statusy wizualne wyniku.
 - Dodano tabelę sesji banków.
 - Dane sesji bankowych wymagają okresowej ręcznej weryfikacji.
+## Aktualizacja — 05.06.2026 — audyt narzędzia Kiedy przelew?
+
+- Wykonano audyt techniczny, UX i SEO narzędzia /narzedzia/kiedy-przelew/.
+- Sprawdzono lokalne działanie strony, linkowanie wewnętrzne, sitemap.xml, FAQ Schema, GA4, AdSense i meta referrer.
+- Sprawdzono przypadki bank → bank, rozpoznawanie NRB/IBAN PL, banki specjalne Revolut/ZEN, weekendy, przelew po ostatniej sesji oraz statusy wizualne.
+- Poprawiono logikę bazową kalkulatora, aby banki bez kompletnych danych sesji zwracały ręczną weryfikację zamiast orientacyjnego wyniku Elixir.

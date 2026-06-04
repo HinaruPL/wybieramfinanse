@@ -88,6 +88,9 @@ window.WF_TRANSFER_CALCULATOR = (() => {
       const result = { ok: true, type: "special", sender, receiver, estimatedAt: null, estimatedDisplay: "zależne od typu przelewu", message: "Jedna ze stron to fintech albo instytucja wymagająca specjalnej obsługi. Czas zależy od typu przelewu, waluty, danych rachunku i operatora płatności." };
       result.visualStatus = getVisualStatus(result, now); return result;
     }
+    if (!sender.outgoing?.length || !receiver.incoming?.length) {
+      return { ok: false, type: "unknown", sender, receiver, visualStatus: "unknown", message: "Brakuje kompletnych danych sesji dla banku nadawcy albo odbiorcy. Wynik wymaga ręcznej weryfikacji." };
+    }
     const outgoingSession = findOutgoingSession(sender, sentAt);
     const incomingSession = findIncomingSession(receiver, outgoingSession);
     if (!incomingSession) return { ok: false, type: "unknown", sender, receiver, message: "Brakuje sesji przychodzących dla banku odbiorcy. Wynik wymaga ręcznej weryfikacji." };
