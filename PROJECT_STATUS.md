@@ -340,3 +340,15 @@ Do zrobienia:
 - Poprawiono menu i stopkę na nowych stronach oraz najważniejszych stronach rankingowych.
 - Dodano widoczne breadcrumbs na stronach zbiorczych i najważniejszych stronach rankingowych.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 04.06.2026 — narzędzie Kiedy przelew?
+
+- Dodano narzędzie /narzedzia/kiedy-przelew/.
+- Dodano kalkulator sesji Elixir dla standardowych przelewów w PLN.
+- Dodano rozpoznawanie banku po numerze konta.
+- Dodano walidację NRB/IBAN PL.
+- Dodano aktualny zegar użytkownika.
+- Dodano odliczanie do przewidywanego księgowania.
+- Dodano statusy wizualne wyniku.
+- Dodano tabelę sesji banków.
+- Dane sesji bankowych wymagają okresowej ręcznej weryfikacji.
