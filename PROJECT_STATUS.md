@@ -358,3 +358,10 @@ Do zrobienia:
 - Sprawdzono lokalne działanie strony, linkowanie wewnętrzne, sitemap.xml, FAQ Schema, GA4, AdSense i meta referrer.
 - Sprawdzono przypadki bank → bank, rozpoznawanie NRB/IBAN PL, banki specjalne Revolut/ZEN, weekendy, przelew po ostatniej sesji oraz statusy wizualne.
 - Poprawiono logikę bazową kalkulatora, aby banki bez kompletnych danych sesji zwracały ręczną weryfikację zamiast orientacyjnego wyniku Elixir.
+## Aktualizacja — 05.06.2026 — Revolut dla osób prywatnych
+
+- Dodano artykuł /poradniki/revolut/.
+- Artykuł dotyczy Revolut dla osób prywatnych.
+- Revolut Business pozostaje osobnym artykułem w sekcji kont firmowych.
+- Dodano linkowanie z poradników, rankingów, narzędzi, strony głównej i artykułu Revolut Business.
+- Zaktualizowano sitemap.xml.
