@@ -1,19 +1,19 @@
-# Wybieram Finanse â€” status projektu
+# Wybieram Finanse — status projektu
 
 ## Cel
-Budujemy portal afiliacyjny finansowy pod domenÄ… wybieramfinanse.pl. Strona ma zarabiaÄ‡ na afiliacji finansowej i potencjalnie ubezpieczeniowej.
+Budujemy portal afiliacyjny finansowy pod domeną wybieramfinanse.pl. Strona ma zarabiać na afiliacji finansowej i potencjalnie ubezpieczeniowej.
 
-## GĹ‚Ăłwne kategorie
+## Główne kategorie
 - Konta osobiste
 - Konta firmowe
-- PoĹĽyczki online
+- Pożyczki online
 - Kredyty
 - Karty kredytowe
-- Konta oszczÄ™dnoĹ›ciowe
+- Konta oszczędnościowe
 - Ubezpieczenia
-- Ĺšwiadczenia: 800 plus, 300 plus, becikowe, zasiĹ‚ek rodzinny
+- Świadczenia: 800 plus, 300 plus, becikowe, zasiłek rodzinny
 - Poradniki finansowe
-- BudĹĽet domowy
+- Budżet domowy
 - Finanse firmy
 
 ## Technologia
@@ -25,7 +25,7 @@ Budujemy portal afiliacyjny finansowy pod domenÄ… wybieramfinanse.pl. Strona 
 - Strona statyczna: HTML, CSS, JavaScript
 
 ## Gotowe
-- Strona gĹ‚Ăłwna
+- Strona główna
 - style.css
 - robots.txt
 - sitemap.xml
@@ -33,184 +33,184 @@ Budujemy portal afiliacyjny finansowy pod domenÄ… wybieramfinanse.pl. Strona 
 - /kontakt/
 - /informacja-o-afiliacji/
 - /polityka-prywatnosci/
-- www przekierowuje na domenÄ™ bez www
-- SSL dziaĹ‚a przez Cloudflare
-- /rankingi/konta-osobiste/ â€” pierwsza strona zarabiajÄ…ca, wersja robocza z tabelÄ… ofert, metodologiÄ… i FAQ
+- www przekierowuje na domenę bez www
+- SSL działa przez Cloudflare
+- /rankingi/konta-osobiste/ — pierwsza strona zarabiająca, wersja robocza z tabelą ofert, metodologią i FAQ
 
-## Do sprawdzenia pĂłĹşniej
-- Google Search Console: sitemap.xml dziaĹ‚a w przeglÄ…darce, ale w GSC pokazaĹ‚o â€žnie udaĹ‚o siÄ™ pobraÄ‡â€ť.
+## Do sprawdzenia później
+- Google Search Console: sitemap.xml działa w przeglądarce, ale w GSC pokazało „nie udało się pobrać”.
 
-## NajbliĹĽszy nastÄ™pny krok
-RozpoczÄ…Ä‡ wybĂłr pierwszych kampanii afiliacyjnych dla kont osobistych oraz przygotowaÄ‡ wersjÄ™ rankingu z prawdziwymi ofertami.
+## Najbliższy następny krok
+Rozpocząć wybór pierwszych kampanii afiliacyjnych dla kont osobistych oraz przygotować wersję rankingu z prawdziwymi ofertami.
 
 Potem:
-- dodaÄ‡ link do niej ze strony gĹ‚Ăłwnej
-- zaktualizowaÄ‡ sitemap.xml
-- zrobiÄ‡ pierwsze artykuĹ‚y pod ruch: /swiadczenia/800-plus/ i /swiadczenia/dobry-start-300-plus/
+- dodać link do niej ze strony głównej
+- zaktualizować sitemap.xml
+- zrobić pierwsze artykuły pod ruch: /swiadczenia/800-plus/ i /swiadczenia/dobry-start-300-plus/
 
-## Aktualizacja â€” 31.05.2026
+## Aktualizacja — 31.05.2026
 
-Dodano pierwszÄ… stronÄ™ zarabiajÄ…cÄ…:
+Dodano pierwszą stronę zarabiającą:
 
 - /rankingi/konta-osobiste/
 
 Ranking zawiera 11 ofert z linkami afiliacyjnymi:
-- mBank eKonto do usĹ‚ug
+- mBank eKonto do usług
 - BNP Paribas Konto Otwarte na Ciebie
 - Erste / Santander Konto Smart
 - PKO Konto za Zero
-- Bank Millennium Konto 360Â°
+- Bank Millennium Konto 360°
 - VeloBank VeloKonto
 - Credit Agricole Konto dla Ciebie
 - Alior Konto Plus
 - Nest Konto
-- Bank Pocztowy Konto w PorzÄ…dku
+- Bank Pocztowy Konto w Porządku
 - UniCredit Konto Osobiste
 
-Poprawiono linkowanie ze strony gĹ‚Ăłwnej do rankingu kont osobistych.
+Poprawiono linkowanie ze strony głównej do rankingu kont osobistych.
 
 Do zrobienia:
-- dodaÄ‡ opisy ofert pod tabelÄ…,
-- poprawiÄ‡ SEO strony rankingu,
-- dodaÄ‡ dane strukturalne FAQ,
-- rozwaĹĽyÄ‡ dodanie logo bankĂłw z legalnych ĹşrĂłdeĹ‚,
-- wrĂłciÄ‡ do Google Search Console i sprawdziÄ‡ sitemap.xml,
-- zaplanowaÄ‡ AdSense jako dodatkowe ĹşrĂłdĹ‚o przychodu dla artykuĹ‚Ăłw informacyjnych.
+- dodać opisy ofert pod tabelą,
+- poprawić SEO strony rankingu,
+- dodać dane strukturalne FAQ,
+- rozważyć dodanie logo banków z legalnych źródeł,
+- wrócić do Google Search Console i sprawdzić sitemap.xml,
+- zaplanować AdSense jako dodatkowe źródło przychodu dla artykułów informacyjnych.
 
 
-## Aktualizacja â€” logo w rankingu kont osobistych
+## Aktualizacja — logo w rankingu kont osobistych
 
-- Do tabeli rankingu kont osobistych dodano logotypy/badgeâ€™e przy numeracji.
-- UĹĽyte logotypy: mBank, BNP Paribas, Erste, PKO BP, Nest Bank, Bank Pekao, Bank Pocztowy, UniCredit.
-- Dla bankĂłw bez pewnego pliku logo dodano tekstowe oznaczenia: Credit Agricole, Millennium, VeloBank, Alior Bank.
-- Poprawiono CSS, aby logo i badgeâ€™e wyglÄ…daĹ‚y lĹĽej i bardziej profesjonalnie.
+- Do tabeli rankingu kont osobistych dodano logotypy/badge’e przy numeracji.
+- Użyte logotypy: mBank, BNP Paribas, Erste, PKO BP, Nest Bank, Bank Pekao, Bank Pocztowy, UniCredit.
+- Dla banków bez pewnego pliku logo dodano tekstowe oznaczenia: Credit Agricole, Millennium, VeloBank, Alior Bank.
+- Poprawiono CSS, aby logo i badge’e wyglądały lżej i bardziej profesjonalnie.
 
-- ## Aktualizacja â€” SEO rankingu kont osobistych
+- ## Aktualizacja — SEO rankingu kont osobistych
 
 - Poprawiono meta title i meta description dla /rankingi/konta-osobiste/.
 - Dodano canonical URL.
 - Dodano podstawowe tagi Open Graph.
-- Dodano tekst SEO wyjaĹ›niajÄ…cy, jak korzystaÄ‡ z rankingu kont osobistych.
-- Rozbudowano FAQ do 6 pytaĹ„.
+- Dodano tekst SEO wyjaśniający, jak korzystać z rankingu kont osobistych.
+- Rozbudowano FAQ do 6 pytań.
 - Dodano dane strukturalne FAQPage w formacie JSON-LD.
 
 
-## Aktualizacja â€” AdSense
+## Aktualizacja — AdSense
 
-- Dodano skrypt Google AdSense do plikĂłw HTML.
+- Dodano skrypt Google AdSense do plików HTML.
 - Publisher ID: pub-7645481846348914.
 - Dodano plik ads.txt:
   google.com, pub-7645481846348914, DIRECT, f08c47fec0942fa0
-- Utworzono komunikat zgody Google CMP dla uĹĽytkownikĂłw z EEA, UK i Szwajcarii.
-- UkĹ‚ad reklam zostanie dopracowany po przygotowaniu wiÄ™kszej liczby treĹ›ci.
+- Utworzono komunikat zgody Google CMP dla użytkowników z EEA, UK i Szwajcarii.
+- Układ reklam zostanie dopracowany po przygotowaniu większej liczby treści.
 
 
-- Dodano pierwszy artykuĹ‚ ruchowy: /swiadczenia/800-plus/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a ZUS/gov.pl.
+- Dodano pierwszy artykuł ruchowy: /swiadczenia/800-plus/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
 
-- Dodano link ze strony gĹ‚Ăłwnej do artykuĹ‚u /swiadczenia/800-plus/.
+- Dodano link ze strony głównej do artykułu /swiadczenia/800-plus/.
 
-## Aktualizacja â€” 03.06.2026
+## Aktualizacja — 03.06.2026
 
-- Dodano artykuĹ‚ /swiadczenia/dobry-start-300-plus/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a ZUS/gov.pl.
-- Dodano link ze strony gĹ‚Ăłwnej do artykuĹ‚u Dobry Start 300 plus.
+- Dodano artykuł /swiadczenia/dobry-start-300-plus/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła ZUS/gov.pl.
+- Dodano link ze strony głównej do artykułu Dobry Start 300 plus.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” becikowe
+## Aktualizacja — 03.06.2026 — becikowe
 
-- Dodano artykuĹ‚ /swiadczenia/becikowe/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a gov.pl.
-- Dodano link ze strony gĹ‚Ăłwnej do artykuĹ‚u Becikowe.
+- Dodano artykuł /swiadczenia/becikowe/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link ze strony głównej do artykułu Becikowe.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” grafiki hero artykuĹ‚Ăłw
+## Aktualizacja — 03.06.2026 — grafiki hero artykułów
 
-- Dodano grafiki hero do artykuĹ‚Ăłw /swiadczenia/800-plus/, /swiadczenia/dobry-start-300-plus/ i /swiadczenia/becikowe/.
-- Dodano og:image i twitter:image dla tych artykuĹ‚Ăłw, aby linki lepiej wyglÄ…daĹ‚y przy udostÄ™pnianiu w social media.
-- Dodano wspĂłlne style .article-image-section i .article-hero-image w style.css.
+- Dodano grafiki hero do artykułów /swiadczenia/800-plus/, /swiadczenia/dobry-start-300-plus/ i /swiadczenia/becikowe/.
+- Dodano og:image i twitter:image dla tych artykułów, aby linki lepiej wyglądały przy udostępnianiu w social media.
+- Dodano wspólne style .article-image-section i .article-hero-image w style.css.
 
-## Aktualizacja â€” 03.06.2026 â€” strona zbiorcza Ĺ›wiadczeĹ„
+## Aktualizacja — 03.06.2026 — strona zbiorcza świadczeń
 
-- Dodano stronÄ™ zbiorczÄ… /swiadczenia/ dla poradnikĂłw o Ĺ›wiadczeniach rodzinnych.
-- Strona linkuje do artykuĹ‚Ăłw: 800 plus, Dobry Start 300 plus i Becikowe.
-- Dodano linkowanie wewnÄ™trzne do rankingu kont osobistych.
+- Dodano stronę zbiorczą /swiadczenia/ dla poradników o świadczeniach rodzinnych.
+- Strona linkuje do artykułów: 800 plus, Dobry Start 300 plus i Becikowe.
+- Dodano linkowanie wewnętrzne do rankingu kont osobistych.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” nawigacja Ĺ›wiadczeĹ„
+## Aktualizacja — 03.06.2026 — nawigacja świadczeń
 
-- Poprawiono link â€žĹšwiadczeniaâ€ť w gĹ‚Ăłwnej nawigacji, aby prowadziĹ‚ do /swiadczenia/ zamiast do anchora na stronie gĹ‚Ăłwnej.
+- Poprawiono link „Świadczenia” w głównej nawigacji, aby prowadził do /swiadczenia/ zamiast do anchora na stronie głównej.
 
-## Aktualizacja â€” 03.06.2026 â€” zasiĹ‚ek rodzinny
+## Aktualizacja — 03.06.2026 — zasiłek rodzinny
 
-- Dodano artykuĹ‚ /swiadczenia/zasilek-rodzinny/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a gov.pl.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/zasilek-rodzinny/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” kosiniakowe
+## Aktualizacja — 03.06.2026 — kosiniakowe
 
-- Dodano artykuĹ‚ /swiadczenia/kosiniakowe/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a gov.pl.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/kosiniakowe/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” grafiki hero zasiĹ‚ku rodzinnego i kosiniakowego
+## Aktualizacja — 03.06.2026 — grafiki hero zasiłku rodzinnego i kosiniakowego
 
-- Dodano grafiki hero do artykuĹ‚Ăłw /swiadczenia/zasilek-rodzinny/ i /swiadczenia/kosiniakowe/.
-- Dodano og:image i twitter:image dla tych artykuĹ‚Ăłw, aby linki lepiej wyglÄ…daĹ‚y przy udostÄ™pnianiu w social media.
+- Dodano grafiki hero do artykułów /swiadczenia/zasilek-rodzinny/ i /swiadczenia/kosiniakowe/.
+- Dodano og:image i twitter:image dla tych artykułów, aby linki lepiej wyglądały przy udostępnianiu w social media.
 
-## Aktualizacja â€” 03.06.2026 â€” Ĺ›wiadczenie pielÄ™gnacyjne
+## Aktualizacja — 03.06.2026 — świadczenie pielęgnacyjne
 
-- Dodano artykuĹ‚ /swiadczenia/swiadczenie-pielegnacyjne/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a gov.pl.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/swiadczenie-pielegnacyjne/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” Ĺ›wiadczenie wspierajÄ…ce
+## Aktualizacja — 03.06.2026 — świadczenie wspierające
 
-- Dodano artykuĹ‚ /swiadczenia/swiadczenie-wspierajace/.
-- ArtykuĹ‚ zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne ĹşrĂłdĹ‚a gov.pl/ZUS.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/swiadczenie-wspierajace/.
+- Artykuł zawiera prosty poradnik, FAQ, FAQ Schema, AdSense, link do rankingu kont osobistych i oficjalne źródła gov.pl/ZUS.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 03.06.2026 â€” dodatek na rozpoczÄ™cie roku szkolnego
+## Aktualizacja — 03.06.2026 — dodatek na rozpoczęcie roku szkolnego
 
-- Dodano artykuĹ‚ /swiadczenia/dodatek-rozpoczecie-roku-szkolnego/.
-- ArtykuĹ‚ wyjaĹ›nia prostym jÄ™zykiem dodatek 100 zĹ‚ na rozpoczÄ™cie roku szkolnego i rĂłĹĽnicÄ™ wzglÄ™dem Dobry Start 300 plus.
-- ArtykuĹ‚ zawiera FAQ, FAQ Schema, AdSense, linki wewnÄ™trzne i oficjalne/pomocnicze ĹşrĂłdĹ‚a.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/dodatek-rozpoczecie-roku-szkolnego/.
+- Artykuł wyjaśnia prostym językiem dodatek 100 zł na rozpoczęcie roku szkolnego i różnicę względem Dobry Start 300 plus.
+- Artykuł zawiera FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne/pomocnicze źródła.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 04.06.2026 â€” dodatek dla rodziny wielodzietnej
+## Aktualizacja — 04.06.2026 — dodatek dla rodziny wielodzietnej
 
-- Dodano artykuĹ‚ /swiadczenia/dodatek-rodzina-wielodzietna/.
-- ArtykuĹ‚ wyjaĹ›nia prostym jÄ™zykiem dodatek 95 zĹ‚ na trzecie i kolejne dziecko oraz powiÄ…zanie z zasiĹ‚kiem rodzinnym.
-- ArtykuĹ‚ zawiera FAQ, FAQ Schema, AdSense, linki wewnÄ™trzne i oficjalne ĹşrĂłdĹ‚a gov.pl.
-- Dodano link do artykuĹ‚u ze strony /swiadczenia/.
-- Dodano link do artykuĹ‚u ze strony gĹ‚Ăłwnej.
+- Dodano artykuł /swiadczenia/dodatek-rodzina-wielodzietna/.
+- Artykuł wyjaśnia prostym językiem dodatek 95 zł na trzecie i kolejne dziecko oraz powiązanie z zasiłkiem rodzinnym.
+- Artykuł zawiera FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne źródła gov.pl.
+- Dodano link do artykułu ze strony /swiadczenia/.
+- Dodano link do artykułu ze strony głównej.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 04.06.2026 â€” pakiet dodatkĂłw do zasiĹ‚ku rodzinnego
+## Aktualizacja — 04.06.2026 — pakiet dodatków do zasiłku rodzinnego
 
-- Dodano pakiet 5 artykuĹ‚Ăłw o dodatkach do zasiĹ‚ku rodzinnego:
+- Dodano pakiet 5 artykułów o dodatkach do zasiłku rodzinnego:
   - /swiadczenia/dodatek-samotne-wychowywanie-dziecka/
   - /swiadczenia/dodatek-urodzenie-dziecka/
   - /swiadczenia/dodatek-urlop-wychowawczy/
   - /swiadczenia/dodatek-ksztalcenie-rehabilitacja/
   - /swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/
-- Wszystkie artykuĹ‚y zawierajÄ… prosty poradnik, FAQ, FAQ Schema, AdSense, linki wewnÄ™trzne i oficjalne ĹşrĂłdĹ‚a.
-- Zaktualizowano /swiadczenia/, stronÄ™ gĹ‚ĂłwnÄ… i sitemap.xml.
-- Grafiki hero dla tych artykuĹ‚Ăłw zostanÄ… dodane pĂłĹşniej.
+- Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, linki wewnętrzne i oficjalne źródła.
+- Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
+- Grafiki hero dla tych artykułów zostaną dodane później.
 
-## Aktualizacja â€” 04.06.2026 â€” grafiki hero dla kolejnych Ĺ›wiadczeĹ„
+## Aktualizacja — 04.06.2026 — grafiki hero dla kolejnych świadczeń
 
-- Dodano grafiki hero do 9 artykuĹ‚Ăłw w sekcji Ĺ›wiadczeĹ„:
+- Dodano grafiki hero do 9 artykułów w sekcji świadczeń:
   - /swiadczenia/swiadczenie-pielegnacyjne/
   - /swiadczenia/swiadczenie-wspierajace/
   - /swiadczenia/dodatek-rozpoczecie-roku-szkolnego/
@@ -220,162 +220,162 @@ Do zrobienia:
   - /swiadczenia/dodatek-urlop-wychowawczy/
   - /swiadczenia/dodatek-ksztalcenie-rehabilitacja/
   - /swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/
-- Dla tych artykuĹ‚Ăłw dodano og:image i twitter:image, aby linki lepiej wyglÄ…daĹ‚y przy udostÄ™pnianiu w social media.
-- Sprawdzono, ĹĽe wspĂłlne style .article-image-section i .article-hero-image nie zostaĹ‚y zdublowane.
+- Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
+- Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
 
-## Aktualizacja â€” 04.06.2026 â€” Google Analytics 4
+## Aktualizacja — 04.06.2026 — Google Analytics 4
 
-- Dodano Google Analytics 4 do plikĂłw HTML.
+- Dodano Google Analytics 4 do plików HTML.
 - Measurement ID: G-QWY5T45BG6.
-- Od teraz nowe pliki HTML powinny zawieraÄ‡ tag GA4 bezpoĹ›rednio po <head>, razem ze skryptem AdSense.
+- Od teraz nowe pliki HTML powinny zawierać tag GA4 bezpośrednio po <head>, razem ze skryptem AdSense.
 
-## Aktualizacja â€” 04.06.2026 â€” meta referrer dla AdSense CMP
+## Aktualizacja — 04.06.2026 — meta referrer dla AdSense CMP
 
-- Dodano meta referrer strict-origin-when-cross-origin do plikĂłw HTML, aby pomĂłc w poprawnym wyĹ›wietlaniu Google AdSense CMP / Privacy & messaging message.
-- Sprawdzono obecnoĹ›Ä‡ skryptu AdSense w sekcji head plikĂłw HTML.
+- Dodano meta referrer strict-origin-when-cross-origin do plików HTML, aby pomóc w poprawnym wyświetlaniu Google AdSense CMP / Privacy & messaging message.
+- Sprawdzono obecność skryptu AdSense w sekcji head plików HTML.
 
-## Aktualizacja â€” 04.06.2026 â€” ustawienia prywatnoĹ›ci w stopce
+## Aktualizacja — 04.06.2026 — ustawienia prywatności w stopce
 
-- Dodano link â€žUstawienia prywatnoĹ›ciâ€ť w stopce plikĂłw HTML.
-- Dodano bezpieczny skrypt do ponownego otwierania ustawieĹ„ zgody Google CMP / Funding Choices.
-- Nie instalowano zewnÄ™trznego CMP, aby uniknÄ…Ä‡ dwĂłch banerĂłw zgody na stronie.
+- Dodano link „Ustawienia prywatności” w stopce plików HTML.
+- Dodano bezpieczny skrypt do ponownego otwierania ustawień zgody Google CMP / Funding Choices.
+- Nie instalowano zewnętrznego CMP, aby uniknąć dwóch banerów zgody na stronie.
 
-## Aktualizacja â€” 04.06.2026 â€” poprawka linku ustawieĹ„ prywatnoĹ›ci
+## Aktualizacja — 04.06.2026 — poprawka linku ustawień prywatności
 
-- Poprawiono obsĹ‚ugÄ™ linku â€žUstawienia prywatnoĹ›ciâ€ť w stopce.
+- Poprawiono obsługę linku „Ustawienia prywatności” w stopce.
 - Link korzysta z Google Funding Choices API i funkcji window.googlefc.showRevocationMessage() po zdarzeniu CONSENT_API_READY.
 
-## Aktualizacja â€” 04.06.2026 â€” pakiet Aktywny Rodzic
+## Aktualizacja — 04.06.2026 — pakiet Aktywny Rodzic
 
-- Dodano pakiet 4 artykuĹ‚Ăłw o programie Aktywny Rodzic:
+- Dodano pakiet 4 artykułów o programie Aktywny Rodzic:
   - /swiadczenia/aktywny-rodzic/
   - /swiadczenia/aktywni-rodzice-w-pracy/
   - /swiadczenia/aktywnie-w-zlobku/
   - /swiadczenia/aktywnie-w-domu/
-- Wszystkie artykuĹ‚y zawierajÄ… prosty poradnik, FAQ, FAQ Schema, AdSense, GA4, linki wewnÄ™trzne i oficjalne ĹşrĂłdĹ‚a.
-- Zaktualizowano /swiadczenia/, stronÄ™ gĹ‚ĂłwnÄ… i sitemap.xml.
-- Grafiki hero dla tych artykuĹ‚Ăłw zostanÄ… dodane pĂłĹşniej.
+- Wszystkie artykuły zawierają prosty poradnik, FAQ, FAQ Schema, AdSense, GA4, linki wewnętrzne i oficjalne źródła.
+- Zaktualizowano /swiadczenia/, stronę główną i sitemap.xml.
+- Grafiki hero dla tych artykułów zostaną dodane później.
 
-## Aktualizacja â€” 04.06.2026 â€” grafiki hero Aktywny Rodzic
+## Aktualizacja — 04.06.2026 — grafiki hero Aktywny Rodzic
 
-- Dodano grafiki hero do 4 artykuĹ‚Ăłw o programie Aktywny Rodzic:
+- Dodano grafiki hero do 4 artykułów o programie Aktywny Rodzic:
   - /swiadczenia/aktywny-rodzic/
   - /swiadczenia/aktywni-rodzice-w-pracy/
   - /swiadczenia/aktywnie-w-zlobku/
   - /swiadczenia/aktywnie-w-domu/
-- Dla tych artykuĹ‚Ăłw dodano og:image i twitter:image, aby linki lepiej wyglÄ…daĹ‚y przy udostÄ™pnianiu w social media.
-- Sprawdzono, ĹĽe wspĂłlne style .article-image-section i .article-hero-image nie zostaĹ‚y zdublowane.
+- Dla tych artykułów dodano og:image i twitter:image, aby linki lepiej wyglądały przy udostępnianiu w social media.
+- Sprawdzono, że wspólne style .article-image-section i .article-hero-image nie zostały zdublowane.
 
-## Aktualizacja â€” 04.06.2026 â€” klastry sekcji Ĺ›wiadczeĹ„
+## Aktualizacja — 04.06.2026 — klastry sekcji świadczeń
 
-- UporzÄ…dkowano sekcjÄ™ /swiadczenia/ w klastry tematyczne:
-  - najwaĹĽniejsze Ĺ›wiadczenia rodzinne,
-  - zasiĹ‚ek rodzinny i dodatki,
+- Uporządkowano sekcję /swiadczenia/ w klastry tematyczne:
+  - najważniejsze świadczenia rodzinne,
+  - zasiłek rodzinny i dodatki,
   - program Aktywny Rodzic,
-  - niepeĹ‚nosprawnoĹ›Ä‡ i opieka.
-- Rozbudowano artykuĹ‚ /swiadczenia/zasilek-rodzinny/ o linki do dodatkĂłw do zasiĹ‚ku rodzinnego.
-- Upewniono siÄ™, ĹĽe artykuĹ‚y o dodatkach linkujÄ… do gĹ‚Ăłwnego artykuĹ‚u o zasiĹ‚ku rodzinnym.
-- Rozbudowano artykuĹ‚ /swiadczenia/aktywny-rodzic/ o linki do trzech Ĺ›wiadczeĹ„ programu.
-- Upewniono siÄ™, ĹĽe artykuĹ‚y szczegĂłĹ‚owe Aktywny Rodzic linkujÄ… do przewodnika i pozostaĹ‚ych Ĺ›wiadczeĹ„.
-- UporzÄ…dkowano sekcjÄ™ Ĺ›wiadczeĹ„ na stronie gĹ‚Ăłwnej, aby nie byĹ‚a przeĹ‚adowana zbyt duĹĽÄ… liczbÄ… kart.
+  - niepełnosprawność i opieka.
+- Rozbudowano artykuł /swiadczenia/zasilek-rodzinny/ o linki do dodatków do zasiłku rodzinnego.
+- Upewniono się, że artykuły o dodatkach linkują do głównego artykułu o zasiłku rodzinnym.
+- Rozbudowano artykuł /swiadczenia/aktywny-rodzic/ o linki do trzech świadczeń programu.
+- Upewniono się, że artykuły szczegółowe Aktywny Rodzic linkują do przewodnika i pozostałych świadczeń.
+- Uporządkowano sekcję świadczeń na stronie głównej, aby nie była przeładowana zbyt dużą liczbą kart.
 
-## Aktualizacja â€” 04.06.2026 â€” audyt techniczny i SEO
+## Aktualizacja — 04.06.2026 — audyt techniczny i SEO
 
-- Wykonano peĹ‚ny audyt techniczny i SEO projektu.
-- Sprawdzono: GA4, AdSense, meta referrer, canonical, title, meta description, Open Graph, Twitter Card, FAQ Schema, grafiki hero, linkowanie wewnÄ™trzne, linki zewnÄ™trzne, stopkÄ™, sitemap.xml, robots.txt, ads.txt i ranking kont osobistych.
-- UporzÄ…dkowano lub poprawiono wykryte drobne bĹ‚Ä™dy techniczne i SEO.
-- Sprawdzono strukturÄ™ klastrĂłw w sekcji /swiadczenia/.
-- Sprawdzono linkowanie miÄ™dzy zasiĹ‚kiem rodzinnym i dodatkami oraz miÄ™dzy artykuĹ‚ami programu Aktywny Rodzic.
-- Zanotowano ewentualne problemy wymagajÄ…ce decyzji wĹ‚aĹ›ciciela.
+- Wykonano pełny audyt techniczny i SEO projektu.
+- Sprawdzono: GA4, AdSense, meta referrer, canonical, title, meta description, Open Graph, Twitter Card, FAQ Schema, grafiki hero, linkowanie wewnętrzne, linki zewnętrzne, stopkę, sitemap.xml, robots.txt, ads.txt i ranking kont osobistych.
+- Uporządkowano lub poprawiono wykryte drobne błędy techniczne i SEO.
+- Sprawdzono strukturę klastrów w sekcji /swiadczenia/.
+- Sprawdzono linkowanie między zasiłkiem rodzinnym i dodatkami oraz między artykułami programu Aktywny Rodzic.
+- Zanotowano ewentualne problemy wymagające decyzji właściciela.
 
-## Aktualizacja â€” 04.06.2026 â€” ranking kont firmowych
+## Aktualizacja — 04.06.2026 — ranking kont firmowych
 
-- Dodano nowÄ… stronÄ™ /rankingi/konta-firmowe/ z rankingiem kont firmowych dla JDG.
-- Ranking zawiera porĂłwnanie ofert bankĂłw, szczegĂłĹ‚owe opisy, metodologiÄ™, sekcje poradnikowe i FAQ z FAQPage JSON-LD.
+- Dodano nową stronę /rankingi/konta-firmowe/ z rankingiem kont firmowych dla JDG.
+- Ranking zawiera porównanie ofert banków, szczegółowe opisy, metodologię, sekcje poradnikowe i FAQ z FAQPage JSON-LD.
 - Dodano linki afiliacyjne z rel="sponsored nofollow" i target="_blank".
-- Dodano krĂłtkie zajawki przyszĹ‚ych tematĂłw: konto firmowe dla spĂłĹ‚ki, zaĹ‚oĹĽenie firmy z kontem i Revolut Business.
-- Dodano link ze strony gĹ‚Ăłwnej do rankingu kont firmowych.
+- Dodano krótkie zajawki przyszłych tematów: konto firmowe dla spółki, założenie firmy z kontem i Revolut Business.
+- Dodano link ze strony głównej do rankingu kont firmowych.
 - Zaktualizowano sitemap.xml.
 - Nie dodano grafiki hero, bo w assets/articles/ nie ma jeszcze dedykowanej grafiki dla kont firmowych.
 
-## Aktualizacja â€” 04.06.2026 â€” ranking kont firmowych dla spĂłĹ‚ek
+## Aktualizacja — 04.06.2026 — ranking kont firmowych dla spółek
 
-- Dodano ranking kont firmowych dla spĂłĹ‚ek: /rankingi/konta-firmowe/konto-firmowe-dla-spolki/.
-- Poprawiono logo Revolut Business w rankingu kont firmowych dla JDG, uĹĽywajÄ…c assets/logos/revolut-business.svg.
-- Dodano linkowanie z rankingu kont firmowych dla JDG do nowej strony dla spĂłĹ‚ek.
-- Sprawdzono podstawowe SEO, FAQ Schema, linki afiliacyjne i linkowanie wewnÄ™trzne dla nowego etapu.
+- Dodano ranking kont firmowych dla spółek: /rankingi/konta-firmowe/konto-firmowe-dla-spolki/.
+- Poprawiono logo Revolut Business w rankingu kont firmowych dla JDG, używając assets/logos/revolut-business.svg.
+- Dodano linkowanie z rankingu kont firmowych dla JDG do nowej strony dla spółek.
+- Sprawdzono podstawowe SEO, FAQ Schema, linki afiliacyjne i linkowanie wewnętrzne dla nowego etapu.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 04.06.2026 â€” zakĹ‚adanie firmy z kontem firmowym
+## Aktualizacja — 04.06.2026 — zakładanie firmy z kontem firmowym
 
-- Poprawiono widocznoĹ›Ä‡ strony o kontach firmowych dla spĂłĹ‚ek na stronie gĹ‚Ăłwnej i w sekcji kont firmowych.
-- Dodano artykuĹ‚ /rankingi/konta-firmowe/zalozenie-firmy-z-kontem/.
-- Wykorzystano oferty mBank i Credit Agricole pasujÄ…ce do zakĹ‚adania firmy z kontem.
-- Dodano linkowanie miÄ™dzy rankingiem kont firmowych dla JDG, rankingiem dla spĂłĹ‚ek i poradnikiem o zakĹ‚adaniu firmy z kontem.
-- Zaktualizowano sitemap.xml i linkowanie wewnÄ™trzne.
+- Poprawiono widoczność strony o kontach firmowych dla spółek na stronie głównej i w sekcji kont firmowych.
+- Dodano artykuł /rankingi/konta-firmowe/zalozenie-firmy-z-kontem/.
+- Wykorzystano oferty mBank i Credit Agricole pasujące do zakładania firmy z kontem.
+- Dodano linkowanie między rankingiem kont firmowych dla JDG, rankingiem dla spółek i poradnikiem o zakładaniu firmy z kontem.
+- Zaktualizowano sitemap.xml i linkowanie wewnętrzne.
 
-## Aktualizacja â€” 04.06.2026 â€” poprawka deployu Cloudflare Workers Assets
+## Aktualizacja — 04.06.2026 — poprawka deployu Cloudflare Workers Assets
 
 - Dodano plik .assetsignore dla Cloudflare Workers Static Assets.
-- Wykluczono z uploadu assetĂłw katalog .git oraz pliki techniczne repozytorium, aby uniknÄ…Ä‡ bĹ‚Ä™du Asset too large podczas deployu.
+- Wykluczono z uploadu assetów katalog .git oraz pliki techniczne repozytorium, aby uniknąć błędu Asset too large podczas deployu.
 
-## Aktualizacja â€” 04.06.2026 â€” Revolut Business
+## Aktualizacja — 04.06.2026 — Revolut Business
 
-- Dodano artykuĹ‚ /rankingi/konta-firmowe/revolut-business/.
-- ArtykuĹ‚ dotyczy wyĹ‚Ä…cznie Revolut Business.
-- ZwykĹ‚y Revolut osobisty zostaje na przyszĹ‚y osobny wpis.
+- Dodano artykuł /rankingi/konta-firmowe/revolut-business/.
+- Artykuł dotyczy wyłącznie Revolut Business.
+- Zwykły Revolut osobisty zostaje na przyszły osobny wpis.
 - Dodano linkowanie z klastra kont firmowych.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 04.06.2026 â€” uporzÄ…dkowanie struktury portalu i branding
+## Aktualizacja — 04.06.2026 — uporządkowanie struktury portalu i branding
 
-- Utworzono stronÄ™ zbiorczÄ… /rankingi/.
-- Utworzono dziaĹ‚ /dla-firm/ dla treĹ›ci o kontach firmowych i finansach dziaĹ‚alnoĹ›ci.
-- Utworzono stronÄ™ /poradniki/ jako katalog poradnikĂłw finansowych.
-- Utworzono stronÄ™ /narzedzia/ jako katalog planowanych narzÄ™dzi.
-- Przebudowano /swiadczenia/ jako uporzÄ…dkowany katalog Ĺ›wiadczeĹ„ rodzinnych, dodatkĂłw, programu Aktywny Rodzic oraz Ĺ›wiadczeĹ„ opiekuĹ„czych.
-- Poprawiono stronÄ™ gĹ‚ĂłwnÄ…, aby prowadziĹ‚a do gĹ‚Ăłwnych dziaĹ‚Ăłw portalu.
-- WdroĹĽono logo i podstawowe pliki brandingu z /assets/brand/.
-- Dodano favicon, apple touch icon i domyĹ›lnÄ… grafikÄ™ og-logo.png dla nowych stron bez wĹ‚asnej grafiki.
-- Poprawiono menu i stopkÄ™ na nowych stronach oraz najwaĹĽniejszych stronach rankingowych.
-- Dodano widoczne breadcrumbs na stronach zbiorczych i najwaĹĽniejszych stronach rankingowych.
+- Utworzono stronę zbiorczą /rankingi/.
+- Utworzono dział /dla-firm/ dla treści o kontach firmowych i finansach działalności.
+- Utworzono stronę /poradniki/ jako katalog poradników finansowych.
+- Utworzono stronę /narzedzia/ jako katalog planowanych narzędzi.
+- Przebudowano /swiadczenia/ jako uporządkowany katalog świadczeń rodzinnych, dodatków, programu Aktywny Rodzic oraz świadczeń opiekuńczych.
+- Poprawiono stronę główną, aby prowadziła do głównych działów portalu.
+- Wdrożono logo i podstawowe pliki brandingu z /assets/brand/.
+- Dodano favicon, apple touch icon i domyślną grafikę og-logo.png dla nowych stron bez własnej grafiki.
+- Poprawiono menu i stopkę na nowych stronach oraz najważniejszych stronach rankingowych.
+- Dodano widoczne breadcrumbs na stronach zbiorczych i najważniejszych stronach rankingowych.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 04.06.2026 â€” narzÄ™dzie Kiedy przelew?
+## Aktualizacja — 04.06.2026 — narzędzie Kiedy przelew?
 
-- Dodano narzÄ™dzie /narzedzia/kiedy-przelew/.
-- Dodano kalkulator sesji Elixir dla standardowych przelewĂłw w PLN.
+- Dodano narzędzie /narzedzia/kiedy-przelew/.
+- Dodano kalkulator sesji Elixir dla standardowych przelewów w PLN.
 - Dodano rozpoznawanie banku po numerze konta.
-- Dodano walidacjÄ™ NRB/IBAN PL.
-- Dodano aktualny zegar uĹĽytkownika.
-- Dodano odliczanie do przewidywanego ksiÄ™gowania.
+- Dodano walidację NRB/IBAN PL.
+- Dodano aktualny zegar użytkownika.
+- Dodano odliczanie do przewidywanego księgowania.
 - Dodano statusy wizualne wyniku.
-- Dodano tabelÄ™ sesji bankĂłw.
-- Dane sesji bankowych wymagajÄ… okresowej rÄ™cznej weryfikacji.
-## Aktualizacja â€” 05.06.2026 â€” audyt narzÄ™dzia Kiedy przelew?
+- Dodano tabelę sesji banków.
+- Dane sesji bankowych wymagają okresowej ręcznej weryfikacji.
+## Aktualizacja — 05.06.2026 — audyt narzędzia Kiedy przelew?
 
-- Wykonano audyt techniczny, UX i SEO narzÄ™dzia /narzedzia/kiedy-przelew/.
-- Sprawdzono lokalne dziaĹ‚anie strony, linkowanie wewnÄ™trzne, sitemap.xml, FAQ Schema, GA4, AdSense i meta referrer.
-- Sprawdzono przypadki bank â†’ bank, rozpoznawanie NRB/IBAN PL, banki specjalne Revolut/ZEN, weekendy, przelew po ostatniej sesji oraz statusy wizualne.
-- Poprawiono logikÄ™ bazowÄ… kalkulatora, aby banki bez kompletnych danych sesji zwracaĹ‚y rÄ™cznÄ… weryfikacjÄ™ zamiast orientacyjnego wyniku Elixir.
-## Aktualizacja â€” 05.06.2026 â€” Revolut dla osĂłb prywatnych
+- Wykonano audyt techniczny, UX i SEO narzędzia /narzedzia/kiedy-przelew/.
+- Sprawdzono lokalne działanie strony, linkowanie wewnętrzne, sitemap.xml, FAQ Schema, GA4, AdSense i meta referrer.
+- Sprawdzono przypadki bank → bank, rozpoznawanie NRB/IBAN PL, banki specjalne Revolut/ZEN, weekendy, przelew po ostatniej sesji oraz statusy wizualne.
+- Poprawiono logikę bazową kalkulatora, aby banki bez kompletnych danych sesji zwracały ręczną weryfikację zamiast orientacyjnego wyniku Elixir.
+## Aktualizacja — 05.06.2026 — Revolut dla osób prywatnych
 
-- Dodano artykuĹ‚ /poradniki/revolut/.
-- ArtykuĹ‚ dotyczy Revolut dla osĂłb prywatnych.
-- Revolut Business pozostaje osobnym artykuĹ‚em w sekcji kont firmowych.
-- Dodano linkowanie z poradnikĂłw, rankingĂłw, narzÄ™dzi, strony gĹ‚Ăłwnej i artykuĹ‚u Revolut Business.
+- Dodano artykuł /poradniki/revolut/.
+- Artykuł dotyczy Revolut dla osób prywatnych.
+- Revolut Business pozostaje osobnym artykułem w sekcji kont firmowych.
+- Dodano linkowanie z poradników, rankingów, narzędzi, strony głównej i artykułu Revolut Business.
 - Zaktualizowano sitemap.xml.
 
-## Aktualizacja â€” 05.06.2026 â€” audyt linkowania wewnÄ™trznego i SEO po rozbudowie portalu
+## Aktualizacja — 05.06.2026 — audyt linkowania wewnętrznego i SEO po rozbudowie portalu
 
-- Sprawdzono strukturÄ™ portalu po rozbudowie gĹ‚Ăłwnych dziaĹ‚Ăłw.
-- Poprawiono linkowanie wewnÄ™trzne miÄ™dzy rankingami, poradnikami, narzÄ™dziami, dziaĹ‚em dla firm i Ĺ›wiadczeniami.
-- UzupeĹ‚niono sekcje â€žZobacz teĹĽâ€ť na najwaĹĽniejszych stronach.
-- Sprawdzono menu i stopkÄ™ oraz ujednolicono grupy linkĂłw w stopce.
-- Sprawdzono logo, favicon, apple-touch-icon i domyĹ›lne OG image.
-- Sprawdzono sitemap.xml pod kÄ…tem najwaĹĽniejszych adresĂłw.
-- Sprawdzono linki afiliacyjne i zewnÄ™trzne pod kÄ…tem atrybutĂłw rel i target.
-- Revolut osobisty nadal czeka na wĹ‚aĹ›ciwy link afiliacyjny, jeĹ›li taki link zostanie pĂłĹşniej znaleziony.
+- Sprawdzono strukturę portalu po rozbudowie głównych działów.
+- Poprawiono linkowanie wewnętrzne między rankingami, poradnikami, narzędziami, działem dla firm i świadczeniami.
+- Uzupełniono sekcje „Zobacz też” na najważniejszych stronach.
+- Sprawdzono menu i stopkę oraz ujednolicono grupy linków w stopce.
+- Sprawdzono logo, favicon, apple-touch-icon i domyślne OG image.
+- Sprawdzono sitemap.xml pod kątem najważniejszych adresów.
+- Sprawdzono linki afiliacyjne i zewnętrzne pod kątem atrybutów rel i target.
+- Revolut osobisty nadal czeka na właściwy link afiliacyjny, jeśli taki link zostanie później znaleziony.
 ## Aktualizacja — 05.06.2026 — narzędzie Jaki to bank?
 
 - Dodano narzędzie /narzedzia/jaki-to-bank/.
@@ -435,3 +435,10 @@ Do zrobienia:
 - Sprawdzono podstawowe SEO, GA4, AdSense, meta referrer, OG/Twitter i FAQ Schema na stronach narzedzi.
 - Wykonano testy funkcjonalne istniejacych narzedzi.
 - Strona /narzedzia/kalkulator-kosztu-konta-firmowego/ jest wymieniana w planach, ale nie ma jej jeszcze w repozytorium, wiec nie dodano martwych linkow ani wpisu do sitemap.xml.
+
+## Hotfix po przebudowie struktury
+
+- poprawiono kodowanie UTF-8 i polskie znaki na g??wnych stronach,
+- poprawiono teksty z mojibake w menu, stopce, meta tagach i tre?ciach,
+- powi?kszono logo w nag??wku,
+- sprawdzono najwa?niejsze strony po zmianach.

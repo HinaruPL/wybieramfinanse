@@ -70,7 +70,7 @@ a {
 .header-logo img,
 .brand-logo {
   display: block;
-  width: 196px;
+  width: clamp(220px, 18vw, 260px);
   max-width: 42vw;
   height: auto;
 }
@@ -382,7 +382,7 @@ h1 {
   .site-logo img,
   .header-logo img,
   .brand-logo {
-    width: 176px;
+    width: 180px;
   }
 
   .footer-inner {
