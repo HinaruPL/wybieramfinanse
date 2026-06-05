@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWY5T45BG6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QWY5T45BG6');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Kalkulator budżetu domowego – policz dochody, wydatki i oszczędności | Wybieram Finanse</title>
+  <meta name="description" content="Oblicz miesięczny budżet domowy. Wpisz dochody i wydatki, sprawdź ile zostaje po kosztach oraz ile możesz odłożyć w skali roku." />
+  <link rel="canonical" href="https://wybieramfinanse.pl/narzedzia/kalkulator-budzetu-domowego/" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kalkulator budżetu domowego" />
+  <meta property="og:description" content="Policz dochody, wydatki i sprawdź, ile zostaje w budżecie po kosztach." />
+  <meta property="og:url" content="https://wybieramfinanse.pl/narzedzia/kalkulator-budzetu-domowego/" />
+  <meta property="og:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <meta property="og:site_name" content="Wybieram Finanse" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kalkulator budżetu domowego" />
+  <meta name="twitter:description" content="Sprawdź orientacyjny miesięczny budżet, kategorie wydatków i możliwe oszczędności." />
+  <meta name="twitter:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="site-logo"><img src="/assets/brand/logo.svg" alt="Wybieram Finanse"></a>
+      <nav class="main-nav">
+        <a href="/rankingi/">Rankingi</a>
+        <a href="/dla-firm/">Dla firm</a>
+        <a href="/swiadczenia/">Świadczenia</a>
+        <a href="/narzedzia/">Narzędzia</a>
+        <a href="/poradniki/">Poradniki</a>
+        <a href="/o-nas/">O nas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/narzedzia/">Narzędzia</a></li>
+          <li>Kalkulator budżetu domowego</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Budżet domowy</p>
+          <h1>Kalkulator budżetu domowego</h1>
+          <p class="hero-text">Wpisz miesięczne dochody i wydatki. Kalkulator pokaże, ile zostaje po kosztach, jaki procent dochodu pochłaniają główne kategorie i ile możesz odłożyć w skali roku.</p>
+          <div class="hero-actions">
+            <a href="#kalkulator" class="btn primary">Policz budżet</a>
+            <a href="/poradniki/" class="btn secondary">Poradniki finansowe</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Ważne</h2>
+          <p>Wynik jest orientacyjny. Kalkulator pomaga uporządkować budżet, ale nie zastępuje indywidualnej porady finansowej.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kalkulator" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Kalkulator</p>
+          <h2>Policz swój budżet</h2>
+          <p>Wpisz kwoty z typowego miesiąca. Puste pola liczbowe traktujemy jako 0 zł.</p>
+        </div>
+
+        <p class="privacy-note">Dane wpisane w kalkulator są liczone lokalnie w Twojej przeglądarce. Nie zapisujemy ich i nie wysyłamy na serwer.</p>
+
+        <form id="home-budget-form" class="tool-form">
+          <div class="tool-grid">
+            <article class="tool-panel">
+              <h3>Dochody miesięczne</h3>
+              <div class="form-row">
+                <label>Wynagrodzenie netto <input id="income-salary" type="number" min="0" step="0.01" placeholder="np. 5000"></label>
+                <label>Dochód partnera / partnerki <input id="income-partner" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Świadczenia i dodatki <input id="income-benefits" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Działalność / freelancing <input id="income-business" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <label>Inne dochody <input id="income-other" type="number" min="0" step="0.01" placeholder="0"></label>
+            </article>
+
+            <article class="tool-panel">
+              <h3>Koszty mieszkania</h3>
+              <div class="form-row">
+                <label>Czynsz / rata / najem <input id="housing-rent" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Prąd, gaz, woda, ogrzewanie <input id="housing-utilities" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Internet, telefon, telewizja <input id="housing-media" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Inne koszty mieszkania <input id="housing-other" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+            </article>
+          </div>
+
+          <div class="tool-grid">
+            <article class="tool-panel">
+              <h3>Życie codzienne</h3>
+              <div class="form-row">
+                <label>Jedzenie i zakupy domowe <input id="daily-food" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Transport / paliwo / bilety <input id="daily-transport" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Dzieci / szkoła / przedszkole <input id="daily-children" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Zdrowie i leki <input id="daily-health" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <label>Ubrania i kosmetyki <input id="daily-clothes" type="number" min="0" step="0.01" placeholder="0"></label>
+            </article>
+
+            <article class="tool-panel">
+              <h3>Zobowiązania</h3>
+              <div class="form-row">
+                <label>Raty kredytów <input id="debt-loans" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Pożyczki <input id="debt-borrowings" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Karty kredytowe / limity <input id="debt-cards" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Alimenty / inne zobowiązania <input id="debt-other" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+            </article>
+          </div>
+
+          <div class="tool-grid">
+            <article class="tool-panel">
+              <h3>Styl życia</h3>
+              <div class="form-row">
+                <label>Rozrywka i restauracje <input id="life-entertainment" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Subskrypcje <input id="life-subscriptions" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Wakacje / większe wydatki <input id="life-holidays" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Inne wydatki <input id="life-other" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+            </article>
+
+            <article class="tool-panel">
+              <h3>Oszczędności</h3>
+              <label>Obecnie odkładana kwota miesięcznie <input id="savings-current" type="number" min="0" step="0.01" placeholder="0"></label>
+              <label>Planowana kwota oszczędności miesięcznie <input id="savings-planned" type="number" min="0" step="0.01" placeholder="0"></label>
+              <button class="btn primary" type="submit">Oblicz budżet</button>
+            </article>
+          </div>
+        </form>
+
+        <section id="budget-result" class="transfer-result" hidden aria-live="polite">
+          <div class="result-header">
+            <div>
+              <p class="eyebrow">Wynik</p>
+              <h2>Orientacyjny budżet miesięczny</h2>
+            </div>
+            <span id="budget-status" class="status-badge status-unknown">Do uzupełnienia</span>
+          </div>
+          <dl class="result-list">
+            <div><dt>Suma dochodów</dt><dd id="result-income">-</dd></div>
+            <div><dt>Suma wydatków</dt><dd id="result-expenses">-</dd></div>
+            <div><dt>Kwota po wydatkach</dt><dd id="result-left">-</dd></div>
+            <div><dt>Procent dochodu wydany</dt><dd id="result-spent-percent">-</dd></div>
+            <div><dt>Procent dochodu, który zostaje</dt><dd id="result-left-percent">-</dd></div>
+            <div><dt>Obecne oszczędności miesięczne</dt><dd id="result-current-savings">-</dd></div>
+            <div><dt>Obecne oszczędności roczne</dt><dd id="result-yearly-savings">-</dd></div>
+            <div><dt>Potencjalne oszczędności roczne</dt><dd id="result-potential-yearly-savings">-</dd></div>
+          </dl>
+
+          <h3>Rozbicie kategorii</h3>
+          <dl class="result-list">
+            <div><dt>Mieszkanie</dt><dd id="category-housing">-</dd></div>
+            <div><dt>Życie codzienne</dt><dd id="category-daily">-</dd></div>
+            <div><dt>Zobowiązania</dt><dd id="category-debts">-</dd></div>
+            <div><dt>Styl życia</dt><dd id="category-lifestyle">-</dd></div>
+            <div><dt>Oszczędności</dt><dd id="category-savings">-</dd></div>
+          </dl>
+
+          <p id="result-message" class="result-description"></p>
+          <h3>Podpowiedzi</h3>
+          <ul id="budget-tips" class="result-notes"></ul>
+          <p class="tool-warning">Status jest orientacyjny i zależy od danych wpisanych w kalkulatorze.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Instrukcja</p>
+          <h2>Jak korzystać z kalkulatora budżetu domowego?</h2>
+          <p>Wpisz dochody netto, dodaj stałe koszty, codzienne wydatki, raty i zobowiązania. Sprawdź, ile zostaje, a potem wracaj do kalkulatora co miesiąc, żeby widzieć zmianę.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Podstawy</p>
+          <h2>Co oznacza dobry budżet domowy?</h2>
+          <p>Dobry budżet nie musi być idealny. Ważne, żeby wiedzieć, ile wpływa i ile wychodzi. Najpierw warto opanować koszty stałe, potem budować poduszkę finansową, a dopiero później planować większe cele.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Wydatki</p>
+          <h2>Gdzie najczęściej uciekają pieniądze?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Małe płatności</h3><p>Subskrypcje, częste drobne zakupy i jedzenie na mieście potrafią złożyć się w dużą kwotę.</p></article>
+          <article class="card"><h3>Zakupy bez planu</h3><p>Zakupy spożywcze bez listy i nieplanowane wydatki często podnoszą koszt miesiąca.</p></article>
+          <article class="card"><h3>Opłaty i raty</h3><p>Opłaty za konta, karty, raty i limity warto sprawdzać regularnie.</p></article>
+        </div>
+        <p><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/" class="btn primary">Sprawdź też koszt swojego konta osobistego</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Powiązane narzędzia</p>
+          <h2>Sprawdź też</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Kalkulator kosztu konta osobistego</h3><p>Policz miesięczny i roczny koszt konta po opłatach, bankomatach i premii.</p><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Kalkulator premii bankowej</h3><p>Sprawdź, czy promocja konta może się realnie opłacać po kosztach i warunkach.</p><a href="/narzedzia/kalkulator-premii-bankowej/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Kalendarz świadczeń</h3><p>Sprawdź, gdzie złożyć wniosek i co przygotować.</p><a href="/narzedzia/kalendarz-swiadczen/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Kiedy dojdzie przelew?</h3><p>Sprawdź orientacyjnie, kiedy może dojść przelew między bankami.</p><a href="/narzedzia/kiedy-przelew/" class="card-link">Otwórz narzędzie →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="wide-card">
+          <div>
+            <h3>Przydatne poradniki i rankingi</h3>
+            <p>Porównaj konto osobiste, sprawdź świadczenia i przejdź do prostych poradników finansowych.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="/rankingi/konta-osobiste/" class="btn primary">Ranking kont osobistych</a>
+            <a href="/swiadczenia/" class="btn secondary">Świadczenia i dodatki</a>
+            <a href="/poradniki/" class="btn secondary">Poradniki finansowe</a>
+            <a href="/kontakt/" class="btn secondary">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Najczęstsze pytania</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Czy kalkulator budżetu domowego pokazuje dokładny wynik?</summary><p>Nie. Kalkulator pokazuje wynik orientacyjny na podstawie wpisanych danych. Najlepiej traktować go jako punkt startowy do uporządkowania budżetu.</p></details>
+          <details><summary>Jak często warto liczyć budżet domowy?</summary><p>Najlepiej raz w miesiącu albo po większej zmianie dochodów lub wydatków.</p></details>
+          <details><summary>Co zrobić, jeśli wydatki są wyższe niż dochody?</summary><p>Warto spokojnie przejrzeć koszty stałe, raty i wydatki codzienne oraz wybrać kilka rzeczy do ograniczenia w pierwszej kolejności.</p></details>
+          <details><summary>Ile powinno się odkładać miesięcznie?</summary><p>Nie ma jednej dobrej kwoty dla każdego. Pomocne może być zaczęcie od małej stałej kwoty i zwiększanie jej, gdy budżet na to pozwala.</p></details>
+          <details><summary>Czy świadczenia wliczać do dochodu?</summary><p>Możesz je wpisać, jeśli regularnie wpływają do domowego budżetu. Warto jednak pamiętać, że zasady świadczeń mogą się zmieniać.</p></details>
+          <details><summary>Czy raty kredytów wliczać do wydatków?</summary><p>Tak. Raty i inne zobowiązania są ważną częścią miesięcznego budżetu.</p></details>
+          <details><summary>Co to jest poduszka finansowa?</summary><p>To pieniądze odłożone na nieplanowane sytuacje, takie jak naprawa, leczenie albo przerwa w dochodach.</p></details>
+          <details><summary>Czy małe wydatki naprawdę mają znaczenie?</summary><p>Tak. Pojedynczo są niewielkie, ale powtarzane często mogą mocno podnieść miesięczne koszty.</p></details>
+          <details><summary>Czy kalkulator zapisuje wpisane dane?</summary><p>Nie. Dane wpisane w kalkulator są liczone lokalnie w przeglądarce i nie są zapisywane.</p></details>
+          <details><summary>Czy kalkulator nadaje się dla rodziny?</summary><p>Tak. Można wpisać dochody kilku osób i koszty związane z dziećmi, mieszkaniem oraz codziennym życiem.</p></details>
+          <details><summary>Czy kalkulator nadaje się dla singla?</summary><p>Tak. Wystarczy uzupełnić tylko te pola, które pasują do Twojej sytuacji.</p></details>
+          <details><summary>Od czego zacząć porządkowanie finansów?</summary><p>Od spisania dochodów, kosztów stałych i najczęstszych wydatków. Potem łatwiej zobaczyć, gdzie można szukać oszczędności.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porównania finansowe.</p></div>
+    <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
+    <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">Założenie firmy z kontem</a></div></div>
+    <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/">Kalkulator kosztu konta osobistego</a><a href="/narzedzia/kalendarz-swiadczen/">Kalendarz świadczeń</a><a href="/narzedzia/kalkulator-budzetu-domowego/">Kalkulator budżetu domowego</a></div></div>
+    <div><h3>Świadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">Zasiłek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
+    <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Wybieram Finanse</span><span>Treści mają charakter informacyjny.</span></div>
+</footer>
+
+  <script src="/assets/js/kalkulator-budzetu-domowego.js"></script>
+  <script>
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
+        });
+      }
+    });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Czy kalkulator budżetu domowego pokazuje dokładny wynik?","acceptedAnswer":{"@type":"Answer","text":"Nie. Kalkulator pokazuje wynik orientacyjny na podstawie wpisanych danych. Najlepiej traktować go jako punkt startowy do uporządkowania budżetu."}},
+      {"@type":"Question","name":"Jak często warto liczyć budżet domowy?","acceptedAnswer":{"@type":"Answer","text":"Najlepiej raz w miesiącu albo po większej zmianie dochodów lub wydatków."}},
+      {"@type":"Question","name":"Co zrobić, jeśli wydatki są wyższe niż dochody?","acceptedAnswer":{"@type":"Answer","text":"Warto spokojnie przejrzeć koszty stałe, raty i wydatki codzienne oraz wybrać kilka rzeczy do ograniczenia w pierwszej kolejności."}},
+      {"@type":"Question","name":"Ile powinno się odkładać miesięcznie?","acceptedAnswer":{"@type":"Answer","text":"Nie ma jednej dobrej kwoty dla każdego. Pomocne może być zaczęcie od małej stałej kwoty i zwiększanie jej, gdy budżet na to pozwala."}},
+      {"@type":"Question","name":"Czy świadczenia wliczać do dochodu?","acceptedAnswer":{"@type":"Answer","text":"Możesz je wpisać, jeśli regularnie wpływają do domowego budżetu. Warto jednak pamiętać, że zasady świadczeń mogą się zmieniać."}},
+      {"@type":"Question","name":"Czy raty kredytów wliczać do wydatków?","acceptedAnswer":{"@type":"Answer","text":"Tak. Raty i inne zobowiązania są ważną częścią miesięcznego budżetu."}},
+      {"@type":"Question","name":"Co to jest poduszka finansowa?","acceptedAnswer":{"@type":"Answer","text":"To pieniądze odłożone na nieplanowane sytuacje, takie jak naprawa, leczenie albo przerwa w dochodach."}},
+      {"@type":"Question","name":"Czy małe wydatki naprawdę mają znaczenie?","acceptedAnswer":{"@type":"Answer","text":"Tak. Pojedynczo są niewielkie, ale powtarzane często mogą mocno podnieść miesięczne koszty."}},
+      {"@type":"Question","name":"Czy kalkulator zapisuje wpisane dane?","acceptedAnswer":{"@type":"Answer","text":"Nie. Dane wpisane w kalkulator są liczone lokalnie w przeglądarce i nie są zapisywane."}},
+      {"@type":"Question","name":"Czy kalkulator nadaje się dla rodziny?","acceptedAnswer":{"@type":"Answer","text":"Tak. Można wpisać dochody kilku osób i koszty związane z dziećmi, mieszkaniem oraz codziennym życiem."}},
+      {"@type":"Question","name":"Czy kalkulator nadaje się dla singla?","acceptedAnswer":{"@type":"Answer","text":"Tak. Wystarczy uzupełnić tylko te pola, które pasują do Twojej sytuacji."}},
+      {"@type":"Question","name":"Od czego zacząć porządkowanie finansów?","acceptedAnswer":{"@type":"Answer","text":"Od spisania dochodów, kosztów stałych i najczęstszych wydatków. Potem łatwiej zobaczyć, gdzie można szukać oszczędności."}}
+    ]
+  }
+  </script>
+</body>
+</html>

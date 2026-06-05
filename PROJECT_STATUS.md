@@ -412,3 +412,14 @@ Do zrobienia:
 - Dodano dane dla głównych świadczeń i dodatków.
 - Dodano linkowanie z działu /swiadczenia/ i /narzedzia/.
 - Zaktualizowano sitemap.xml.
+
+
+## Aktualizacja - 05.06.2026 - kalkulator budżetu domowego
+
+- Dodano narzędzie /narzedzia/kalkulator-budzetu-domowego/.
+- Narzędzie liczy miesięczny budżet domowy.
+- Dodano podział wydatków na kategorie.
+- Dodano status budżetu.
+- Dodano komunikaty i podpowiedzi.
+- Dodano linkowanie z narzędzi, świadczeń i poradników.
+- Zaktualizowano sitemap.xml.
