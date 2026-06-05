@@ -206,12 +206,33 @@
           <table class="ranking-table tool-table">
             <thead>
               <tr>
-                <th>Prefiks</th>
                 <th>Bank</th>
-                <th>Obsługiwany w kalkulatorze przelewów</th>
+                <th>Identyfikator banku</th>
+                <th>Uwagi</th>
               </tr>
             </thead>
-            <tbody id="popular-prefixes-body"></tbody>
+            <tbody id="popular-prefixes-body">
+              <tr><td data-label="Bank"><strong>PKO BP / Inteligo</strong></td><td data-label="Identyfikator banku">1020</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Citi Handlowy</strong></td><td data-label="Identyfikator banku">1030</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>ING Bank Śląski</strong></td><td data-label="Identyfikator banku">1050</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Santander Bank Polska / Erste</strong></td><td data-label="Identyfikator banku">1090</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>mBank</strong></td><td data-label="Identyfikator banku">1140</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Bank Millennium</strong></td><td data-label="Identyfikator banku">1160</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Bank Pekao</strong></td><td data-label="Identyfikator banku">1240</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Bank Pocztowy</strong></td><td data-label="Identyfikator banku">1320</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>BOŚ Bank</strong></td><td data-label="Identyfikator banku">1540</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>SGB Bank</strong></td><td data-label="Identyfikator banku">1610</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Plus Bank</strong></td><td data-label="Identyfikator banku">1680</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Nest Bank</strong></td><td data-label="Identyfikator banku">1870</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Bank BPS</strong></td><td data-label="Identyfikator banku">1930</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Credit Agricole</strong></td><td data-label="Identyfikator banku">1940</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>BNP Paribas</strong></td><td data-label="Identyfikator banku">2030</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Toyota Bank</strong></td><td data-label="Identyfikator banku">2160</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Alior Bank</strong></td><td data-label="Identyfikator banku">2490</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Volkswagen Bank</strong></td><td data-label="Identyfikator banku">2770</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+              <tr><td data-label="Bank"><strong>Bank Nowy</strong></td><td data-label="Identyfikator banku">2870</td><td data-label="Uwagi">Dodany do rozpoznawania po numerze konta. Sesje wymagają weryfikacji.</td></tr>
+              <tr><td data-label="Bank"><strong>VeloBank</strong></td><td data-label="Identyfikator banku">2930</td><td data-label="Uwagi">Obsługiwany w kalkulatorze przelewów.</td></tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -274,7 +295,7 @@
   <script src="/assets/js/bank-prefixes.js"></script>
   <script>
     (function () {
-      var popularPrefixes = ["1020", "1240", "1090", "1050", "1140", "1160", "2490", "2030", "1940", "1870", "2930", "1320"];
+      var popularPrefixes = ["1020", "1030", "1050", "1090", "1140", "1160", "1240", "1320", "1540", "1610", "1680", "1870", "1930", "1940", "2030", "2160", "2490", "2770", "2870", "2930"];
 
       function setText(id, value) {
         document.getElementById(id).textContent = value;
@@ -303,10 +324,20 @@
           var bank = prefixes[prefix];
           if (!bank) return;
           var row = document.createElement("tr");
-          row.innerHTML =
-            "<td data-label="Prefiks">" + prefix + "</td>" +
-            "<td data-label="Bank"><strong>" + bank.name + "</strong></td>" +
-            "<td data-label="Obsługiwany w kalkulatorze przelewów">" + (bank.supportedInCalculator ? "tak" : "nie") + "</td>";
+          var bankCell = document.createElement("td");
+          var prefixCell = document.createElement("td");
+          var noteCell = document.createElement("td");
+          var strong = document.createElement("strong");
+          bankCell.setAttribute("data-label", "Bank");
+          prefixCell.setAttribute("data-label", "Identyfikator banku");
+          noteCell.setAttribute("data-label", "Uwagi");
+          strong.textContent = bank.name;
+          bankCell.appendChild(strong);
+          prefixCell.textContent = prefix;
+          noteCell.textContent = bank.supportedInCalculator ? "Obsługiwany w kalkulatorze przelewów." : "Tylko rozpoznawanie banku po numerze konta.";
+          row.appendChild(bankCell);
+          row.appendChild(prefixCell);
+          row.appendChild(noteCell);
           body.appendChild(row);
         });
       }

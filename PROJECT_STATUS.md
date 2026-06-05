@@ -450,3 +450,11 @@ Do zrobienia:
 - Dodano stronę /narzedzia/sesje-elixir/ z tabelą sesji banków i filtrowaniem po nazwie banku.
 - Dodano linkowanie do /narzedzia/sesje-elixir/ z centrum narzędzi, strony głównej, kalkulatora przelewu i stopek.
 - Zaktualizowano sitemap.xml.
+
+## Hotfix jakościowy po przebudowie
+
+- Poprawiono brakujące polskie znaki w wybranych tekstach, CTA, meta tagach i sekcjach „Zobacz też”.
+- Poprawiono znak przy CTA „Zobacz tabelę”.
+- Powiększono logo w nagłówku na desktopie, tablecie i mobile.
+- Dopracowano strony narzędziowe /narzedzia/sesje-elixir/ i /narzedzia/jaki-to-bank/ pod kątem treści widocznych w HTML.
+- Sprawdzono linkowanie i sitemapę narzędzi.
