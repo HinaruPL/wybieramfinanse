@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWY5T45BG6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QWY5T45BG6');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Jaki to bank po numerze konta? Sprawdź bank po rachunku | Wybieram Finanse</title>
+  <meta name="description" content="Wpisz numer konta i sprawdź, jaki bank można rozpoznać po numerze rachunku. Narzędzie działa lokalnie w przeglądarce i nie pokazuje właściciela konta." />
+  <link rel="canonical" href="https://wybieramfinanse.pl/narzedzia/jaki-to-bank/" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jaki to bank po numerze konta?" />
+  <meta property="og:description" content="Wpisz numer rachunku i sprawdź, jaki bank można rozpoznać po numerze konta." />
+  <meta property="og:url" content="https://wybieramfinanse.pl/narzedzia/jaki-to-bank/" />
+  <meta property="og:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <meta property="og:site_name" content="Wybieram Finanse" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jaki to bank po numerze konta?" />
+  <meta name="twitter:description" content="Sprawdź bank po numerze rachunku. Narzędzie działa lokalnie w przeglądarce." />
+  <meta name="twitter:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="site-logo"><img src="/assets/brand/logo.svg" alt="Wybieram Finanse"></a>
+      <nav class="main-nav">
+        <a href="/rankingi/">Rankingi</a>
+        <a href="/dla-firm/">Dla firm</a>
+        <a href="/swiadczenia/">Świadczenia</a>
+        <a href="/narzedzia/">Narzędzia</a>
+        <a href="/poradniki/">Poradniki</a>
+        <a href="/o-nas/">O nas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/narzedzia/">Narzędzia</a></li>
+          <li>Jaki to bank?</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Sprawdzarka rachunku</p>
+          <h1>Jaki to bank po numerze konta?</h1>
+          <p class="hero-text">Wpisz numer konta w formacie NRB albo IBAN PL. Narzędzie spróbuje rozpoznać bank na podstawie numeru rozliczeniowego rachunku.</p>
+          <div class="hero-actions">
+            <a href="#sprawdz-bank" class="btn primary">Sprawdź bank</a>
+            <a href="/narzedzia/kiedy-przelew/" class="btn secondary">Kiedy dojdzie przelew?</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Ważne</h2>
+          <p>Narzędzie nie pokazuje właściciela rachunku. Pomaga jedynie rozpoznać bank lub instytucję po numerze konta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sprawdz-bank" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Numer rachunku</p>
+          <h2>Sprawdź bank po numerze rachunku</h2>
+          <p>Wpisz pełny numer konta. Możesz użyć spacji albo myślników, narzędzie samo je pominie.</p>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-panel">
+            <h3>Wpisz numer konta</h3>
+            <form id="bank-lookup-form" class="tool-form">
+              <label>
+                Numer konta
+                <input id="account-number" type="text" inputmode="text" autocomplete="off" placeholder="np. PL00 0000 0000 0000 0000 0000 0000" required>
+              </label>
+              <p class="privacy-note">Numer konta jest sprawdzany lokalnie w Twojej przeglądarce. Nie zapisujemy go w bazie i nie wysyłamy na serwer.</p>
+              <button class="btn primary" type="submit">Sprawdź bank</button>
+            </form>
+          </article>
+
+          <section id="bank-lookup-result" class="transfer-result" hidden aria-live="polite">
+            <div class="result-header">
+              <div>
+                <p class="eyebrow">Wynik</p>
+                <h2>Rozpoznanie banku</h2>
+              </div>
+              <span id="lookup-status" class="status-badge status-unknown">Do sprawdzenia</span>
+            </div>
+            <dl class="result-list">
+              <div><dt>Rozpoznany bank</dt><dd id="lookup-bank">-</dd></div>
+              <div><dt>Prefiks banku</dt><dd id="lookup-prefix">-</dd></div>
+              <div><dt>Numer rozliczeniowy</dt><dd id="lookup-clearing">-</dd></div>
+              <div><dt>Status</dt><dd id="lookup-status-text">-</dd></div>
+            </dl>
+            <p id="lookup-message" class="result-description"></p>
+            <div id="lookup-transfer-link" class="hero-actions" hidden>
+              <a href="/narzedzia/kiedy-przelew/" class="btn primary">Sprawdź kiedy dojdzie przelew</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Wyjaśnienie</p>
+          <h2>Jak rozpoznać bank po numerze konta?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>NRB ma 26 cyfr</h3><p>Polski numer rachunku bankowego składa się z 26 cyfr. IBAN dla Polski zaczyna się od liter PL, a potem zawiera te same 26 cyfr.</p></article>
+          <article class="card"><h3>Numer rozliczeniowy</h3><p>Po dwóch cyfrach kontrolnych znajduje się numer rozliczeniowy. Pierwsze cyfry tego numeru pozwalają rozpoznać bank.</p></article>
+          <article class="card"><h3>Tylko bank</h3><p>Narzędzie korzysta z tej informacji, ale nie pokazuje właściciela rachunku. Po numerze konta nie sprawdzisz danych osoby.</p></article>
+        </div>
+        <div class="wide-card">
+          <div>
+            <h3>Przykład</h3>
+            <p>W zapisie testowym „PL XX 1140 XXXX XXXX XXXX XXXX XXXX” prefiks 1140 jest kojarzony z mBankiem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Zakres</p>
+          <h2>Czego nie sprawdzisz po numerze konta?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Danych właściciela</h3><p>Nie sprawdzisz imienia, nazwiska ani adresu właściciela rachunku.</p></article>
+          <article class="card"><h3>Stanu rachunku</h3><p>Nie sprawdzisz salda, historii transakcji ani tego, czy konto jest aktywne.</p></article>
+          <article class="card"><h3>Pewności przelewu</h3><p>Poprawny numer i rozpoznany bank nie oznaczają, że przelew na pewno dotrze.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Możliwości</p>
+          <h2>Co możesz sprawdzić?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Format numeru</h3><p>Czy numer wygląda jak polski NRB albo IBAN PL.</p></article>
+          <article class="card"><h3>Suma kontrolna</h3><p>Czy suma kontrolna numeru rachunku jest poprawna.</p></article>
+          <article class="card"><h3>Bank lub instytucja</h3><p>Jaki bank albo instytucję można rozpoznać po prefiksie.</p></article>
+          <article class="card"><h3>Kalkulator przelewów</h3><p>Czy rozpoznany bank jest obsługiwany w narzędziu „Kiedy dojdzie przelew?”.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Powiązane narzędzia</p>
+          <h2>Co dalej?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Kiedy dojdzie przelew?</h3>
+            <p>Sprawdź orientacyjnie, kiedy może dojść przelew między bankami.</p>
+            <a href="/narzedzia/kiedy-przelew/" class="card-link">Otwórz narzędzie →</a>
+          </article>
+          <article class="card">
+            <h3>Narzędzia finansowe</h3>
+            <p>Wróć do katalogu praktycznych sprawdzarek i kalkulatorów.</p>
+            <a href="/narzedzia/" class="card-link">Zobacz narzędzia →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Baza prefiksów</p>
+          <h2>Popularne banki w bazie</h2>
+          <p>Lista pokazuje przykłady prefiksów. Baza może wymagać okresowej ręcznej aktualizacji.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="ranking-table tool-table">
+            <thead>
+              <tr>
+                <th>Prefiks</th>
+                <th>Bank</th>
+                <th>Obsługiwany w kalkulatorze przelewów</th>
+              </tr>
+            </thead>
+            <tbody id="popular-prefixes-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="wide-card">
+          <div>
+            <h3>Przydatne strony</h3>
+            <p>Porównaj konta, sprawdź poradniki albo napisz do nas, jeśli widzisz brak w bazie prefiksów.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="/rankingi/" class="btn secondary">Rankingi</a>
+            <a href="/rankingi/konta-osobiste/" class="btn secondary">Konta osobiste</a>
+            <a href="/rankingi/konta-firmowe/" class="btn secondary">Konta firmowe</a>
+            <a href="/poradniki/" class="btn secondary">Poradniki</a>
+            <a href="/kontakt/" class="btn secondary">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Najczęstsze pytania</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Czy można sprawdzić bank po numerze konta?</summary><p>Tak. W polskim numerze rachunku znajduje się numer rozliczeniowy, który pomaga rozpoznać bank albo instytucję.</p></details>
+          <details><summary>Czy można sprawdzić właściciela konta po numerze rachunku?</summary><p>Nie. Po numerze konta nie pokazujemy właściciela rachunku. Narzędzie służy tylko do rozpoznania banku.</p></details>
+          <details><summary>Czy numer konta jest zapisywany?</summary><p>Nie. Numer konta jest sprawdzany lokalnie w przeglądarce i nie jest wysyłany na serwer.</p></details>
+          <details><summary>Czy narzędzie działa dla numerów IBAN?</summary><p>Tak, jeśli jest to polski IBAN zaczynający się od PL i zawierający 26 cyfr numeru NRB.</p></details>
+          <details><summary>Czy narzędzie działa dla zagranicznych kont?</summary><p>Nie. Narzędzie skupia się na polskich numerach rachunków NRB i IBAN PL.</p></details>
+          <details><summary>Co to jest NRB?</summary><p>NRB to polski numer rachunku bankowego składający się z 26 cyfr.</p></details>
+          <details><summary>Co to jest IBAN?</summary><p>IBAN to międzynarodowy format numeru rachunku. Polski IBAN zaczyna się od PL.</p></details>
+          <details><summary>Co oznacza numer rozliczeniowy banku?</summary><p>To część numeru rachunku, która pomaga wskazać bank lub instytucję prowadzącą rachunek.</p></details>
+          <details><summary>Czy poprawny numer konta oznacza, że konto istnieje?</summary><p>Nie. Poprawna suma kontrolna oznacza tylko, że numer ma poprawną strukturę. Nie potwierdza istnienia rachunku.</p></details>
+          <details><summary>Czy mogę sprawdzić, kiedy dojdzie przelew?</summary><p>Tak, do orientacyjnego sprawdzenia czasu standardowego przelewu możesz użyć narzędzia „Kiedy dojdzie przelew?”.</p></details>
+          <details><summary>Dlaczego bank nie został rozpoznany?</summary><p>Prefiksu może nie być jeszcze w naszej bazie albo numer może należeć do instytucji, której nie obsługujemy.</p></details>
+          <details><summary>Czy Revolut i ZEN da się rozpoznać po numerze konta?</summary><p>Czasem rachunek może wskazywać instytucję obsługującą płatność, ale wynik trzeba traktować ostrożnie. Fintechy nie zawsze działają jak klasyczny bank.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porównania finansowe.</p></div>
+    <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
+    <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">Założenie firmy z kontem</a></div></div>
+    <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a></div></div>
+    <div><h3>Świadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">Zasiłek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
+    <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Wybieram Finanse</span><span>Treści mają charakter informacyjny.</span></div>
+</footer>
+
+  <script src="/assets/js/bank-prefixes.js"></script>
+  <script>
+    (function () {
+      var popularPrefixes = ["1020", "1240", "1090", "1050", "1140", "1160", "2490", "2030", "1940", "1870", "2930", "1320"];
+
+      function setText(id, value) {
+        document.getElementById(id).textContent = value;
+      }
+
+      function showResult(status, statusClass, bank, prefix, clearing, message, transferSupported) {
+        var box = document.getElementById("bank-lookup-result");
+        var badge = document.getElementById("lookup-status");
+        var transferLink = document.getElementById("lookup-transfer-link");
+        box.hidden = false;
+        badge.textContent = status;
+        badge.className = "status-badge " + statusClass;
+        setText("lookup-bank", bank || "-");
+        setText("lookup-prefix", prefix || "-");
+        setText("lookup-clearing", clearing || "-");
+        setText("lookup-status-text", status);
+        setText("lookup-message", message);
+        transferLink.hidden = !transferSupported;
+      }
+
+      function renderPopularPrefixes() {
+        var prefixes = window.WF_BANK_PREFIXES || {};
+        var body = document.getElementById("popular-prefixes-body");
+        body.innerHTML = "";
+        popularPrefixes.forEach(function (prefix) {
+          var bank = prefixes[prefix];
+          if (!bank) return;
+          var row = document.createElement("tr");
+          row.innerHTML =
+            "<td data-label=\"Prefiks\">" + prefix + "</td>" +
+            "<td data-label=\"Bank\"><strong>" + bank.name + "</strong></td>" +
+            "<td data-label=\"Obsługiwany w kalkulatorze przelewów\">" + (bank.supportedInCalculator ? "tak" : "nie") + "</td>";
+          body.appendChild(row);
+        });
+      }
+
+      function handleLookup(event) {
+        event.preventDefault();
+        var utils = window.WF_NRB_UTILS;
+        var input = document.getElementById("account-number").value;
+        var normalized = utils.normalizeAccountNumber(input);
+        var nrb = utils.extractPolishNrb(input);
+
+        if (!normalized || normalized.length < 26 || (normalized.startsWith("PL") && normalized.length < 28)) {
+          showResult("Do uzupełnienia", "status-unknown", "-", "-", "-", "Wpisz pełny numer konta w formacie NRB albo IBAN PL.", false);
+          return;
+        }
+
+        if (!/^\d{26}$/.test(nrb) || !utils.isValidPolishNrb(input)) {
+          showResult("Numer niepoprawny", "status-check", "-", "-", "-", "Numer konta wygląda na niepoprawny. Sprawdź, czy ma 26 cyfr albo format PL + 26 cyfr.", false);
+          return;
+        }
+
+        var info = utils.identifyBank(input);
+        if (!info.bankName) {
+          showResult("Nie rozpoznano banku", "status-unknown", "-", info.prefix || "-", info.clearingNumber || "-", "Numer konta wygląda poprawnie, ale nie rozpoznaliśmy banku albo nie ma go jeszcze w naszej bazie.", false);
+          return;
+        }
+
+        var message = "Rozpoznano bank lub instytucję po numerze rozliczeniowym rachunku.";
+        if (info.supportedInCalculator) {
+          message += " Ten bank jest obsługiwany także w kalkulatorze „Kiedy dojdzie przelew?”.";
+        }
+        showResult("Bank rozpoznany", "status-today", info.bankName, info.prefix, info.clearingNumber, message, info.supportedInCalculator);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        renderPopularPrefixes();
+        document.getElementById("bank-lookup-form").addEventListener("submit", handleLookup);
+      });
+    })();
+  </script>
+  <script>
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
+        });
+      }
+    });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Czy można sprawdzić bank po numerze konta?","acceptedAnswer":{"@type":"Answer","text":"Tak. W polskim numerze rachunku znajduje się numer rozliczeniowy, który pomaga rozpoznać bank albo instytucję."}},
+      {"@type":"Question","name":"Czy można sprawdzić właściciela konta po numerze rachunku?","acceptedAnswer":{"@type":"Answer","text":"Nie. Po numerze konta nie pokazujemy właściciela rachunku. Narzędzie służy tylko do rozpoznania banku."}},
+      {"@type":"Question","name":"Czy numer konta jest zapisywany?","acceptedAnswer":{"@type":"Answer","text":"Nie. Numer konta jest sprawdzany lokalnie w przeglądarce i nie jest wysyłany na serwer."}},
+      {"@type":"Question","name":"Czy narzędzie działa dla numerów IBAN?","acceptedAnswer":{"@type":"Answer","text":"Tak, jeśli jest to polski IBAN zaczynający się od PL i zawierający 26 cyfr numeru NRB."}},
+      {"@type":"Question","name":"Czy narzędzie działa dla zagranicznych kont?","acceptedAnswer":{"@type":"Answer","text":"Nie. Narzędzie skupia się na polskich numerach rachunków NRB i IBAN PL."}},
+      {"@type":"Question","name":"Co to jest NRB?","acceptedAnswer":{"@type":"Answer","text":"NRB to polski numer rachunku bankowego składający się z 26 cyfr."}},
+      {"@type":"Question","name":"Co to jest IBAN?","acceptedAnswer":{"@type":"Answer","text":"IBAN to międzynarodowy format numeru rachunku. Polski IBAN zaczyna się od PL."}},
+      {"@type":"Question","name":"Co oznacza numer rozliczeniowy banku?","acceptedAnswer":{"@type":"Answer","text":"To część numeru rachunku, która pomaga wskazać bank lub instytucję prowadzącą rachunek."}},
+      {"@type":"Question","name":"Czy poprawny numer konta oznacza, że konto istnieje?","acceptedAnswer":{"@type":"Answer","text":"Nie. Poprawna suma kontrolna oznacza tylko, że numer ma poprawną strukturę. Nie potwierdza istnienia rachunku."}},
+      {"@type":"Question","name":"Czy mogę sprawdzić, kiedy dojdzie przelew?","acceptedAnswer":{"@type":"Answer","text":"Tak, do orientacyjnego sprawdzenia czasu standardowego przelewu możesz użyć narzędzia „Kiedy dojdzie przelew?”."}},
+      {"@type":"Question","name":"Dlaczego bank nie został rozpoznany?","acceptedAnswer":{"@type":"Answer","text":"Prefiksu może nie być jeszcze w naszej bazie albo numer może należeć do instytucji, której nie obsługujemy."}},
+      {"@type":"Question","name":"Czy Revolut i ZEN da się rozpoznać po numerze konta?","acceptedAnswer":{"@type":"Answer","text":"Czasem rachunek może wskazywać instytucję obsługującą płatność, ale wynik trzeba traktować ostrożnie. Fintechy nie zawsze działają jak klasyczny bank."}}
+    ]
+  }
+  </script>
+</body>
+</html>

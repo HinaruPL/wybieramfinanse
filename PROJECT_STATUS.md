@@ -1,4 +1,4 @@
-﻿# Wybieram Finanse â€” status projektu
+# Wybieram Finanse â€” status projektu
 
 ## Cel
 Budujemy portal afiliacyjny finansowy pod domenÄ… wybieramfinanse.pl. Strona ma zarabiaÄ‡ na afiliacji finansowej i potencjalnie ubezpieczeniowej.
@@ -376,3 +376,11 @@ Do zrobienia:
 - Sprawdzono sitemap.xml pod kÄ…tem najwaĹĽniejszych adresĂłw.
 - Sprawdzono linki afiliacyjne i zewnÄ™trzne pod kÄ…tem atrybutĂłw rel i target.
 - Revolut osobisty nadal czeka na wĹ‚aĹ›ciwy link afiliacyjny, jeĹ›li taki link zostanie pĂłĹşniej znaleziony.
+## Aktualizacja — 05.06.2026 — narzędzie Jaki to bank?
+
+- Dodano narzędzie /narzedzia/jaki-to-bank/.
+- Narzędzie korzysta z istniejącej bazy prefiksów bankowych /assets/js/bank-prefixes.js.
+- Numer konta jest sprawdzany lokalnie w przeglądarce.
+- Narzędzie nie pokazuje właściciela rachunku.
+- Dodano linkowanie z /narzedzia/ i /narzedzia/kiedy-przelew/.
+- Zaktualizowano sitemap.xml.
