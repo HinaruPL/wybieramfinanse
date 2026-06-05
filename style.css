@@ -68,10 +68,13 @@ a {
 
 .site-logo img,
 .header-logo img,
-.brand-logo {
+.brand-logo,
+.brand-logo img,
+.logo img,
+.navbar-brand img {
   display: block;
-  width: clamp(220px, 18vw, 260px);
-  max-width: 42vw;
+  width: clamp(260px, 22vw, 300px);
+  max-width: 100%;
   height: auto;
 }
 
@@ -381,8 +384,11 @@ h1 {
 
   .site-logo img,
   .header-logo img,
-  .brand-logo {
-    width: 180px;
+  .brand-logo,
+  .brand-logo img,
+  .logo img,
+  .navbar-brand img {
+    width: clamp(190px, 58vw, 220px);
   }
 
   .footer-inner {
