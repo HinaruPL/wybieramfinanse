@@ -384,3 +384,12 @@ Do zrobienia:
 - Narzędzie nie pokazuje właściciela rachunku.
 - Dodano linkowanie z /narzedzia/ i /narzedzia/kiedy-przelew/.
 - Zaktualizowano sitemap.xml.
+
+## Aktualizacja — 05.06.2026 — kalkulator premii bankowej
+
+- Dodano narzędzie /narzedzia/kalkulator-premii-bankowej/.
+- Narzędzie liczy szacowany bilans promocji bankowej po uwzględnieniu premii, nagrody niepieniężnej i kosztów.
+- Dodano ocenę trudności warunków promocji.
+- Dodano statusy wizualne opłacalności i trudności.
+- Dodano linkowanie z rankingów i narzędzi.
+- Zaktualizowano sitemap.xml.

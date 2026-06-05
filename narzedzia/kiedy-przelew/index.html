@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -234,7 +234,7 @@
             <a href="/rankingi/konta-osobiste/" class="btn secondary">Konta osobiste</a>
             <a href="/rankingi/konta-firmowe/" class="btn secondary">Konta firmowe</a>
             <a href="/poradniki/" class="btn secondary">Poradniki</a>
-            <a href="/narzedzia/jaki-to-bank/" class="btn secondary" data-tool-card="jaki-to-bank">Jaki to bank?</a><a href="/kontakt/" class="btn secondary">Kontakt</a>
+            <a href="/narzedzia/jaki-to-bank/" class="btn secondary" data-tool-card="jaki-to-bank">Jaki to bank?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/kontakt/" class="btn secondary">Kontakt</a>
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
     <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porĂłwnania finansowe.</p></div>
     <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spĂłĹ‚ki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
     <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spĂłĹ‚ki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">ZaĹ‚oĹĽenie firmy z kontem</a></div></div>
-    <div><h3>NarzÄ™dzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a></div></div>
+    <div><h3>NarzÄ™dzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a></div></div>
     <div><h3>Ĺšwiadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">ZasiĹ‚ek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
     <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatnoĹ›ci</a><a href="#" class="privacy-settings-link">Ustawienia prywatnoĹ›ci</a></div></div>
   </div>
@@ -372,11 +372,11 @@
             var outgoing = bank.outgoing && bank.outgoing.length ? bank.outgoing.join(", ") : "brak danych";
             var incoming = bank.incomingDisplay && bank.incomingDisplay.length ? bank.incomingDisplay.join(", ") : (bank.incoming && bank.incoming.length ? bank.incoming.join(", ") : "brak danych");
             row.innerHTML =
-              "<td data-label=\"Bank\"><strong>" + bank.name + "</strong></td>" +
-              "<td data-label=\"Sesje wychodzÄ…ce\">" + outgoing + "</td>" +
-              "<td data-label=\"Sesje przychodzÄ…ce\">" + incoming + "</td>" +
-              "<td data-label=\"Uwagi\">" + (bank.notes || "-") + "</td>" +
-              "<td data-label=\"Status weryfikacji\"><span class=\"verification-badge\">" + getVerificationLabel(bank.verification) + "</span></td>";
+              "<td data-label="Bank"><strong>" + bank.name + "</strong></td>" +
+              "<td data-label="Sesje wychodzÄ…ce">" + outgoing + "</td>" +
+              "<td data-label="Sesje przychodzÄ…ce">" + incoming + "</td>" +
+              "<td data-label="Uwagi">" + (bank.notes || "-") + "</td>" +
+              "<td data-label="Status weryfikacji"><span class="verification-badge">" + getVerificationLabel(bank.verification) + "</span></td>";
             body.appendChild(row);
           });
       }
