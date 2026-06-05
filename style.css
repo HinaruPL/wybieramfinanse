@@ -1002,6 +1002,42 @@ h1 {
   letter-spacing: -0.03em;
 }
 
+.segmented-control {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px;
+  margin: 0 0 22px;
+  background: #eef2f7;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.segment-button {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 16px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.segment-button.active {
+  background: var(--white);
+  color: var(--navy);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+}
+
+.transfer-mode-grid {
+  grid-template-columns: 1fr;
+}
+
+.session-filter-panel {
+  margin-bottom: 18px;
+}
+
 .tool-form {
   display: grid;
   gap: 16px;

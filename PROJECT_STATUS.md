@@ -442,3 +442,11 @@ Do zrobienia:
 - poprawiono teksty z mojibake w menu, stopce, meta tagach i tre?ciach,
 - powi?kszono logo w nag??wku,
 - sprawdzono najwa?niejsze strony po zmianach.
+
+## Aktualizacja - 05.06.2026 - naprawa kalkulatora Kiedy przelew i sesje Elixir
+
+- Naprawiono i rozbudowano sekcję narzędzi: przywrócono działanie kalkulatora „Kiedy przelew?”, dodano przełącznik trybu po nazwie banku / po numerze konta, wydzielono tabelę sesji Elixir na osobną podstronę /narzedzia/sesje-elixir/ oraz poprawiono linkowanie w narzędziach.
+- Przyczyną awarii był błędny inline script na stronie /narzedzia/kiedy-przelew/, który miał nieucieczone cudzysłowy przy renderowaniu tabeli sesji.
+- Dodano stronę /narzedzia/sesje-elixir/ z tabelą sesji banków i filtrowaniem po nazwie banku.
+- Dodano linkowanie do /narzedzia/sesje-elixir/ z centrum narzędzi, strony głównej, kalkulatora przelewu i stopek.
+- Zaktualizowano sitemap.xml.

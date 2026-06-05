@@ -66,7 +66,7 @@
           <p class="hero-text">Wybierz bank nadawcy i odbiorcy albo wpisz numery kont. Kalkulator pokaże orientacyjny termin, w którym standardowy przelew Elixir może zostać zaksięgowany.</p>
           <div class="hero-actions">
             <a href="#kalkulator" class="btn primary">Sprawdź przelew</a>
-            <a href="#sesje-bankow" class="btn secondary">Sesje banków</a>
+            <a href="/narzedzia/sesje-elixir/" class="btn secondary">Sesje Elixir banków</a>
           </div>
         </div>
         <div class="hero-card">
@@ -96,8 +96,13 @@
           <p>Możesz wybrać banki ręcznie albo wpisać numery kont. Numery służą tylko do lokalnego rozpoznania banku.</p>
         </div>
 
-        <div class="tool-grid">
-          <article class="tool-panel">
+        <div class="segmented-control transfer-mode-switch" role="tablist" aria-label="Tryb sprawdzania przelewu">
+          <button type="button" class="segment-button active" data-transfer-mode="bank" aria-pressed="true">Po nazwie banku</button>
+          <button type="button" class="segment-button" data-transfer-mode="account" aria-pressed="false">Po numerze konta</button>
+        </div>
+
+        <div class="tool-grid transfer-mode-grid">
+          <article class="tool-panel transfer-mode-panel" id="bank-mode-panel" data-transfer-panel="bank">
             <h3>Sprawdź przelew po bankach</h3>
             <form id="bank-form" class="tool-form">
               <label>
@@ -122,7 +127,7 @@
             </form>
           </article>
 
-          <article class="tool-panel">
+          <article class="tool-panel transfer-mode-panel" id="account-mode-panel" data-transfer-panel="account" hidden>
             <h3>Sprawdź przelew po numerach kont</h3>
             <form id="account-form" class="tool-form">
               <label>
@@ -163,6 +168,8 @@
             <div><dt>Bank odbiorcy</dt><dd id="result-receiver">-</dd></div>
             <div><dt>Przelew wysłany</dt><dd id="result-sent-at">-</dd></div>
             <div><dt>Szacowany termin księgowania</dt><dd id="result-estimated">-</dd></div>
+            <div><dt>Przewidywana najbliższa sesja</dt><dd id="result-session">-</dd></div>
+            <div><dt>Aktualna godzina u Ciebie</dt><dd id="result-current-time">-</dd></div>
             <div><dt>Do przewidywanego księgowania zostało</dt><dd id="result-countdown">-</dd></div>
           </dl>
           <p id="result-description" class="result-description"></p>
@@ -173,24 +180,13 @@
 
     <section id="sesje-bankow" class="section section-light">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Baza danych</p>
-          <h2>Sesje Elixir banków</h2>
-          <p>Godziny sesji mogą się zmieniać. Przed ważnym przelewem sprawdź aktualne informacje w swoim banku.</p>
-        </div>
-        <div class="table-wrap">
-          <table class="ranking-table tool-table">
-            <thead>
-              <tr>
-                <th>Bank</th>
-                <th>Sesje wychodzące</th>
-                <th>Sesje przychodzące</th>
-                <th>Uwagi</th>
-                <th>Status weryfikacji</th>
-              </tr>
-            </thead>
-            <tbody id="sessions-table-body"></tbody>
-          </table>
+        <div class="wide-card">
+          <div>
+            <p class="eyebrow">Tabela sesji</p>
+            <h2>Sesje Elixir banków są na osobnej stronie</h2>
+            <p>Pełną tabelę sesji wychodzących i przychodzących przenieśliśmy do osobnej podstrony z filtrowaniem po nazwie banku.</p>
+          </div>
+          <a href="/narzedzia/sesje-elixir/" class="btn primary">Zobacz sesje Elixir banków</a>
         </div>
         <p class="tool-note">W wersji startowej kalkulator uwzględnia weekendy i podstawowe dni wolne. Święta ruchome mogą wymagać dodatkowej aktualizacji.</p>
       </div>
@@ -282,249 +278,16 @@
     <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porównania finansowe.</p></div>
     <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
     <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">Założenie firmy z kontem</a></div></div>
-    <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/">Kalkulator kosztu konta osobistego</a><a href="/narzedzia/kalendarz-swiadczen/">Kalendarz świadczeń</a><a href="/narzedzia/kalkulator-budzetu-domowego/">Kalkulator budżetu domowego</a></div></div>
+    <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/sesje-elixir/">Sesje Elixir banków</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/">Kalkulator kosztu konta osobistego</a><a href="/narzedzia/kalendarz-swiadczen/">Kalendarz świadczeń</a><a href="/narzedzia/kalkulator-budzetu-domowego/">Kalkulator budżetu domowego</a></div></div>
     <div><h3>Świadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">Zasiłek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
     <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div>
   </div>
   <div class="container footer-bottom"><span>© 2026 Wybieram Finanse</span><span>Treści mają charakter informacyjny.</span></div>
 </footer>
 
-  <script src="/assets/js/bank-sessions.js"></script>
-  <script src="/assets/js/bank-prefixes.js"></script>
-  <script src="/assets/js/kiedy-przelew.js"></script>
-  <script>
-    (function () {
-      var banks = window.WF_BANK_SESSIONS || {};
-      var nrbUtils = window.WF_NRB_UTILS;
-      var calculator = window.WF_TRANSFER_CALCULATOR;
-      var countdownTimer = null;
-      var lastEstimatedAt = null;
-
-      var statusClassMap = {
-        "today": "status-today",
-        "next-business-day": "status-next",
-        "after-weekend-or-holiday": "status-holiday",
-        "internal": "status-internal",
-        "dependent": "status-dependent",
-        "check-next-session": "status-check",
-        "unknown": "status-unknown"
-      };
-
-      function pad(value) {
-        return String(value).padStart(2, "0");
-      }
-
-      function formatInputDate(date) {
-        return date.getFullYear() + "-" + pad(date.getMonth() + 1) + "-" + pad(date.getDate());
-      }
-
-      function formatInputTime(date) {
-        return pad(date.getHours()) + ":" + pad(date.getMinutes());
-      }
-
-      function parseLocalDateTime(dateValue, timeValue) {
-        var parts = String(dateValue).split("-").map(Number);
-        var time = String(timeValue).split(":").map(Number);
-        return new Date(parts[0], parts[1] - 1, parts[2], time[0], time[1], 0, 0);
-      }
-
-      function getSupportedBankEntries() {
-        return Object.entries(banks)
-          .filter(function (entry) {
-            var bank = entry[1];
-            if (bank.supportedInCalculator === false) return false;
-            if (bank.special) return true;
-            return (bank.outgoing && bank.outgoing.length) || (bank.incoming && bank.incoming.length);
-          })
-          .sort(function (a, b) { return a[1].name.localeCompare(b[1].name, "pl"); });
-      }
-
-      function fillSelect(select) {
-        select.innerHTML = "";
-        getSupportedBankEntries().forEach(function (entry) {
-          var option = document.createElement("option");
-          option.value = entry[0];
-          option.textContent = entry[1].name;
-          select.appendChild(option);
-        });
-      }
-
-      function getVerificationLabel(value) {
-        var labels = {
-          high: "zweryfikowane wstępnie",
-          medium: "do okresowej kontroli",
-          low: "wymaga ręcznej weryfikacji",
-          "prefix-only": "tylko rozpoznawanie po numerze konta",
-          special: "specjalna obsługa"
-        };
-        return labels[value] || "do okresowej kontroli";
-      }
-
-      function renderSessionsTable() {
-        var body = document.getElementById("sessions-table-body");
-        body.innerHTML = "";
-        Object.entries(banks)
-          .sort(function (a, b) { return a[1].name.localeCompare(b[1].name, "pl"); })
-          .forEach(function (entry) {
-            var bank = entry[1];
-            var row = document.createElement("tr");
-            var outgoing = bank.outgoing && bank.outgoing.length ? bank.outgoing.join(", ") : "brak danych";
-            var incoming = bank.incomingDisplay && bank.incomingDisplay.length ? bank.incomingDisplay.join(", ") : (bank.incoming && bank.incoming.length ? bank.incoming.join(", ") : "brak danych");
-            row.innerHTML =
-              "<td data-label="Bank"><strong>" + bank.name + "</strong></td>" +
-              "<td data-label="Sesje wychodzące">" + outgoing + "</td>" +
-              "<td data-label="Sesje przychodzące">" + incoming + "</td>" +
-              "<td data-label="Uwagi">" + (bank.notes || "-") + "</td>" +
-              "<td data-label="Status weryfikacji"><span class="verification-badge">" + getVerificationLabel(bank.verification) + "</span></td>";
-            body.appendChild(row);
-          });
-      }
-
-      function renderClock() {
-        var clock = document.getElementById("current-time");
-        setInterval(function () {
-          var now = new Date();
-          clock.textContent = pad(now.getHours()) + ":" + pad(now.getMinutes()) + ":" + pad(now.getSeconds());
-        }, 1000);
-        var now = new Date();
-        clock.textContent = pad(now.getHours()) + ":" + pad(now.getMinutes()) + ":" + pad(now.getSeconds());
-      }
-
-      function setDefaultDateTime() {
-        var now = new Date();
-        ["bank-date", "account-date"].forEach(function (id) { document.getElementById(id).value = formatInputDate(now); });
-        ["bank-time", "account-time"].forEach(function (id) { document.getElementById(id).value = formatInputTime(now); });
-      }
-
-      function updateCountdown() {
-        var countdown = document.getElementById("result-countdown");
-        if (!lastEstimatedAt) {
-          countdown.textContent = "nie dotyczy";
-          return;
-        }
-        var parts = calculator.getCountdownParts(lastEstimatedAt, new Date());
-        if (parts.expired) {
-          countdown.textContent = "Szacowany czas księgowania już minął. Sprawdź saldo lub historię rachunku. Jeśli przelewu nie ma, może zostać zaksięgowany w kolejnej sesji albo następnego dnia roboczego.";
-          document.getElementById("result-status").textContent = calculator.STATUS_LABELS["check-next-session"];
-          document.getElementById("result-status").className = "status-badge status-check";
-          return;
-        }
-        countdown.textContent = calculator.formatCountdown(parts);
-      }
-
-      function renderManualResult(sender, receiver, sentAt, message) {
-        lastEstimatedAt = null;
-        if (countdownTimer) window.clearInterval(countdownTimer);
-        document.getElementById("result-box").hidden = false;
-        document.getElementById("result-status").textContent = calculator.STATUS_LABELS.unknown;
-        document.getElementById("result-status").className = "status-badge status-unknown";
-        document.getElementById("result-sender").textContent = sender ? sender.name : "-";
-        document.getElementById("result-receiver").textContent = receiver ? receiver.name : "-";
-        document.getElementById("result-sent-at").textContent = calculator.formatDateTimePL(sentAt);
-        document.getElementById("result-estimated").textContent = "wymaga ręcznej weryfikacji";
-        document.getElementById("result-countdown").textContent = "nie dotyczy";
-        document.getElementById("result-description").textContent = message;
-      }
-
-      function renderResult(result, sentAt) {
-        var box = document.getElementById("result-box");
-        var status = document.getElementById("result-status");
-        var statusKey = result.visualStatus || "unknown";
-        if (result.type === "elixir" && result.estimatedAt) {
-          if (!calculator.isBusinessDay(sentAt)) {
-            statusKey = "after-weekend-or-holiday";
-          } else if (result.estimatedAt.toDateString() === sentAt.toDateString()) {
-            statusKey = "today";
-          } else {
-            statusKey = "next-business-day";
-          }
-        }
-        var label = calculator.STATUS_LABELS[statusKey] || calculator.STATUS_LABELS.unknown;
-        lastEstimatedAt = result.type === "elixir" ? (result.estimatedAt || null) : null;
-        if (countdownTimer) window.clearInterval(countdownTimer);
-
-        box.hidden = false;
-        status.textContent = label;
-        status.className = "status-badge " + (statusClassMap[statusKey] || "status-unknown");
-        document.getElementById("result-sender").textContent = result.sender ? result.sender.name : "-";
-        document.getElementById("result-receiver").textContent = result.receiver ? result.receiver.name : "-";
-        document.getElementById("result-sent-at").textContent = calculator.formatDateTimePL(sentAt);
-        document.getElementById("result-estimated").textContent = result.estimatedDisplay || "wymaga ręcznej weryfikacji";
-        document.getElementById("result-description").textContent = result.message || "Wynik jest orientacyjny.";
-
-        if (result.type === "special") {
-          document.getElementById("result-description").textContent = "Czas przelewu zależy od typu rachunku, waluty, danych przelewu i operatora płatności. Revolut i ZEN nie zawsze działają jak klasyczny bank z trzema sesjami Elixir.";
-        }
-
-        updateCountdown();
-        countdownTimer = window.setInterval(updateCountdown, 1000);
-        box.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-
-      function calculateByIds(senderId, receiverId, sentAt) {
-        var sender = banks[senderId];
-        var receiver = banks[receiverId];
-        if (!sender || !receiver) {
-          renderManualResult(sender, receiver, sentAt, "Nie udało się rozpoznać banku nadawcy albo odbiorcy.");
-          return;
-        }
-        if ((!sender.special && (!sender.outgoing || !sender.outgoing.length)) || (!receiver.special && (!receiver.incoming || !receiver.incoming.length))) {
-          renderManualResult(sender, receiver, sentAt, "Bank został rozpoznany, ale nie ma jeszcze kompletnych danych sesji w kalkulatorze.");
-          return;
-        }
-        var result = calculator.calculate({ senderId: senderId, receiverId: receiverId, sentAt: sentAt, now: new Date() });
-        if (!result.ok) {
-          renderManualResult(sender, receiver, sentAt, result.message || "Wynik wymaga ręcznej weryfikacji.");
-          return;
-        }
-        renderResult(result, sentAt);
-      }
-
-      function describeAccount(input, label) {
-        var info = nrbUtils.identifyBank(input);
-        if (!info.normalizedNrb || !/^\d{26}$/.test(info.normalizedNrb) || !info.isValid) {
-          return { ok: false, message: "Numer konta wygląda na niepoprawny. Sprawdź, czy ma 26 cyfr albo format PL + 26 cyfr." };
-        }
-        if (!info.bankId || !banks[info.bankId]) {
-          return { ok: false, validUnknown: true, message: "Numer konta wygląda poprawnie, ale nie rozpoznaliśmy banku albo nie ma go jeszcze w kalkulatorze." };
-        }
-        return { ok: true, bankId: info.bankId, message: "Rozpoznany bank " + label + ": " + banks[info.bankId].name };
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        fillSelect(document.getElementById("sender-bank"));
-        fillSelect(document.getElementById("receiver-bank"));
-        renderSessionsTable();
-        renderClock();
-        setDefaultDateTime();
-
-        document.getElementById("sender-bank").value = "mbank";
-        document.getElementById("receiver-bank").value = "pko-bp";
-
-        document.getElementById("bank-form").addEventListener("submit", function (event) {
-          event.preventDefault();
-          var sentAt = parseLocalDateTime(document.getElementById("bank-date").value, document.getElementById("bank-time").value);
-          calculateByIds(document.getElementById("sender-bank").value, document.getElementById("receiver-bank").value, sentAt);
-        });
-
-        document.getElementById("account-form").addEventListener("submit", function (event) {
-          event.preventDefault();
-          var sender = describeAccount(document.getElementById("sender-account").value, "nadawcy");
-          var receiver = describeAccount(document.getElementById("receiver-account").value, "odbiorcy");
-          var recognition = document.getElementById("account-recognition");
-          recognition.innerHTML = "";
-          [sender, receiver].forEach(function (item) {
-            var p = document.createElement("p");
-            p.textContent = item.message;
-            recognition.appendChild(p);
-          });
-          if (!sender.ok || !receiver.ok) return;
-          var sentAt = parseLocalDateTime(document.getElementById("account-date").value, document.getElementById("account-time").value);
-          calculateByIds(sender.bankId, receiver.bankId, sentAt);
-        });
-      });
-    })();
-  </script>
+  <script defer src="/assets/js/bank-sessions.js"></script>
+  <script defer src="/assets/js/bank-prefixes.js"></script>
+  <script defer src="/assets/js/kiedy-przelew.js"></script>
   <script>
     window.googlefc = window.googlefc || {};
     window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];

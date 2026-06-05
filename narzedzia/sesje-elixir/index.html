@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWY5T45BG6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QWY5T45BG6');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Sesje Elixir banków 2026 – tabela godzin przelewów | Wybieram Finanse</title>
+  <meta name="description" content="Sprawdź sesje Elixir banków w Polsce. Tabela sesji wychodzących i przychodzących z filtrowaniem po nazwie banku." />
+  <link rel="canonical" href="https://wybieramfinanse.pl/narzedzia/sesje-elixir/" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sesje Elixir banków 2026 – tabela godzin przelewów" />
+  <meta property="og:description" content="Sprawdź sesje wychodzące i przychodzące banków z filtrowaniem po nazwie." />
+  <meta property="og:url" content="https://wybieramfinanse.pl/narzedzia/sesje-elixir/" />
+  <meta property="og:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <meta property="og:site_name" content="Wybieram Finanse" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sesje Elixir banków" />
+  <meta name="twitter:description" content="Tabela godzin przelewów Elixir z filtrowaniem po nazwie banku." />
+  <meta name="twitter:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="site-logo"><img src="/assets/brand/logo.svg" alt="Wybieram Finanse"></a>
+      <nav class="main-nav">
+        <a href="/rankingi/">Rankingi</a>
+        <a href="/dla-firm/">Dla firm</a>
+        <a href="/swiadczenia/">Świadczenia</a>
+        <a href="/narzedzia/">Narzędzia</a>
+        <a href="/poradniki/">Poradniki</a>
+        <a href="/o-nas/">O nas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/narzedzia/">Narzędzia</a></li>
+          <li>Sesje Elixir banków</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Tabela sesji</p>
+          <h1>Sesje Elixir banków</h1>
+          <p class="hero-text">Sprawdź orientacyjne godziny sesji wychodzących i przychodzących banków. Wpisz nazwę banku w filtrze, żeby szybciej znaleźć interesującą pozycję.</p>
+          <div class="hero-actions">
+            <a href="#tabela-sesji" class="btn primary">Przejdź do tabeli</a>
+            <a href="/narzedzia/kiedy-przelew/" class="btn secondary">Kalkulator przelewu</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Ważne</h2>
+          <p>Godziny sesji mogą się zmieniać. Przed ważnym przelewem sprawdź aktualne informacje w swoim banku. Tabela ma charakter informacyjny.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabela-sesji" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Banki w Polsce</p>
+          <h2>Tabela sesji wychodzących i przychodzących</h2>
+          <p>Filtr działa lokalnie w przeglądarce i nie przeładowuje strony.</p>
+        </div>
+
+        <div class="tool-panel session-filter-panel">
+          <label class="tool-form">
+            Filtruj po nazwie banku
+            <input id="session-bank-filter" type="search" placeholder="np. mBank, PKO BP, ING" autocomplete="off">
+          </label>
+          <p id="sessions-no-results" class="tool-message muted" hidden>Nie znaleziono banku w tabeli.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table class="ranking-table tool-table">
+            <thead>
+              <tr>
+                <th>Bank</th>
+                <th>Sesje wychodzące</th>
+                <th>Sesje przychodzące</th>
+                <th>Uwagi</th>
+                <th>Status weryfikacji</th>
+              </tr>
+            </thead>
+            <tbody id="sessions-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="wide-card">
+          <div>
+            <p class="eyebrow">Kalkulator</p>
+            <h2>Chcesz policzyć konkretny przelew?</h2>
+            <p>Użyj kalkulatora „Kiedy dojdzie przelew?”, który łączy sesje banku nadawcy i odbiorcy oraz uwzględnia weekendy i podstawowe dni wolne.</p>
+          </div>
+          <a href="/narzedzia/kiedy-przelew/" class="btn primary">Sprawdź przelew</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Jak to czytać?</p>
+          <h2>Czym są sesje Elixir?</h2>
+          <p>Sesja wychodząca to moment, w którym bank nadawcy przekazuje przelew dalej. Sesja przychodząca to moment, w którym bank odbiorcy księguje środki. Standardowe przelewy Elixir są rozliczane w dni robocze, więc przelew wysłany po ostatniej sesji albo w weekend może dotrzeć później.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Najczęstsze pytania</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Co to jest sesja Elixir?</summary><p>To jedna z godzin, w których standardowe przelewy międzybankowe w PLN są wysyłane lub księgowane przez banki.</p></details>
+          <details><summary>Czym różni się sesja wychodząca od przychodzącej?</summary><p>Sesja wychodząca dotyczy banku nadawcy, a przychodząca banku odbiorcy.</p></details>
+          <details><summary>Czy sesje Elixir działają w weekend?</summary><p>Standardowe przelewy Elixir zwykle są rozliczane w dni robocze, nie w soboty i niedziele.</p></details>
+          <details><summary>Czy godziny w tabeli są pewne?</summary><p>Nie. Tabela ma charakter informacyjny, a godziny mogą się zmieniać. Przed ważnym przelewem sprawdź bank.</p></details>
+          <details><summary>Dlaczego Revolut i ZEN mają specjalny opis?</summary><p>Nie zawsze działają jak klasyczny bank z trzema sesjami Elixir. Czas zależy od typu rachunku, waluty i operatora płatności.</p></details>
+          <details><summary>Co oznacza „do weryfikacji”?</summary><p>To znaczy, że dane wymagają ręcznego sprawdzenia albo uzupełnienia przed użyciem przy ważnej decyzji.</p></details>
+          <details><summary>Czy mogę sprawdzić, kiedy dojdzie konkretny przelew?</summary><p>Tak, przejdź do kalkulatora „Kiedy dojdzie przelew?” i wybierz bank nadawcy oraz odbiorcy.</p></details>
+          <details><summary>Czy tabela obejmuje Express Elixir?</summary><p>Nie. Tabela dotyczy standardowych przelewów Elixir. Przelewy natychmiastowe działają inaczej.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Linki</p>
+          <h2>Przydatne strony</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Narzędzia finansowe</h3><p>Wróć do centrum kalkulatorów i sprawdzarek.</p><a href="/narzedzia/" class="card-link">Zobacz narzędzia →</a></article>
+          <article class="card"><h3>Kiedy dojdzie przelew?</h3><p>Sprawdź orientacyjnie, kiedy przelew może dotrzeć do odbiorcy.</p><a href="/narzedzia/kiedy-przelew/" class="card-link">Otwórz kalkulator →</a></article>
+          <article class="card"><h3>Jaki to bank?</h3><p>Sprawdź bank po numerze konta, bez zapisywania danych.</p><a href="/narzedzia/jaki-to-bank/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Rankingi</h3><p>Porównaj konta osobiste i firmowe.</p><a href="/rankingi/" class="card-link">Zobacz rankingi →</a></article>
+          <article class="card"><h3>Poradniki</h3><p>Przeczytaj proste poradniki finansowe.</p><a href="/poradniki/" class="card-link">Zobacz poradniki →</a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porównania finansowe.</p></div>
+      <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
+      <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">Założenie firmy z kontem</a></div></div>
+      <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/sesje-elixir/">Sesje Elixir banków</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/narzedzia/kalkulator-budzetu-domowego/">Kalkulator budżetu domowego</a></div></div>
+      <div><h3>Świadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">Zasiłek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
+      <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Wybieram Finanse</span><span>Treści mają charakter informacyjny.</span></div>
+  </footer>
+
+  <script defer src="/assets/js/bank-sessions.js"></script>
+  <script defer src="/assets/js/sesje-elixir.js"></script>
+  <script>
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
+        });
+      }
+    });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Co to jest sesja Elixir?","acceptedAnswer":{"@type":"Answer","text":"To jedna z godzin, w których standardowe przelewy międzybankowe w PLN są wysyłane lub księgowane przez banki."}},
+      {"@type":"Question","name":"Czym różni się sesja wychodząca od przychodzącej?","acceptedAnswer":{"@type":"Answer","text":"Sesja wychodząca dotyczy banku nadawcy, a przychodząca banku odbiorcy."}},
+      {"@type":"Question","name":"Czy sesje Elixir działają w weekend?","acceptedAnswer":{"@type":"Answer","text":"Standardowe przelewy Elixir zwykle są rozliczane w dni robocze, nie w soboty i niedziele."}},
+      {"@type":"Question","name":"Czy godziny w tabeli są pewne?","acceptedAnswer":{"@type":"Answer","text":"Nie. Tabela ma charakter informacyjny, a godziny mogą się zmieniać. Przed ważnym przelewem sprawdź bank."}},
+      {"@type":"Question","name":"Dlaczego Revolut i ZEN mają specjalny opis?","acceptedAnswer":{"@type":"Answer","text":"Nie zawsze działają jak klasyczny bank z trzema sesjami Elixir. Czas zależy od typu rachunku, waluty i operatora płatności."}},
+      {"@type":"Question","name":"Co oznacza „do weryfikacji”?","acceptedAnswer":{"@type":"Answer","text":"To znaczy, że dane wymagają ręcznego sprawdzenia albo uzupełnienia przed użyciem przy ważnej decyzji."}},
+      {"@type":"Question","name":"Czy mogę sprawdzić, kiedy dojdzie konkretny przelew?","acceptedAnswer":{"@type":"Answer","text":"Tak, przejdź do kalkulatora „Kiedy dojdzie przelew?” i wybierz bank nadawcy oraz odbiorcy."}},
+      {"@type":"Question","name":"Czy tabela obejmuje Express Elixir?","acceptedAnswer":{"@type":"Answer","text":"Nie. Tabela dotyczy standardowych przelewów Elixir. Przelewy natychmiastowe działają inaczej."}}
+    ]
+  }
+  </script>
+</body>
+</html>
