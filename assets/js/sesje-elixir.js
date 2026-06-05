@@ -43,11 +43,11 @@
   }
 
   function initFilter(rows) {
-    const filter = document.getElementById("session-bank-filter");
+    const filter = document.querySelector("#bank-session-search") || document.querySelector("#session-bank-filter");
     const noResults = document.getElementById("sessions-no-results");
     if (!filter) return;
 
-    filter.addEventListener("input", () => {
+    const handleFilter = () => {
       const query = filter.value.trim().toLowerCase();
       let visible = 0;
       rows.forEach((row) => {
@@ -56,7 +56,10 @@
         if (matches) visible += 1;
       });
       if (noResults) noResults.hidden = visible !== 0;
-    });
+    };
+
+    filter.addEventListener("input", handleFilter);
+    filter.addEventListener("change", handleFilter);
   }
 
   function initSessionsPage() {

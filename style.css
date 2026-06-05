@@ -1042,6 +1042,19 @@ h1 {
 
 .session-filter-panel {
   margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.session-filter-panel input[type="search"] {
+  min-height: 52px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.tool-table tr[hidden] {
+  display: none !important;
 }
 
 .tool-form {
