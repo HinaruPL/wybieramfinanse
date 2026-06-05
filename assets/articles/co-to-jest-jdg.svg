@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Co to jest JDG?</title>
+  <desc id="desc">Neutralna grafika hero Wybieram Finanse do artykułu.</desc>
+  <rect width="1200" height="630" fill="#f6fbf8"/>
+  <circle cx="1010" cy="105" r="190" fill="#dff4e8" opacity="0.85"/>
+  <circle cx="150" cy="540" r="150" fill="#e7eef8" opacity="0.9"/>
+  <g fill="none" stroke="#123047" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"><rect x="260" y="205" width="300" height="260" rx="28"/><path d="M330 465V270h160v195"/><path d="M345 315h40M430 315h40M345 365h40M430 365h40"/><rect x="650" y="230" width="260" height="190" rx="24"/><path d="M700 295h160M700 350h110"/><circle cx="570" cy="180" r="42"/></g>
+  <rect x="130" y="105" width="190" height="54" rx="27" fill="#0f8f5f" opacity="0.18"/>
+  <rect x="835" y="500" width="230" height="54" rx="27" fill="#0f8f5f" opacity="0.18"/>
+  <text x="90" y="570" fill="#123047" font-family="Arial, sans-serif" font-size="38" font-weight="700">Co to jest JDG</text>
+  <text x="90" y="610" fill="#0f8f5f" font-family="Arial, sans-serif" font-size="24" font-weight="700">Wybieram Finanse</text>
+</svg>

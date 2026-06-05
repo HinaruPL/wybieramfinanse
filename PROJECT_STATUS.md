@@ -458,3 +458,14 @@ Do zrobienia:
 - Powiększono logo w nagłówku na desktopie, tablecie i mobile.
 - Dopracowano strony narzędziowe /narzedzia/sesje-elixir/ i /narzedzia/jaki-to-bank/ pod kątem treści widocznych w HTML.
 - Sprawdzono linkowanie i sitemapę narzędzi.
+
+
+## Aktualizacja - 05.06.2026 - duży klaster poradnikowy
+
+Dodano duży klaster poradnikowy:
+- artykuły o przelewach, sesjach Elixir, przelewach weekendowych, Express Elixir, BlueCash i rozpoznawaniu banku po numerze konta,
+- artykuły o JDG, spółce z o.o., rodzajach spółek, różnicach między JDG a spółką, zakładaniu JDG, zakładaniu spółki z o.o. i działalności nierejestrowanej,
+- dodano link afiliacyjny do artykułu o Revolut dla osób prywatnych,
+- uzupełniono linkowanie między poradnikami, narzędziami i stronami firmowymi,
+- zaktualizowano /poradniki/, /dla-firm/, /narzedzia/, /rankingi/ oraz sitemap.xml,
+- dodano własne grafiki hero SVG dla nowych artykułów poradnikowych.
