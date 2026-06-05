@@ -403,3 +403,12 @@ Do zrobienia:
 - Dodano statusy wizualne kosztu i bilansu.
 - Dodano linkowanie z rankingu kont osobistych i narzędzi.
 - Zaktualizowano sitemap.xml.
+
+
+## Aktualizacja - 05.06.2026 - kalendarz świadczeń
+
+- Dodano narzędzie /narzedzia/kalendarz-swiadczen/.
+- Narzędzie pomaga sprawdzić podstawowe terminy, miejsca składania wniosków i dokumenty.
+- Dodano dane dla głównych świadczeń i dodatków.
+- Dodano linkowanie z działu /swiadczenia/ i /narzedzia/.
+- Zaktualizowano sitemap.xml.
