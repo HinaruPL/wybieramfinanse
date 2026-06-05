@@ -423,3 +423,15 @@ Do zrobienia:
 - Dodano komunikaty i podpowiedzi.
 - Dodano linkowanie z narzędzi, świadczeń i poradników.
 - Zaktualizowano sitemap.xml.
+## Aktualizacja - 05.06.2026 - audyt i uporzadkowanie sekcji narzedzi
+
+- Sprawdzono wszystkie istniejace narzedzia w sekcji /narzedzia/.
+- Przebudowano /narzedzia/ jako czytelne centrum narzedzi finansowych z logicznymi grupami.
+- Dodano logiczne grupy narzedzi: najpopularniejsze, kalkulatory kont i promocji, swiadczenia i domowe finanse oraz narzedzia bankowe.
+- Poprawiono linkowanie miedzy narzedziami i powiazanymi rankingami.
+- Dodano lub poprawiono sekcje "Powiazane narzedzia" na stronach narzedzi.
+- Sprawdzono komunikaty bezpieczenstwa i prywatnosci, w tym przetwarzanie numerow kont lokalnie w przegladarce.
+- Sprawdzono sitemap.xml i zaktualizowano daty zmienionych stron narzedzi.
+- Sprawdzono podstawowe SEO, GA4, AdSense, meta referrer, OG/Twitter i FAQ Schema na stronach narzedzi.
+- Wykonano testy funkcjonalne istniejacych narzedzi.
+- Strona /narzedzia/kalkulator-kosztu-konta-firmowego/ jest wymieniana w planach, ale nie ma jej jeszcze w repozytorium, wiec nie dodano martwych linkow ani wpisu do sitemap.xml.
