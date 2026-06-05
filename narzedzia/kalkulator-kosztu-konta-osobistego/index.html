@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWY5T45BG6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QWY5T45BG6');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Kalkulator kosztu konta osobistego – sprawdź, ile zapłacisz za konto | Wybieram Finanse</title>
+  <meta name="description" content="Oblicz szacowany miesięczny i roczny koszt konta osobistego. Uwzględnij opłatę za konto, kartę, bankomaty, przelewy i premię bankową." />
+  <link rel="canonical" href="https://wybieramfinanse.pl/narzedzia/kalkulator-kosztu-konta-osobistego/" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kalkulator kosztu konta osobistego" />
+  <meta property="og:description" content="Oblicz szacowany miesięczny i roczny koszt konta osobistego oraz możliwy bilans po premii." />
+  <meta property="og:url" content="https://wybieramfinanse.pl/narzedzia/kalkulator-kosztu-konta-osobistego/" />
+  <meta property="og:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <meta property="og:site_name" content="Wybieram Finanse" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kalkulator kosztu konta osobistego" />
+  <meta name="twitter:description" content="Sprawdź szacowany koszt konta, karty, bankomatów i przelewów." />
+  <meta name="twitter:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="site-logo"><img src="/assets/brand/logo.svg" alt="Wybieram Finanse"></a>
+      <nav class="main-nav">
+        <a href="/rankingi/">Rankingi</a>
+        <a href="/dla-firm/">Dla firm</a>
+        <a href="/swiadczenia/">Świadczenia</a>
+        <a href="/narzedzia/">Narzędzia</a>
+        <a href="/poradniki/">Poradniki</a>
+        <a href="/o-nas/">O nas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/narzedzia/">Narzędzia</a></li>
+          <li>Kalkulator kosztu konta osobistego</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Konta osobiste</p>
+          <h1>Kalkulator kosztu konta osobistego</h1>
+          <p class="hero-text">Wpisz opłaty za konto, kartę, wypłaty z bankomatów i przelewy. Kalkulator pokaże orientacyjny miesięczny i roczny koszt konta oraz bilans po uwzględnieniu premii.</p>
+          <div class="hero-actions">
+            <a href="#kalkulator" class="btn primary">Oblicz koszt konta</a>
+            <a href="/rankingi/konta-osobiste/" class="btn secondary">Ranking kont</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Ważne</h2>
+          <p>Wynik jest szacunkowy. Rzeczywiste koszty zależą od tabeli opłat banku, sposobu korzystania z konta i spełnienia warunków darmowości.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kalkulator" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Kalkulator</p>
+          <h2>Oblicz koszt konta osobistego</h2>
+          <p>Wpisz opłaty z tabeli opłat banku. Puste pola liczbowe traktujemy jako 0 zł.</p>
+        </div>
+
+        <p class="privacy-note">Dane z formularza są liczone lokalnie w Twojej przeglądarce. Nie zapisujemy ich w bazie i nie wysyłamy na serwer.</p>
+
+        <form id="account-cost-form" class="tool-form">
+          <div class="tool-grid">
+            <article class="tool-panel">
+              <h3>Dane podstawowe</h3>
+              <label>
+                Nazwa banku lub konta
+                <input id="account-name" type="text" placeholder="np. Konto osobiste z premią">
+              </label>
+              <div class="form-row">
+                <label>
+                  Okres analizy
+                  <select id="analysis-period">
+                    <option value="6">6 miesięcy</option>
+                    <option value="12" selected>12 miesięcy</option>
+                    <option value="24">24 miesiące</option>
+                  </select>
+                </label>
+                <label>Premia bankowa <input id="bonus-value" type="number" min="0" step="0.01" placeholder="np. 300"></label>
+              </div>
+              <label>Wartość vouchera / nagrody niepieniężnej <input id="voucher-value" type="number" min="0" step="0.01" placeholder="np. 100"></label>
+            </article>
+
+            <article class="tool-panel">
+              <h3>Opłaty miesięczne</h3>
+              <div class="form-row">
+                <label>Miesięczna opłata za konto <input id="account-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Miesięczna opłata za kartę <input id="card-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Pakiet usług / dodatkowe usługi <input id="package-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+                <label>Inne miesięczne koszty <input id="other-monthly-costs" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+            </article>
+          </div>
+
+          <div class="tool-grid">
+            <article class="tool-panel">
+              <h3>Bankomaty</h3>
+              <div class="form-row">
+                <label>Liczba wypłat miesięcznie <input id="atm-withdrawals" type="number" min="0" step="1" placeholder="0"></label>
+                <label>Opłata za jedną wypłatę <input id="atm-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <label>Liczba darmowych wypłat miesięcznie <input id="free-atm-withdrawals" type="number" min="0" step="1" placeholder="0"></label>
+            </article>
+
+            <article class="tool-panel">
+              <h3>Przelewy i inne operacje</h3>
+              <div class="form-row">
+                <label>Liczba płatnych przelewów miesięcznie <input id="paid-transfers" type="number" min="0" step="1" placeholder="0"></label>
+                <label>Koszt jednego płatnego przelewu <input id="transfer-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+              <div class="form-row">
+                <label>Liczba płatnych zleceń / innych operacji <input id="other-operations" type="number" min="0" step="1" placeholder="0"></label>
+                <label>Koszt jednej takiej operacji <input id="operation-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+              </div>
+            </article>
+          </div>
+
+          <article class="tool-panel">
+            <h3>Warunki darmowości</h3>
+            <div class="checkbox-grid">
+              <label><input id="salary-free" type="checkbox"> konto jest darmowe po wpływie wynagrodzenia</label>
+              <label><input id="card-free" type="checkbox"> karta jest darmowa po wykonaniu płatności</label>
+              <label><input id="atm-free" type="checkbox"> bankomaty są darmowe po spełnieniu warunków</label>
+              <label><input id="unsure-free-conditions" type="checkbox"> nie jestem pewien, czy spełnię warunki darmowości</label>
+            </div>
+          </article>
+
+          <article class="tool-panel">
+            <h3>Jednorazowe koszty</h3>
+            <div class="form-row">
+              <label>Opłata za wydanie karty <input id="card-issue-fee" type="number" min="0" step="0.01" placeholder="0"></label>
+              <label>Inne jednorazowe koszty <input id="one-time-costs" type="number" min="0" step="0.01" placeholder="0"></label>
+            </div>
+            <button class="btn primary" type="submit">Oblicz koszt konta</button>
+          </article>
+        </form>
+
+        <section id="account-cost-result" class="transfer-result" hidden aria-live="polite">
+          <div class="result-header">
+            <div>
+              <p class="eyebrow">Wynik</p>
+              <h2>Szacowany koszt konta</h2>
+            </div>
+            <div class="hero-actions">
+              <span id="cost-status-badge" class="status-badge status-unknown">Do sprawdzenia</span>
+              <span id="balance-status-badge" class="status-badge status-unknown">Do sprawdzenia</span>
+            </div>
+          </div>
+          <dl class="result-list">
+            <div><dt>Konto</dt><dd id="result-account-name">-</dd></div>
+            <div><dt>Okres analizy</dt><dd id="result-months">-</dd></div>
+            <div><dt>Szacowany koszt miesięczny</dt><dd id="result-monthly-cost">-</dd></div>
+            <div><dt>Szacowany koszt roczny</dt><dd id="result-annual-cost">-</dd></div>
+            <div><dt>Szacowany koszt w okresie</dt><dd id="result-total-cost">-</dd></div>
+            <div><dt>Premia / nagroda</dt><dd id="result-reward">-</dd></div>
+            <div><dt>Bilans po premii</dt><dd id="result-balance">-</dd></div>
+            <div><dt>Koszt bankomatów miesięcznie</dt><dd id="result-atm-cost">-</dd></div>
+            <div><dt>Koszt przelewów miesięcznie</dt><dd id="result-transfer-cost">-</dd></div>
+            <div><dt>Koszt innych operacji miesięcznie</dt><dd id="result-operation-cost">-</dd></div>
+          </dl>
+          <p id="result-message" class="result-description"></p>
+          <h3>Ostrzeżenia i podpowiedzi</h3>
+          <ul id="account-cost-warnings" class="result-notes"></ul>
+          <p class="tool-warning">To orientacyjny bilans po premii. Nie oznacza gwarancji zysku ani otrzymania premii.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Instrukcja</p>
+          <h2>Jak korzystać z kalkulatora?</h2>
+          <p>Wpisz opłaty z tabeli opłat banku, dodaj koszt karty i bankomatów, wpisz premię, wybierz okres analizy i sprawdź miesięczny oraz roczny koszt konta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Koszty</p>
+          <h2>Co najbardziej wpływa na koszt konta osobistego?</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Opłaty stałe</h3><p>Opłata za konto, karta, pakiety usług i jednorazowe koszty szybko składają się na realny rachunek.</p></article>
+          <article class="card"><h3>Bankomaty</h3><p>Wypłaty z obcych bankomatów mogą podnieść koszt konta, zwłaszcza gdy często korzystasz z gotówki.</p></article>
+          <article class="card"><h3>Przelewy</h3><p>Płatne przelewy, zlecenia albo inne operacje warto policzyć miesięcznie.</p></article>
+          <article class="card"><h3>Warunki darmowości</h3><p>Jeśli nie spełnisz warunku wpływu lub płatności kartą, konto może przestać być darmowe.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Premie</p>
+          <h2>Czy konto z premią zawsze się opłaca?</h2>
+          <p>Nie zawsze. Premia może zakryć koszty tylko w pierwszym okresie, a po zakończeniu promocji konto może być droższe. Trzeba sprawdzić warunki nowego klienta i policzyć bilans po 6, 12 oraz 24 miesiącach.</p>
+          <p><a href="/narzedzia/kalkulator-premii-bankowej/" class="btn primary">Sprawdź też kalkulator premii bankowej</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="wide-card">
+          <div>
+            <h3>Porównaj konta osobiste</h3>
+            <p>Jeśli dopiero wybierasz konto, sprawdź też nasz ranking kont osobistych. Porównujemy opłaty, promocje i najważniejsze warunki prostym językiem.</p>
+          </div>
+          <a href="/rankingi/konta-osobiste/" class="btn primary">Zobacz ranking kont osobistych</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Powiązane narzędzia</p>
+          <h2>Sprawdź też</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card"><h3>Kalkulator premii bankowej</h3><p>Sprawdź, czy promocja konta może się realnie opłacać po kosztach i warunkach.</p><a href="/narzedzia/kalkulator-premii-bankowej/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Kiedy dojdzie przelew?</h3><p>Sprawdź orientacyjnie, kiedy może dojść przelew między bankami.</p><a href="/narzedzia/kiedy-przelew/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Jaki to bank po numerze konta?</h3><p>Wpisz numer rachunku i sprawdź, jaki bank można rozpoznać po numerze konta.</p><a href="/narzedzia/jaki-to-bank/" class="card-link">Otwórz narzędzie →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="wide-card">
+          <div>
+            <h3>Przydatne strony</h3>
+            <p>Sprawdź katalog rankingów, poradniki, informację o afiliacji i kontakt.</p>
+          </div>
+          <div class="hero-actions">
+            <a href="/rankingi/" class="btn secondary">Rankingi</a>
+            <a href="/poradniki/" class="btn secondary">Poradniki</a>
+            <a href="/informacja-o-afiliacji/" class="btn secondary">Afiliacja</a>
+            <a href="/kontakt/" class="btn secondary">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Najczęstsze pytania</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Czy kalkulator pokazuje dokładny koszt konta?</summary><p>Nie. Kalkulator pokazuje szacunkowy koszt na podstawie wpisanych danych. Dokładne opłaty znajdziesz w tabeli opłat i prowizji banku.</p></details>
+          <details><summary>Co najbardziej wpływa na koszt konta osobistego?</summary><p>Najczęściej opłata za konto, karta, bankomaty, przelewy, jednorazowe koszty i niespełnienie warunków darmowości.</p></details>
+          <details><summary>Czy konto za 0 zł zawsze jest darmowe?</summary><p>Nie zawsze. Czasem trzeba zapewnić wpływ, wykonać płatności kartą albo spełnić inne warunki.</p></details>
+          <details><summary>Czy opłata za kartę jest zawsze pobierana?</summary><p>Nie. W wielu bankach można jej uniknąć po wykonaniu określonej liczby lub kwoty płatności.</p></details>
+          <details><summary>Czy wypłaty z bankomatów mogą zwiększyć koszt konta?</summary><p>Tak. Szczególnie wypłaty z obcych bankomatów albo za granicą mogą być dodatkowo płatne.</p></details>
+          <details><summary>Czy premia bankowa zmniejsza koszt konta?</summary><p>Może poprawić bilans, ale tylko po spełnieniu warunków promocji. Nie traktuj premii jako pewnego zysku.</p></details>
+          <details><summary>Czy warto liczyć koszt konta po 12 miesiącach?</summary><p>Tak. Roczny koszt lepiej pokazuje, czy opłaty stałe nie zjadają korzyści z promocji.</p></details>
+          <details><summary>Czy konto z premią zawsze się opłaca?</summary><p>Nie. Premia może być atrakcyjna, ale opłaty i trudne warunki mogą obniżyć możliwy bilans.</p></details>
+          <details><summary>Czy kalkulator uwzględnia wszystkie opłaty banku?</summary><p>Nie. Uwzględnia pola wpisane przez użytkownika. Dodatkowe opłaty trzeba sprawdzić w tabeli opłat banku.</p></details>
+          <details><summary>Gdzie sprawdzić dokładne opłaty konta?</summary><p>W tabeli opłat i prowizji banku oraz w regulaminie konta lub promocji.</p></details>
+          <details><summary>Czy mogę porównać konto osobiste z kontem firmowym?</summary><p>Możesz porównać koszty, ale konto firmowe ma inne zasady i opłaty. Warto sprawdzić osobny ranking kont firmowych.</p></details>
+          <details><summary>Czy dane wpisane w kalkulator są zapisywane?</summary><p>Nie. Dane wpisane w kalkulator są przetwarzane lokalnie w przeglądarce i nie są zapisywane.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div><h2>Wybieram Finanse</h2><p>Proste rankingi, poradniki i porównania finansowe.</p></div>
+    <div><h3>Rankingi</h3><div class="footer-links"><a href="/rankingi/konta-osobiste/">Konta osobiste</a><a href="/rankingi/konta-firmowe/">Konta firmowe</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/revolut-business/">Revolut Business</a></div></div>
+    <div><h3>Dla firm</h3><div class="footer-links"><a href="/dla-firm/">Finanse dla firm</a><a href="/rankingi/konta-firmowe/">Konta firmowe dla JDG</a><a href="/rankingi/konta-firmowe/konto-firmowe-dla-spolki/">Konto firmowe dla spółki</a><a href="/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/">Założenie firmy z kontem</a></div></div>
+    <div><h3>Narzędzia</h3><div class="footer-links"><a href="/narzedzia/kiedy-przelew/">Kiedy dojdzie przelew?</a><a href="/narzedzia/jaki-to-bank/">Jaki to bank po numerze konta?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/">Kalkulator kosztu konta osobistego</a></div></div>
+    <div><h3>Świadczenia</h3><div class="footer-links"><a href="/swiadczenia/800-plus/">800 plus</a><a href="/swiadczenia/dobry-start-300-plus/">Dobry Start 300 plus</a><a href="/swiadczenia/zasilek-rodzinny/">Zasiłek rodzinny</a><a href="/swiadczenia/aktywny-rodzic/">Aktywny Rodzic</a></div></div>
+    <div><h3>Informacje</h3><div class="footer-links"><a href="/o-nas/">O nas</a><a href="/kontakt/">Kontakt</a><a href="/informacja-o-afiliacji/">Informacja o afiliacji</a><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="#" class="privacy-settings-link">Ustawienia prywatności</a></div></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Wybieram Finanse</span><span>Treści mają charakter informacyjny.</span></div>
+</footer>
+
+  <script src="/assets/js/kalkulator-kosztu-konta-osobistego.js"></script>
+  <script>
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+    window.googlefc.callbackQueue.push({
+      'CONSENT_API_READY': function () {
+        var privacyLinks = document.querySelectorAll('.privacy-settings-link');
+
+        privacyLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            if (window.googlefc && typeof window.googlefc.showRevocationMessage === 'function') {
+              window.googlefc.showRevocationMessage();
+            }
+          });
+        });
+      }
+    });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Czy kalkulator pokazuje dokładny koszt konta?","acceptedAnswer":{"@type":"Answer","text":"Nie. Kalkulator pokazuje szacunkowy koszt na podstawie wpisanych danych. Dokładne opłaty znajdziesz w tabeli opłat i prowizji banku."}},
+      {"@type":"Question","name":"Co najbardziej wpływa na koszt konta osobistego?","acceptedAnswer":{"@type":"Answer","text":"Najczęściej opłata za konto, karta, bankomaty, przelewy, jednorazowe koszty i niespełnienie warunków darmowości."}},
+      {"@type":"Question","name":"Czy konto za 0 zł zawsze jest darmowe?","acceptedAnswer":{"@type":"Answer","text":"Nie zawsze. Czasem trzeba zapewnić wpływ, wykonać płatności kartą albo spełnić inne warunki."}},
+      {"@type":"Question","name":"Czy opłata za kartę jest zawsze pobierana?","acceptedAnswer":{"@type":"Answer","text":"Nie. W wielu bankach można jej uniknąć po wykonaniu określonej liczby lub kwoty płatności."}},
+      {"@type":"Question","name":"Czy wypłaty z bankomatów mogą zwiększyć koszt konta?","acceptedAnswer":{"@type":"Answer","text":"Tak. Szczególnie wypłaty z obcych bankomatów albo za granicą mogą być dodatkowo płatne."}},
+      {"@type":"Question","name":"Czy premia bankowa zmniejsza koszt konta?","acceptedAnswer":{"@type":"Answer","text":"Może poprawić bilans, ale tylko po spełnieniu warunków promocji. Nie traktuj premii jako pewnego zysku."}},
+      {"@type":"Question","name":"Czy warto liczyć koszt konta po 12 miesiącach?","acceptedAnswer":{"@type":"Answer","text":"Tak. Roczny koszt lepiej pokazuje, czy opłaty stałe nie zjadają korzyści z promocji."}},
+      {"@type":"Question","name":"Czy konto z premią zawsze się opłaca?","acceptedAnswer":{"@type":"Answer","text":"Nie. Premia może być atrakcyjna, ale opłaty i trudne warunki mogą obniżyć możliwy bilans."}},
+      {"@type":"Question","name":"Czy kalkulator uwzględnia wszystkie opłaty banku?","acceptedAnswer":{"@type":"Answer","text":"Nie. Uwzględnia pola wpisane przez użytkownika. Dodatkowe opłaty trzeba sprawdzić w tabeli opłat banku."}},
+      {"@type":"Question","name":"Gdzie sprawdzić dokładne opłaty konta?","acceptedAnswer":{"@type":"Answer","text":"W tabeli opłat i prowizji banku oraz w regulaminie konta lub promocji."}},
+      {"@type":"Question","name":"Czy mogę porównać konto osobiste z kontem firmowym?","acceptedAnswer":{"@type":"Answer","text":"Możesz porównać koszty, ale konto firmowe ma inne zasady i opłaty. Warto sprawdzić osobny ranking kont firmowych."}},
+      {"@type":"Question","name":"Czy dane wpisane w kalkulator są zapisywane?","acceptedAnswer":{"@type":"Answer","text":"Nie. Dane wpisane w kalkulator są przetwarzane lokalnie w przeglądarce i nie są zapisywane."}}
+    ]
+  }
+  </script>
+</body>
+</html>

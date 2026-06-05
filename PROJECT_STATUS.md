@@ -393,3 +393,13 @@ Do zrobienia:
 - Dodano statusy wizualne opłacalności i trudności.
 - Dodano linkowanie z rankingów i narzędzi.
 - Zaktualizowano sitemap.xml.
+
+
+## Aktualizacja — 05.06.2026 — kalkulator kosztu konta osobistego
+
+- Dodano narzędzie /narzedzia/kalkulator-kosztu-konta-osobistego/.
+- Narzędzie liczy szacowany miesięczny i roczny koszt konta osobistego.
+- Dodano bilans po uwzględnieniu premii.
+- Dodano statusy wizualne kosztu i bilansu.
+- Dodano linkowanie z rankingu kont osobistych i narzędzi.
+- Zaktualizowano sitemap.xml.
