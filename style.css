@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --navy: #10233f;
   --blue: #2563eb;
   --light-blue: #eff6ff;
@@ -309,7 +309,7 @@ h1 {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1.35fr repeat(4, 1fr);
+  grid-template-columns: 1.25fr repeat(5, 1fr);
   gap: 28px;
   align-items: start;
 }
