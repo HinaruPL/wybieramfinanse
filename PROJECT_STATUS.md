@@ -469,3 +469,7 @@ Dodano duży klaster poradnikowy:
 - uzupełniono linkowanie między poradnikami, narzędziami i stronami firmowymi,
 - zaktualizowano /poradniki/, /dla-firm/, /narzedzia/, /rankingi/ oraz sitemap.xml,
 - dodano własne grafiki hero SVG dla nowych artykułów poradnikowych.
+
+## Aktualizacja - 06.06.2026 - redakcyjny refactor artykułów
+
+Redakcyjny refactor artykułów: rozbudowano i poprawiono merytorycznie poradniki o przelewach, sesjach Elixir, numerach kont, JDG, spółkach, zakładaniu działalności i działalności nierejestrowanej. Poprawiono zgodność treści z tytułami, dodano konkretne wyjaśnienia, przykłady, sekcje ostrzegawcze, FAQ i linkowanie wewnętrzne.
