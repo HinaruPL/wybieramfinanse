@@ -14,20 +14,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>Kiedy dojdzie przelew? Kalkulator sesji Elixir | Wybieram Finanse</title>
-  <meta name="description" content="Sprawdź orientacyjnie, kiedy dojdzie przelew między bankami. Wybierz bank nadawcy i odbiorcy albo rozpoznaj bank po numerze konta." />
+  <meta name="description" content="Sprawdź orientacyjnie, kiedy dojdzie przelew Elixir. Wybierz bank nadawcy i odbiorcy albo rozpoznaj bank po numerze konta, a kalkulator pokaże szacowany czas." />
   <link rel="canonical" href="https://wybieramfinanse.pl/narzedzia/kiedy-przelew/" />
   <link rel="stylesheet" href="/style.css" />
   <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
   <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Kiedy dojdzie przelew? Kalkulator sesji Elixir" />
-  <meta property="og:description" content="Sprawdź orientacyjnie, kiedy może dojść przelew między bankami." />
+  <meta property="og:description" content="Wybierz banki albo wpisz numery kont i sprawdź orientacyjny termin zwykłego przelewu Elixir." />
   <meta property="og:url" content="https://wybieramfinanse.pl/narzedzia/kiedy-przelew/" />
   <meta property="og:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
   <meta property="og:site_name" content="Wybieram Finanse" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Kiedy dojdzie przelew?" />
-  <meta name="twitter:description" content="Kalkulator sesji Elixir i rozpoznawanie banku po numerze konta." />
+  <meta name="twitter:description" content="Kalkulator sesji Elixir, zegar, odliczanie i rozpoznawanie banku po numerze konta." />
   <meta name="twitter:image" content="https://wybieramfinanse.pl/assets/brand/og-logo.png" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7645481846348914"
      crossorigin="anonymous"></script>
@@ -71,7 +71,7 @@
         </div>
         <div class="hero-card">
           <h2>Ważne</h2>
-          <p>Wynik jest orientacyjny. Rzeczywisty czas zaksięgowania może zależeć od banku, typu przelewu, dnia wolnego, awarii lub dodatkowej weryfikacji.</p>
+          <p>Wynik jest orientacyjny. Rzeczywisty czas zaksięgowania może zależeć od banku, typu przelewu, dnia wolnego, awarii, przerwy technicznej albo dodatkowej weryfikacji.</p>
         </div>
       </div>
     </section>
@@ -82,7 +82,7 @@
           <div>
             <p class="eyebrow">Aktualny czas</p>
             <h2>Aktualna godzina u Ciebie: <span id="current-time">--:--:--</span></h2>
-            <p>Kalkulator korzysta z czasu ustawionego w Twojej przeglądarce. Jeśli godzina w urządzeniu jest błędna, wynik może być niedokładny.</p>
+            <p>Kalkulator korzysta z czasu ustawionego w Twojej przeglądarce. Jeśli godzina albo data w urządzeniu są błędne, wynik i odliczanie mogą być niedokładne.</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
         <div class="section-heading">
           <p class="eyebrow">Kalkulator</p>
           <h2>Sprawdź orientacyjny czas przelewu</h2>
-          <p>Możesz wybrać banki ręcznie albo wpisać numery kont. Numery służą tylko do lokalnego rozpoznania banku.</p>
+          <p>Możesz wybrać banki ręcznie albo wpisać numery kont. Numery służą tylko do lokalnego rozpoznania banku i nie są wysyłane na serwer.</p>
         </div>
 
         <div class="segmented-control transfer-mode-switch" role="tablist" aria-label="Tryb sprawdzania przelewu">
@@ -173,7 +173,7 @@
             <div><dt>Do przewidywanego księgowania zostało</dt><dd id="result-countdown">-</dd></div>
           </dl>
           <p id="result-description" class="result-description"></p>
-          <p class="tool-warning">To wynik orientacyjny dla standardowego przelewu Elixir w PLN. Przed ważnym przelewem sprawdź aktualne informacje w swoim banku.</p>
+          <p class="tool-warning">To wynik orientacyjny dla standardowego przelewu Elixir w PLN. Nie jest gwarancją księgowania o konkretnej godzinie. Przed ważnym przelewem sprawdź aktualne informacje w swoim banku.</p>
         </section>
       </div>
     </section>
@@ -184,11 +184,11 @@
           <div>
             <p class="eyebrow">Tabela sesji</p>
             <h2>Sesje Elixir banków są na osobnej stronie</h2>
-            <p>Pełną tabelę sesji wychodzących i przychodzących przenieśliśmy do osobnej podstrony z filtrowaniem po nazwie banku.</p>
+            <p>Pełną tabelę sesji wychodzących i przychodzących przenieśliśmy do osobnej podstrony z filtrowaniem po nazwie banku. To dobre miejsce, jeśli chcesz ręcznie sprawdzić konkretny bank.</p>
           </div>
           <a href="/narzedzia/sesje-elixir/" class="btn primary">Zobacz sesje Elixir banków</a>
         </div>
-        <p class="tool-note">W wersji startowej kalkulator uwzględnia weekendy i podstawowe dni wolne. Święta ruchome mogą wymagać dodatkowej aktualizacji.</p>
+        <p class="tool-note">W wersji startowej kalkulator uwzględnia weekendy i podstawowe dni wolne. Święta ruchome oraz niestandardowe przerwy banków mogą wymagać ręcznej weryfikacji.</p>
       </div>
     </section>
 
@@ -197,7 +197,8 @@
         <div class="section-heading">
           <p class="eyebrow">Proste wyjaśnienie</p>
           <h2>Jak działa kalkulator przelewów?</h2>
-          <p>Bank nadawcy ma sesje wychodzące, czyli godziny, w których przekazuje przelewy dalej. KIR rozlicza standardowe przelewy Elixir w dni robocze. Potem bank odbiorcy ma swoje sesje przychodzące, czyli godziny księgowania pieniędzy na rachunkach klientów. Dlatego przelew z jednego banku do drugiego może dojść rano, po południu albo następnego dnia roboczego.</p>
+          <p>Bank nadawcy ma sesje wychodzące, czyli godziny, w których przekazuje przelewy dalej. KIR rozlicza standardowe przelewy Elixir w dni robocze. Potem bank odbiorcy ma swoje sesje przychodzące, czyli godziny księgowania pieniędzy na rachunkach klientów.</p>
+          <p>Kalkulator łączy te informacje z datą i godziną wysłania przelewu. Dzięki temu może pokazać najbliższy orientacyjny moment księgowania. Nie uwzględnia jednak każdej możliwej sytuacji, na przykład indywidualnej blokady transakcji, awarii banku, ręcznej kontroli bezpieczeństwa albo przelewu zagranicznego.</p>
         </div>
       </div>
     </section>
@@ -219,20 +220,20 @@
 
     <section class="section">
       <div class="container">
-        <div class="wide-card">
-          <div>
-            <h3>Zobacz też</h3>
-            <p>Porównaj konta, przejdź do innych narzędzi albo napisz, jeśli widzisz błąd w danych sesji.</p>
-          </div>
-          <div class="hero-actions">
-            <a href="/narzedzia/" class="btn secondary">Narzędzia</a>
-            <a href="/rankingi/" class="btn secondary">Rankingi</a>
-            <a href="/rankingi/konta-osobiste/" class="btn secondary">Konta osobiste</a>
-            <a href="/rankingi/konta-firmowe/" class="btn secondary">Konta firmowe</a>
-            <a href="/poradniki/" class="btn secondary">Poradniki</a>
-            <a href="/narzedzia/jaki-to-bank/" class="btn secondary" data-tool-card="jaki-to-bank">Jaki to bank?</a><a href="/narzedzia/kalkulator-premii-bankowej/">Kalkulator premii bankowej</a><a href="/kontakt/" class="btn secondary">Kontakt</a>
-          </div>
+        <div class="section-heading">
+          <p class="eyebrow">Kiedy wynik może się różnić?</p>
+          <h2>Kiedy kalkulator może nie wystarczyć?</h2>
+          <p>Kalkulator jest pomocą dla zwykłych przelewów Elixir w PLN. Przy przelewie natychmiastowym, wewnętrznym, zagranicznym, walutowym, przez fintech albo przy przelewie do instytucji płatniczej wynik może nie odpowiadać rzeczywistemu czasowi księgowania.</p>
         </div>
+        <ul>
+          <li>przelew był wysłany jako Express Elixir, BlueCash albo inny przelew natychmiastowy,</li>
+          <li>nadawca i odbiorca mają konto w tym samym banku,</li>
+          <li>bank ma przerwę techniczną lub awarię,</li>
+          <li>przelew wymaga dodatkowej weryfikacji bezpieczeństwa,</li>
+          <li>rachunek odbiorcy należy do fintechu lub instytucji płatniczej,</li>
+          <li>po drodze wypada święto ruchome lub niestandardowy dzień wolny,</li>
+          <li>przelew jest walutowy, SEPA albo SWIFT.</li>
+        </ul>
       </div>
     </section>
 
@@ -244,7 +245,7 @@
         </div>
         <div class="faq-list">
           <details><summary>Co to jest sesja Elixir?</summary><p>To godzina, w której bank wysyła albo księguje standardowe przelewy międzybankowe w PLN.</p></details>
-          <details><summary>Ile idzie zwykły przelew bankowy?</summary><p>Często kilka godzin, ale czasem dopiero następnego dnia roboczego. Zależy to od sesji banków i momentu wysłania.</p></details>
+          <details><summary>Ile idzie zwykły przelew bankowy?</summary><p>Często kilka godzin, ale czasem dopiero następnego dnia roboczego. Zależy to od sesji banków, dnia tygodnia i momentu wysłania.</p></details>
           <details><summary>Czy przelew może dojść tego samego dnia?</summary><p>Tak, jeśli zostanie wysłany przed odpowiednią sesją wychodzącą i bank odbiorcy ma jeszcze sesję przychodzącą tego dnia.</p></details>
           <details><summary>Czy przelewy idą w weekend?</summary><p>Standardowe przelewy Elixir zwykle nie są rozliczane w weekend. Mogą ruszyć w najbliższy dzień roboczy.</p></details>
           <details><summary>Co oznacza sesja wychodząca?</summary><p>To moment, w którym bank nadawcy przekazuje przelew do rozliczenia.</p></details>
@@ -253,7 +254,7 @@
           <details><summary>Czy Revolut działa jak zwykły bank?</summary><p>Nie zawsze. Czas przelewu zależy od typu rachunku, waluty, danych przelewu i operatora płatności.</p></details>
           <details><summary>Czy ZEN działa jak zwykły bank?</summary><p>Nie zawsze. ZEN może korzystać z innych schematów płatności niż klasyczny bank z trzema sesjami Elixir.</p></details>
           <details><summary>Czy kalkulator daje pewny wynik?</summary><p>Nie. Wynik jest orientacyjny i nie gwarantuje zaksięgowania przelewu o konkretnej godzinie.</p></details>
-          <details><summary>Jak sprawdzić bank po numerze konta?</summary><p>W numerze NRB cyfry 3-10 tworzą numer rozliczeniowy, a jego pierwsze 4 cyfry pomagają rozpoznać bank.</p></details>
+          <details><summary>Jak sprawdzić bank po numerze konta?</summary><p>W numerze NRB cyfry 3–10 tworzą numer rozliczeniowy, który pomaga rozpoznać bank lub instytucję. Nie pozwala to sprawdzić właściciela rachunku.</p></details>
           <details><summary>Czy numer konta jest zapisywany?</summary><p>Nie. Numer konta jest używany tylko lokalnie w przeglądarce do rozpoznania banku. Nie zapisujemy go w bazie i nie wysyłamy na serwer.</p></details>
           <details><summary>Czy kalkulator obsługuje Express Elixir?</summary><p>Na ten moment kalkulator skupia się na standardowych przelewach Elixir. Przelewy natychmiastowe mogą działać inaczej.</p></details>
           <details><summary>Czy kalkulator obsługuje przelewy zagraniczne?</summary><p>Nie. Przelewy SEPA i SWIFT mają inne zasady i wymagają osobnego kalkulatora albo sprawdzenia w banku.</p></details>
@@ -261,17 +262,20 @@
       </div>
     </section>
 
-        <section class="section section-light" data-audit-related="kiedy-przelew">
+    <section class="section section-light" data-audit-related="kiedy-przelew">
       <div class="container">
-        <div class="section-heading"><p class="eyebrow">Powiązane narzędzia</p><h2>Sprawdź też</h2></div>
+        <div class="section-heading"><p class="eyebrow">Powiązane narzędzia i poradniki</p><h2>Sprawdź też</h2></div>
         <div class="cards-grid">
           <article class="card"><h3>Jaki to bank po numerze konta?</h3><p>Wpisz numer rachunku i sprawdź, jaki bank można rozpoznać po numerze konta.</p><a href="/narzedzia/jaki-to-bank/" class="card-link">Otwórz narzędzie →</a></article>
-          <article class="card"><h3>Kalkulator kosztu konta osobistego</h3><p>Policz miesięczny i roczny koszt konta po opłatach, bankomatach i premii.</p><a href="/narzedzia/kalkulator-kosztu-konta-osobistego/" class="card-link">Otwórz narzędzie →</a></article>
+          <article class="card"><h3>Sesje Elixir banków</h3><p>Zobacz pełną tabelę sesji wychodzących i przychodzących z filtrowaniem.</p><a href="/narzedzia/sesje-elixir/" class="card-link">Zobacz tabelę →</a></article>
+          <article class="card"><h3>Dlaczego przelew nie doszedł?</h3><p>Sprawdź najczęstsze przyczyny opóźnienia albo zwrotu przelewu.</p><a href="/poradniki/dlaczego-przelew-nie-doszedl/" class="card-link">Czytaj dalej →</a></article>
+          <article class="card"><h3>Czy przelewy idą w weekend?</h3><p>Sprawdź, kiedy przelew z piątku, soboty albo niedzieli może dojść do odbiorcy.</p><a href="/poradniki/czy-przelewy-ida-w-weekend/" class="card-link">Czytaj dalej →</a></article>
+          <article class="card"><h3>Elixir, Express Elixir i BlueCash</h3><p>Porównaj zwykłe i natychmiastowe przelewy bankowe.</p><a href="/poradniki/elixir-express-elixir-bluecash/" class="card-link">Czytaj dalej →</a></article>
           <article class="card"><h3>Konta osobiste</h3><p>Porównaj konta do codziennych przelewów i płatności.</p><a href="/rankingi/konta-osobiste/" class="card-link">Zobacz ranking →</a></article>
         </div>
       </div>
     </section>
-</main>
+  </main>
 
   <footer class="site-footer">
   <div class="container footer-inner">
@@ -314,7 +318,7 @@
     "@type": "FAQPage",
     "mainEntity": [
       {"@type":"Question","name":"Co to jest sesja Elixir?","acceptedAnswer":{"@type":"Answer","text":"To godzina, w której bank wysyła albo księguje standardowe przelewy międzybankowe w PLN."}},
-      {"@type":"Question","name":"Ile idzie zwykły przelew bankowy?","acceptedAnswer":{"@type":"Answer","text":"Często kilka godzin, ale czasem dopiero następnego dnia roboczego. Zależy to od sesji banków i momentu wysłania."}},
+      {"@type":"Question","name":"Ile idzie zwykły przelew bankowy?","acceptedAnswer":{"@type":"Answer","text":"Często kilka godzin, ale czasem dopiero następnego dnia roboczego. Zależy to od sesji banków, dnia tygodnia i momentu wysłania."}},
       {"@type":"Question","name":"Czy przelew może dojść tego samego dnia?","acceptedAnswer":{"@type":"Answer","text":"Tak, jeśli zostanie wysłany przed odpowiednią sesją wychodzącą i bank odbiorcy ma jeszcze sesję przychodzącą tego dnia."}},
       {"@type":"Question","name":"Czy przelewy idą w weekend?","acceptedAnswer":{"@type":"Answer","text":"Standardowe przelewy Elixir zwykle nie są rozliczane w weekend. Mogą ruszyć w najbliższy dzień roboczy."}},
       {"@type":"Question","name":"Co oznacza sesja wychodząca?","acceptedAnswer":{"@type":"Answer","text":"To moment, w którym bank nadawcy przekazuje przelew do rozliczenia."}},
@@ -323,7 +327,7 @@
       {"@type":"Question","name":"Czy Revolut działa jak zwykły bank?","acceptedAnswer":{"@type":"Answer","text":"Nie zawsze. Czas przelewu zależy od typu rachunku, waluty, danych przelewu i operatora płatności."}},
       {"@type":"Question","name":"Czy ZEN działa jak zwykły bank?","acceptedAnswer":{"@type":"Answer","text":"Nie zawsze. ZEN może korzystać z innych schematów płatności niż klasyczny bank z trzema sesjami Elixir."}},
       {"@type":"Question","name":"Czy kalkulator daje pewny wynik?","acceptedAnswer":{"@type":"Answer","text":"Nie. Wynik jest orientacyjny i nie gwarantuje zaksięgowania przelewu o konkretnej godzinie."}},
-      {"@type":"Question","name":"Jak sprawdzić bank po numerze konta?","acceptedAnswer":{"@type":"Answer","text":"W numerze NRB cyfry 3-10 tworzą numer rozliczeniowy, a jego pierwsze 4 cyfry pomagają rozpoznać bank."}},
+      {"@type":"Question","name":"Jak sprawdzić bank po numerze konta?","acceptedAnswer":{"@type":"Answer","text":"W numerze NRB cyfry 3–10 tworzą numer rozliczeniowy, który pomaga rozpoznać bank lub instytucję. Nie pozwala to sprawdzić właściciela rachunku."}},
       {"@type":"Question","name":"Czy numer konta jest zapisywany?","acceptedAnswer":{"@type":"Answer","text":"Nie. Numer konta jest używany tylko lokalnie w przeglądarce do rozpoznania banku. Nie zapisujemy go w bazie i nie wysyłamy na serwer."}},
       {"@type":"Question","name":"Czy kalkulator obsługuje Express Elixir?","acceptedAnswer":{"@type":"Answer","text":"Na ten moment kalkulator skupia się na standardowych przelewach Elixir. Przelewy natychmiastowe mogą działać inaczej."}},
       {"@type":"Question","name":"Czy kalkulator obsługuje przelewy zagraniczne?","acceptedAnswer":{"@type":"Answer","text":"Nie. Przelewy SEPA i SWIFT mają inne zasady i wymagają osobnego kalkulatora albo sprawdzenia w banku."}}
