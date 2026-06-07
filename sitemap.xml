@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://wybieramfinanse.pl/swiadczenia/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -157,13 +157,31 @@
 
   <url>
     <loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-pielegnacyjne/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-wspierajace/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://wybieramfinanse.pl/swiadczenia/zasilek-pielegnacyjny/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-pielegnacyjny/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://wybieramfinanse.pl/swiadczenia/orzeczenie-o-niepelnosprawnosci/</loc>
+    <lastmod>2026-06-07</lastmod>
     <priority>0.8</priority>
   </url>
 
