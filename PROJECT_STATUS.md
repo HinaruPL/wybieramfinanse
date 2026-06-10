@@ -55,6 +55,26 @@ Nowy kierunek designu:
 
 Użytkownik sprawdził desktop i mobile po redesignie — wygląda dobrze.
 
+## Aktualizacja — 10.06.2026
+
+Dodano kolejny artykuł do klastra opieka i niepełnosprawność:
+
+- `/swiadczenia/renta-socjalna/`,
+- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
+
+Wykonane zmiany:
+
+- dodano artykuł o rencie socjalnej,
+- dodano artykuł o rencie z tytułu niezdolności do pracy,
+- podpięto rentę z tytułu niezdolności do pracy w hubie `/swiadczenia/`,
+- zaktualizowano `sitemap.xml`,
+- dodano nowe URL-e do klastra świadczeń.
+
+Po deployu należy ręcznie zgłosić w Google Search Console:
+
+- `https://wybieramfinanse.pl/swiadczenia/renta-socjalna/`,
+- `https://wybieramfinanse.pl/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
+
 ## Ważne zasady przy nowych plikach HTML
 
 Każdy nowy plik HTML powinien mieć w `<head>`:
@@ -147,28 +167,30 @@ Aktualny mocny klaster:
 - `/swiadczenia/zasilek-pielegnacyjny/`,
 - `/swiadczenia/dodatek-pielegnacyjny/`,
 - `/swiadczenia/swiadczenie-pielegnacyjne/`,
-- `/swiadczenia/swiadczenie-wspierajace/`.
+- `/swiadczenia/swiadczenie-wspierajace/`,
+- `/swiadczenia/renta-socjalna/`,
+- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
 
 Ważne rozróżnienie:
 
 - zasiłek pielęgnacyjny — dla osoby wymagającej opieki/pomocy,
 - dodatek pielęgnacyjny — najczęściej z ZUS, przy emeryturze/rencie,
 - świadczenie pielęgnacyjne — dla opiekuna,
-- świadczenie wspierające — dla osoby z niepełnosprawnością, zależne od punktów potrzeby wsparcia.
+- świadczenie wspierające — dla osoby z niepełnosprawnością, zależne od punktów potrzeby wsparcia,
+- renta socjalna — dla osoby całkowicie niezdolnej do pracy, gdy naruszenie sprawności powstało wcześnie,
+- renta z tytułu niezdolności do pracy — renta z ZUS powiązana z niezdolnością do pracy i stażem ubezpieczeniowym.
 
 ## Najbliższy kierunek
 
-Po zakończeniu redesignu głównych hubów wracamy do mocnych treści SEO w klastrze niepełnosprawność / opieka / świadczenia.
+Kontynuujemy mocne treści SEO w klastrze niepełnosprawność / opieka / świadczenia.
 
 Priorytetowe tematy:
 
-1. `/swiadczenia/renta-socjalna/`
-2. `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`
-3. `/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`
-4. `/swiadczenia/ulga-rehabilitacyjna/`
-5. `/swiadczenia/dofinansowanie-pfron/`
+1. `/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`
+2. `/swiadczenia/ulga-rehabilitacyjna/`
+3. `/swiadczenia/dofinansowanie-pfron/`
 
-Pierwszy następny artykuł: **renta socjalna**.
+Pierwszy następny artykuł: **świadczenie uzupełniające 500 plus dla osób niesamodzielnych**.
 
 ## Do pamiętania
 
