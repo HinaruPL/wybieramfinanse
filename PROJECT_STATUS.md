@@ -57,23 +57,29 @@ Użytkownik sprawdził desktop i mobile po redesignie — wygląda dobrze.
 
 ## Aktualizacja — 10.06.2026
 
-Dodano kolejny artykuł do klastra opieka i niepełnosprawność:
+Dodano kolejne artykuły do klastra opieka i niepełnosprawność:
 
 - `/swiadczenia/renta-socjalna/`,
-- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
+- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`,
+- `/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`.
 
 Wykonane zmiany:
 
 - dodano artykuł o rencie socjalnej,
 - dodano artykuł o rencie z tytułu niezdolności do pracy,
+- dodano artykuł o świadczeniu uzupełniającym 500 plus dla osób niesamodzielnych,
 - podpięto rentę z tytułu niezdolności do pracy w hubie `/swiadczenia/`,
-- zaktualizowano `sitemap.xml`,
+- podpięto świadczenie uzupełniające w hubie `/swiadczenia/`,
+- zaktualizowano `sitemap.xml` dla wcześniejszych artykułów,
 - dodano nowe URL-e do klastra świadczeń.
+
+Uwaga techniczna: przy próbie aktualizacji `sitemap.xml` po dodaniu świadczenia uzupełniającego narzędzie zapisu zablokowało pełną podmianę pliku. Trzeba sprawdzić, czy URL został finalnie dopisany do sitemap po kolejnym deployu albo dopisać go ręcznie.
 
 Po deployu należy ręcznie zgłosić w Google Search Console:
 
 - `https://wybieramfinanse.pl/swiadczenia/renta-socjalna/`,
-- `https://wybieramfinanse.pl/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
+- `https://wybieramfinanse.pl/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`,
+- `https://wybieramfinanse.pl/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`.
 
 ## Ważne zasady przy nowych plikach HTML
 
@@ -169,7 +175,8 @@ Aktualny mocny klaster:
 - `/swiadczenia/swiadczenie-pielegnacyjne/`,
 - `/swiadczenia/swiadczenie-wspierajace/`,
 - `/swiadczenia/renta-socjalna/`,
-- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`.
+- `/swiadczenia/renta-z-tytulu-niezdolnosci-do-pracy/`,
+- `/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`.
 
 Ważne rozróżnienie:
 
@@ -178,7 +185,8 @@ Ważne rozróżnienie:
 - świadczenie pielęgnacyjne — dla opiekuna,
 - świadczenie wspierające — dla osoby z niepełnosprawnością, zależne od punktów potrzeby wsparcia,
 - renta socjalna — dla osoby całkowicie niezdolnej do pracy, gdy naruszenie sprawności powstało wcześnie,
-- renta z tytułu niezdolności do pracy — renta z ZUS powiązana z niezdolnością do pracy i stażem ubezpieczeniowym.
+- renta z tytułu niezdolności do pracy — renta z ZUS powiązana z niezdolnością do pracy i stażem ubezpieczeniowym,
+- świadczenie uzupełniające — wsparcie dla osób niezdolnych do samodzielnej egzystencji, potocznie 500 plus dla niesamodzielnych.
 
 ## Najbliższy kierunek
 
@@ -186,11 +194,10 @@ Kontynuujemy mocne treści SEO w klastrze niepełnosprawność / opieka / świad
 
 Priorytetowe tematy:
 
-1. `/swiadczenia/swiadczenie-uzupelniajace-500-plus-dla-osob-niesamodzielnych/`
-2. `/swiadczenia/ulga-rehabilitacyjna/`
-3. `/swiadczenia/dofinansowanie-pfron/`
+1. `/swiadczenia/ulga-rehabilitacyjna/`
+2. `/swiadczenia/dofinansowanie-pfron/`
 
-Pierwszy następny artykuł: **świadczenie uzupełniające 500 plus dla osób niesamodzielnych**.
+Pierwszy następny artykuł: **ulga rehabilitacyjna**.
 
 ## Do pamiętania
 
