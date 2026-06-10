@@ -1,334 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://wybieramfinanse.pl/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://wybieramfinanse.pl/</loc><lastmod>2026-06-03</lastmod><priority>1.0</priority></url>
+  <url><loc>https://wybieramfinanse.pl/o-nas/</loc><lastmod>2026-06-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://wybieramfinanse.pl/kontakt/</loc><lastmod>2026-06-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://wybieramfinanse.pl/informacja-o-afiliacji/</loc><lastmod>2026-06-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://wybieramfinanse.pl/polityka-prywatnosci/</loc><lastmod>2026-06-03</lastmod><priority>0.5</priority></url>
 
-  <url>
-    <loc>https://wybieramfinanse.pl/o-nas/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/</loc><lastmod>2026-06-04</lastmod><priority>0.9</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/konta-osobiste/</loc><lastmod>2026-06-03</lastmod><priority>0.9</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/</loc><lastmod>2026-06-04</lastmod><priority>0.9</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/konto-firmowe-dla-spolki/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/revolut-business/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/dla-firm/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
 
-  <url>
-    <loc>https://wybieramfinanse.pl/kontakt/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/</loc><lastmod>2026-06-05</lastmod><priority>0.6</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kiedy-przelew/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/sesje-elixir/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/jaki-to-bank/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-premii-bankowej/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-kosztu-konta-osobistego/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kalendarz-swiadczen/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-budzetu-domowego/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
 
-  <url>
-    <loc>https://wybieramfinanse.pl/informacja-o-afiliacji/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/</loc><lastmod>2026-06-10</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/800-plus/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dobry-start-300-plus/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/becikowe/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/zasilek-rodzinny/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/kosiniakowe/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/renta-socjalna/</loc><lastmod>2026-06-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-pielegnacyjne/</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-wspierajace/</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/zasilek-pielegnacyjny/</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-pielegnacyjny/</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/orzeczenie-o-niepelnosprawnosci/</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/karta-parkingowa/</loc><lastmod>2026-06-07</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-rozpoczecie-roku-szkolnego/</loc><lastmod>2026-06-03</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-rodzina-wielodzietna/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-samotne-wychowywanie-dziecka/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-urodzenie-dziecka/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-urlop-wychowawczy/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-ksztalcenie-rehabilitacja/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/aktywny-rodzic/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/aktywni-rodzice-w-pracy/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/aktywnie-w-zlobku/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/swiadczenia/aktywnie-w-domu/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
 
-  <url>
-    <loc>https://wybieramfinanse.pl/polityka-prywatnosci/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/konta-osobiste/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/konto-firmowe-dla-spolki/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/revolut-business/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/dla-firm/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/revolut/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/kiedy-przelew/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/sesje-elixir/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/jaki-to-bank/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/kalkulator-premii-bankowej/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/kalkulator-kosztu-konta-osobistego/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/800-plus/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dobry-start-300-plus/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/becikowe/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/zasilek-rodzinny/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/kosiniakowe/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-pielegnacyjne/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/swiadczenie-wspierajace/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/zasilek-pielegnacyjny/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-pielegnacyjny/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/orzeczenie-o-niepelnosprawnosci/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/karta-parkingowa/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-rozpoczecie-roku-szkolnego/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-rodzina-wielodzietna/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-samotne-wychowywanie-dziecka/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-urodzenie-dziecka/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-urlop-wychowawczy/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-ksztalcenie-rehabilitacja/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/dodatek-nauka-poza-miejscem-zamieszkania/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/aktywny-rodzic/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/aktywni-rodzice-w-pracy/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/aktywnie-w-zlobku/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://wybieramfinanse.pl/swiadczenia/aktywnie-w-domu/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/kalendarz-swiadczen/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/narzedzia/kalkulator-budzetu-domowego/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/co-to-jest-sesja-elixir/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/sesja-wychodzaca-i-przychodzaca/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/czy-przelewy-ida-w-weekend/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/elixir-express-elixir-bluecash/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/jak-sprawdzic-bank-po-numerze-konta/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/dlaczego-przelew-nie-doszedl/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/co-to-jest-jdg/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/co-to-jest-spolka-zoo/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/rodzaje-spolek-w-polsce/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/jdg-a-spolka-roznice/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-jdg/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-spolke-zoo/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wybieramfinanse.pl/poradniki/dzialalnosc-nierejestrowana/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/</loc><lastmod>2026-06-04</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/revolut/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/co-to-jest-sesja-elixir/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/sesja-wychodzaca-i-przychodzaca/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/czy-przelewy-ida-w-weekend/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/elixir-express-elixir-bluecash/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/jak-sprawdzic-bank-po-numerze-konta/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/dlaczego-przelew-nie-doszedl/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/co-to-jest-jdg/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/co-to-jest-spolka-zoo/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/rodzaje-spolek-w-polsce/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/jdg-a-spolka-roznice/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-jdg/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-spolke-zoo/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/dzialalnosc-nierejestrowana/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
 </urlset>
