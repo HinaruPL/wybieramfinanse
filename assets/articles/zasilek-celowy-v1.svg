@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Zasiłek celowy</title>
+  <desc id="desc">Jasna ilustracja tarczy celu, koperty i prostych ikon wydatków.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="100%" stop-color="#f1fdf5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <circle cx="176" cy="140" r="64" fill="#dbeafe"/>
+  <circle cx="1000" cy="132" r="88" fill="#dff7ef"/>
+  <rect x="120" y="126" width="960" height="414" rx="34" fill="#ffffff" stroke="#dbe7f3"/>
+  <circle cx="600" cy="288" r="136" fill="#eff6ff" stroke="#dbe7f3"/>
+  <circle cx="600" cy="288" r="94" fill="#ffffff" stroke="#cfe0f6"/>
+  <circle cx="600" cy="288" r="58" fill="none" stroke="url(#accent)" stroke-width="18"/>
+  <circle cx="600" cy="288" r="18" fill="url(#accent)"/>
+  <path d="M600 288l74-56" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="852" cy="238" r="46" fill="#dcfce7"/>
+  <path d="M828 238l18 18 36-44" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="276" width="180" height="114" rx="18" fill="#eff6ff" stroke="#dbe7f3"/>
+  <path d="M246 304h132" stroke="#bfd7f0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M246 332h98" stroke="#bfd7f0" stroke-width="10" stroke-linecap="round"/>
+  <rect x="242" y="424" width="148" height="28" rx="14" fill="#e0f2fe"/>
+  <rect x="248" y="434" width="76" height="8" rx="4" fill="#1d4ed8"/>
+  <rect x="808" y="390" width="172" height="58" rx="18" fill="#f8fffb" stroke="#d7ebe1"/>
+  <path d="M834 418h120" stroke="#8dd3b5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M834 444h80" stroke="#c5e8d8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M120 548h960" stroke="#dbe7f3" stroke-width="4"/>
+</svg>

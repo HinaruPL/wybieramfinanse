@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Zasiłek stały</title>
+  <desc id="desc">Jasna ilustracja z tarczą ochronną, monetami i dokumentem pomocy społecznej.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6fbff"/>
+      <stop offset="100%" stop-color="#edf8f0"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <circle cx="182" cy="138" r="70" fill="#dbeafe"/>
+  <circle cx="1030" cy="144" r="92" fill="#dff6ec"/>
+  <rect x="110" y="124" width="980" height="420" rx="34" fill="#ffffff" stroke="#dbe7f3"/>
+  <path d="M600 182c72 0 132 38 132 38v110c0 110-132 174-132 174s-132-64-132-174V220s60-38 132-38z" fill="url(#shield)"/>
+  <path d="M600 240a82 82 0 1 0 0 164 82 82 0 1 0 0-164z" fill="#ffffff" opacity=".18"/>
+  <path d="M556 322l30 30 64-74" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="308" cy="300" r="50" fill="#dbeafe"/>
+  <circle cx="308" cy="300" r="28" fill="#ffffff"/>
+  <circle cx="318" cy="292" r="7" fill="#1d4ed8"/>
+  <rect x="240" y="392" width="182" height="34" rx="17" fill="#e0f2fe"/>
+  <rect x="238" y="444" width="188" height="18" rx="9" fill="#c7e7f5"/>
+  <rect x="770" y="286" width="178" height="124" rx="20" fill="#f8fffb" stroke="#d7ebe1"/>
+  <rect x="802" y="316" width="114" height="14" rx="7" fill="#bfe7d4"/>
+  <rect x="802" y="344" width="82" height="14" rx="7" fill="#bfe7d4"/>
+  <rect x="770" y="440" width="178" height="26" rx="13" fill="#dcfce7"/>
+  <path d="M792 453h134" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="914" cy="468" r="24" fill="#1d4ed8"/>
+  <path d="M906 468h16" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 548h960" stroke="#dbe7f3" stroke-width="4"/>
+</svg>

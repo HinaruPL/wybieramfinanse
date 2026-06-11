@@ -194,10 +194,10 @@ Kontynuujemy mocne treści SEO w klastrze niepełnosprawność / opieka / świad
 
 Priorytetowe tematy:
 
-1. `/swiadczenia/ulga-rehabilitacyjna/`
-2. `/swiadczenia/dofinansowanie-pfron/`
+1. `/swiadczenia/swiadczenia-z-mops/`
+2. `/swiadczenia/zasilek-staly/`
 
-Pierwszy następny artykuł: **ulga rehabilitacyjna**.
+Pierwszy następny artykuł: **świadczenia z MOPS**.
 
 ## Aktualizacja — 11.06.2026
 
@@ -210,6 +210,18 @@ Dodano nowy klaster treści w dziale `/swiadczenia/`:
 - `/swiadczenia/dofinansowanie-do-likwidacji-barier/`.
 
 Klaster „ulgi i dofinansowania” został dołączony do hubu świadczeń, a istniejące artykuły o opiece i niepełnosprawności dostały linki do nowych poradników.
+
+## Aktualizacja — 11.06.2026 (pomoc społeczna i MOPS)
+
+Dodano nowy klaster treści w dziale `/swiadczenia/`:
+
+- `/swiadczenia/swiadczenia-z-mops/`,
+- `/swiadczenia/zasilek-staly/`,
+- `/swiadczenia/zasilek-okresowy/`,
+- `/swiadczenia/zasilek-celowy/`,
+- `/swiadczenia/dodatek-mieszkaniowy/`.
+
+Klaster „pomoc społeczna i MOPS” został dołączony do hubu świadczeń, a wybrane istniejące artykuły dostały linki do nowych poradników.
 
 ## Do pamiętania
 
