@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title>Kiedy przelew</title>
+  <desc>Czekanie na środki</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf7ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="160" fill="url(#accent)" opacity="0.10"/>
+  <circle cx="120" cy="540" r="170" fill="url(#accent)" opacity="0.08"/>
+  <circle cx="1020" cy="500" r="110" fill="#16a34a" opacity="0.10"/>
+  <rect x="70" y="70" width="1060" height="490" rx="38" fill="#ffffff" opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <rect x="86" y="86" width="1028" height="458" rx="32" fill="#ffffff"/>
+  </g>
+  <g transform="translate(70 30)">
+    <rect x="0" y="0" width="270" height="62" rx="31" fill="url(#accent)" opacity="0.12"/>
+    <text x="34" y="40" fill="#0ea5e9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1">CZEKANIE NA ŚRODKI</text>
+  </g>
+  <text x="110" y="180" fill="#10233f" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="-1">Kiedy przelew</text>
+  <text x="110" y="236" fill="#5b6474" font-family="Arial, Helvetica, sans-serif" font-size="28">Czekanie na środki</text>
+  
+      <g transform="translate(110 104)">
+        <rect x="0" y="74" width="460" height="236" rx="34" fill="#ffffff" stroke="#dbeafe" stroke-width="6"/>
+        <circle cx="144" cy="194" r="74" fill="#eff6ff" stroke="#93c5fd" stroke-width="6"/>
+        <path d="M144 150v48l36 22" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M256 164h110" stroke="#0ea5e9" stroke-width="12" stroke-linecap="round"/>
+        <path d="M314 132l56 32-56 32" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="286" y="196" width="116" height="54" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+        <path d="M308 224h72" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+      </g>
+      
+</svg>

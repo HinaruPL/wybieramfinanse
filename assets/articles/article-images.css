@@ -1,9 +1,11 @@
-/* Grafiki artykułów świadczeń — lekkie obrazy SVG */
+/* Grafiki artykułów - lekkie obrazy SVG */
+.article-image-section,
 .article-hero-image {
   padding: 34px 0;
   background: #ffffff;
 }
 
+.article-image-section img,
 .article-hero-image img {
   display: block;
   width: min(1120px, calc(100% - 32px));
@@ -15,10 +17,14 @@
 }
 
 @media (max-width: 720px) {
+  .article-image-section,
   .article-hero-image {
     padding: 20px 0;
   }
+
+  .article-image-section img,
   .article-hero-image img {
+    width: calc(100% - 24px);
     border-radius: 20px;
   }
 }

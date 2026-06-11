@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title>Dla firm</title>
+  <desc>Finanse dla biznesu</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf7ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="160" fill="url(#accent)" opacity="0.10"/>
+  <circle cx="120" cy="540" r="170" fill="url(#accent)" opacity="0.08"/>
+  <circle cx="1020" cy="500" r="110" fill="#16a34a" opacity="0.10"/>
+  <rect x="70" y="70" width="1060" height="490" rx="38" fill="#ffffff" opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <rect x="86" y="86" width="1028" height="458" rx="32" fill="#ffffff"/>
+  </g>
+  <g transform="translate(70 30)">
+    <rect x="0" y="0" width="270" height="62" rx="31" fill="url(#accent)" opacity="0.12"/>
+    <text x="34" y="40" fill="#2563eb" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1">FINANSE DLA BIZNESU</text>
+  </g>
+  <text x="110" y="180" fill="#10233f" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="-1">Dla firm</text>
+  <text x="110" y="236" fill="#5b6474" font-family="Arial, Helvetica, sans-serif" font-size="28">Finanse dla biznesu</text>
+  
+      <g transform="translate(110 120)">
+        <rect x="0" y="110" width="470" height="220" rx="34" fill="#ffffff" stroke="#dbeafe" stroke-width="6"/>
+        <rect x="36" y="48" width="188" height="188" rx="28" fill="#eff6ff" stroke="#bfdbfe" stroke-width="6"/>
+        <path d="M66 118h128v72H66z" fill="none" stroke="#2563eb" stroke-width="10" stroke-linejoin="round"/>
+        <path d="M82 118v-34h96v34" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="106" cy="146" r="10" fill="#16a34a"/>
+        <circle cx="138" cy="146" r="10" fill="#2563eb"/>
+        <circle cx="170" cy="146" r="10" fill="#16a34a"/>
+        <path d="M262 70h122v154H262z" fill="#f8fafc" stroke="#2563eb" stroke-width="8" rx="18"/>
+        <path d="M286 194h74" stroke="#16a34a" stroke-width="12" stroke-linecap="round"/>
+        <path d="M286 164h94" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+        <circle cx="406" cy="166" r="36" fill="#dcfce7" stroke="#16a34a" stroke-width="8"/>
+        <path d="M394 166l12 12 22-28" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+</svg>

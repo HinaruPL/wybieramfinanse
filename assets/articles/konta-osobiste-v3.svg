@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title>Konta osobiste</title>
+  <desc>Bankowość na co dzień</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf7ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="40" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="160" fill="url(#accent)" opacity="0.10"/>
+  <circle cx="120" cy="540" r="170" fill="url(#accent)" opacity="0.08"/>
+  <circle cx="1020" cy="500" r="110" fill="#16a34a" opacity="0.10"/>
+  <rect x="70" y="70" width="1060" height="490" rx="38" fill="#ffffff" opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <rect x="86" y="86" width="1028" height="458" rx="32" fill="#ffffff"/>
+  </g>
+  <g transform="translate(70 30)">
+    <rect x="0" y="0" width="270" height="62" rx="31" fill="url(#accent)" opacity="0.12"/>
+    <text x="34" y="40" fill="#0ea5e9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="1">BANKOWOŚĆ NA CO DZIEŃ</text>
+  </g>
+  <text x="110" y="180" fill="#10233f" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="-1">Konta osobiste</text>
+  <text x="110" y="236" fill="#5b6474" font-family="Arial, Helvetica, sans-serif" font-size="28">Bankowość na co dzień</text>
+  
+      <g transform="translate(110 94)">
+        <rect x="0" y="82" width="462" height="232" rx="34" fill="#ffffff" stroke="#dbeafe" stroke-width="6"/>
+        <circle cx="132" cy="162" r="50" fill="#eff6ff" stroke="#93c5fd" stroke-width="6"/>
+        <path d="M108 162h48" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+        <path d="M132 138v48" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+        <rect x="228" y="118" width="162" height="118" rx="24" fill="#dcfce7" stroke="#16a34a" stroke-width="6"/>
+        <rect x="252" y="144" width="114" height="24" rx="10" fill="#bfdbfe"/>
+        <path d="M252 186h74" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+        <path d="M366 132l24 24-24 24" fill="none" stroke="#0ea5e9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      
+</svg>
