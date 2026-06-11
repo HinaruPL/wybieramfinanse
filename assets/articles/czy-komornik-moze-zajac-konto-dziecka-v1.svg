@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Czy komornik może zająć konto dziecka</title>
+  <desc id="desc">Jasna ilustracja konta dziecka, rodziny i tarczy ochronnej.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6fbff"/>
+      <stop offset="100%" stop-color="#eefbf5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <circle cx="180" cy="136" r="64" fill="#dbeafe"/>
+  <circle cx="1024" cy="136" r="88" fill="#dff7ef"/>
+  <rect x="116" y="124" width="968" height="424" rx="34" fill="#ffffff" stroke="#dbe7f3"/>
+  <circle cx="280" cy="304" r="72" fill="#eff6ff" stroke="#dbe7f3"/>
+  <circle cx="280" cy="286" r="24" fill="#ffffff"/>
+  <path d="M268 306c8 10 16 14 24 14s16-4 24-14" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round"/>
+  <rect x="492" y="214" width="250" height="150" rx="24" fill="#eff6ff" stroke="#dbe7f3"/>
+  <rect x="522" y="244" width="176" height="20" rx="10" fill="url(#accent)"/>
+  <rect x="522" y="282" width="108" height="18" rx="9" fill="#bfd7f0"/>
+  <rect x="522" y="312" width="146" height="18" rx="9" fill="#bfd7f0"/>
+  <circle cx="890" cy="290" r="48" fill="#dcfce7"/>
+  <path d="M868 290l16 16 34-40" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="744" y="392" width="224" height="58" rx="18" fill="#eefbf5" stroke="#d7ebe1"/>
+  <path d="M770 422h168" stroke="#8dd3b5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M116 548h968" stroke="#dbe7f3" stroke-width="4"/>
+</svg>

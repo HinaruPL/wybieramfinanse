@@ -231,3 +231,27 @@ Klaster „pomoc społeczna i MOPS” został dołączony do hubu świadczeń, a
 - Nie dodawać martwych linków do stron, których jeszcze nie ma.
 - Przy narzędziach nie psuć istniejącej logiki JavaScript.
 - Przy danych bankowych i świadczeniach uwzględniać, że informacje mogą się zmieniać i wymagać ręcznej weryfikacji.
+
+## Aktualizacja - 11.06.2026 (długi i komornik)
+
+Dodano nowy klaster SEO wokół długów, zajęć komorniczych i porządkowania zadłużenia:
+
+- `/dlugi/`,
+- `/dlugi/ile-komornik-moze-zabrac-z-pensji/`,
+- `/dlugi/czy-komornik-moze-zajac-800-plus/`,
+- `/dlugi/czego-nie-moze-zajac-komornik/`,
+- `/dlugi/czy-komornik-moze-zajac-konto-dziecka/`,
+- `/dlugi/jak-sprawdzic-dlugi/`,
+- `/dlugi/jak-wyjsc-z-dlugow/`,
+- `/narzedzia/kalkulator-limit-komorniczy/`.
+
+Wykonane zmiany:
+
+- dodano nowy hub `/dlugi/`,
+- dodano sześć artykułów o długach i komorniku,
+- dodano kalkulator limitu komorniczego,
+- podpięto nowe treści na stronie głównej, w `/narzedzia/` i w `/poradniki/`,
+- zaktualizowano `sitemap.xml` o nowe URL-e,
+- zachowano prosty, ostrożny ton i linkowanie do oficjalnych źródeł.
+
+Klaster "długi i komornik" został dołączony do głównej struktury portalu.

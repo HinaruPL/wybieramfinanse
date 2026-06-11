@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Jak sprawdzić długi</title>
+  <desc id="desc">Jasna ilustracja lupy nad raportem, checkboxów i porządku w dokumentach.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6fbff"/>
+      <stop offset="100%" stop-color="#eefbf5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <circle cx="182" cy="140" r="64" fill="#dbeafe"/>
+  <circle cx="1020" cy="140" r="86" fill="#dff7ef"/>
+  <rect x="114" y="126" width="972" height="418" rx="34" fill="#ffffff" stroke="#dbe7f3"/>
+  <rect x="180" y="196" width="330" height="250" rx="22" fill="#eff6ff" stroke="#dbe7f3"/>
+  <rect x="210" y="230" width="126" height="18" rx="9" fill="url(#accent)"/>
+  <rect x="210" y="266" width="190" height="18" rx="9" fill="#bfd7f0"/>
+  <rect x="210" y="302" width="166" height="18" rx="9" fill="#bfd7f0"/>
+  <rect x="210" y="338" width="220" height="18" rx="9" fill="#bfd7f0"/>
+  <circle cx="666" cy="312" r="108" fill="#eff6ff" stroke="#dbe7f3"/>
+  <circle cx="666" cy="312" r="74" fill="#ffffff"/>
+  <circle cx="666" cy="312" r="32" fill="none" stroke="#1d4ed8" stroke-width="14"/>
+  <path d="M708 354l58 58" fill="none" stroke="#14b8a6" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="882" cy="292" r="50" fill="#dcfce7"/>
+  <path d="M858 292l18 18 40-46" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="734" y="390" width="238" height="58" rx="18" fill="#eefbf5" stroke="#d7ebe1"/>
+  <path d="M760 420h182" stroke="#8dd3b5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M114 548h972" stroke="#dbe7f3" stroke-width="4"/>
+</svg>
