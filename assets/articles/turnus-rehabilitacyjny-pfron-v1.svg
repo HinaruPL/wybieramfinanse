@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Turnus rehabilitacyjny PFRON</title>
+  <desc id="desc">Jasna ilustracja z kalendarzem, walizką i symbolami wyjazdu rehabilitacyjnego.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef8f4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f9d7a"/>
+      <stop offset="100%" stop-color="#1976d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <circle cx="1042" cy="92" r="118" fill="#dff4ee"/>
+  <circle cx="148" cy="520" r="164" fill="#e8f1ff"/>
+  <rect x="112" y="92" width="976" height="446" rx="34" fill="#ffffff" stroke="#dbe5ef"/>
+  <rect x="182" y="156" width="314" height="290" rx="28" fill="#f8fbff" stroke="#dbe5ef"/>
+  <rect x="182" y="156" width="314" height="70" rx="28" fill="url(#accent)"/>
+  <text x="339" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">TURNUS</text>
+  <rect x="214" y="250" width="48" height="48" rx="12" fill="#e8f7f2"/>
+  <rect x="282" y="250" width="48" height="48" rx="12" fill="#e8f7f2"/>
+  <rect x="350" y="250" width="48" height="48" rx="12" fill="#e8f7f2"/>
+  <rect x="418" y="250" width="48" height="48" rx="12" fill="#e8f7f2"/>
+  <rect x="214" y="318" width="48" height="48" rx="12" fill="#d7e8ff"/>
+  <rect x="282" y="318" width="48" height="48" rx="12" fill="#d7e8ff"/>
+  <rect x="350" y="318" width="48" height="48" rx="12" fill="#d7e8ff"/>
+  <circle cx="436" cy="332" r="25" fill="#0f9d7a"/>
+  <path d="M426 332l8 8 17-19" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="554" y="156" width="246" height="300" rx="28" fill="#ffffff" stroke="#dbe5ef"/>
+  <rect x="592" y="190" width="170" height="22" rx="11" fill="#d7e8ff"/>
+  <rect x="592" y="228" width="132" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="592" y="256" width="160" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="592" y="284" width="118" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="592" y="324" width="162" height="126" rx="24" fill="#ecf6ff"/>
+  <circle cx="676" cy="386" r="30" fill="#1976d2"/>
+  <path d="M657 386h38M676 367v38" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="838" y="178" width="210" height="248" rx="28" fill="#f4f8fc" stroke="#dbe5ef"/>
+  <rect x="872" y="224" width="142" height="88" rx="20" fill="#0f9d7a"/>
+  <path d="M872 290h142" stroke="#ffffff" stroke-width="8"/>
+  <path d="M890 218l24-34 28 34" fill="none" stroke="#1976d2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="948" cy="228" r="20" fill="#fef3c7"/>
+  <path d="M948 212v32M932 228h32" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <text x="944" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#14324a">Wyjazd</text>
+</svg>

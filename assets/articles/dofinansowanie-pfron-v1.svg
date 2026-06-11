@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dofinansowanie PFRON</title>
+  <desc id="desc">Jasna ilustracja z budynkiem instytucji, monetami i kartą dofinansowania PFRON.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9fcff"/>
+      <stop offset="100%" stop-color="#eefaf3"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1976d2"/>
+      <stop offset="100%" stop-color="#0f9d7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <circle cx="1048" cy="114" r="126" fill="#dff4ee"/>
+  <circle cx="164" cy="518" r="154" fill="#e8f1ff"/>
+  <rect x="110" y="92" width="980" height="446" rx="34" fill="#ffffff" stroke="#dbe5ef"/>
+  <rect x="180" y="178" width="324" height="206" rx="24" fill="#f4f8fc" stroke="#dbe5ef"/>
+  <path d="M192 198h300l-150-72z" fill="url(#accent)"/>
+  <rect x="212" y="244" width="52" height="132" rx="12" fill="#d7e8ff"/>
+  <rect x="282" y="244" width="52" height="132" rx="12" fill="#d7e8ff"/>
+  <rect x="352" y="244" width="52" height="132" rx="12" fill="#d7e8ff"/>
+  <rect x="422" y="244" width="52" height="132" rx="12" fill="#d7e8ff"/>
+  <circle cx="342" cy="188" r="34" fill="#0f9d7a"/>
+  <text x="342" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">PFRON</text>
+  <rect x="580" y="160" width="390" height="162" rx="28" fill="#f8fbff" stroke="#dbe5ef"/>
+  <rect x="620" y="196" width="164" height="20" rx="10" fill="#d7e8ff"/>
+  <rect x="620" y="232" width="216" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="620" y="260" width="174" height="16" rx="8" fill="#eef3f8"/>
+  <circle cx="870" cy="242" r="52" fill="#e8f7f2"/>
+  <path d="M840 242l22 22 40-48" fill="none" stroke="#0f9d7a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="608" y="360" width="274" height="124" rx="26" fill="#ffffff" stroke="#dbe5ef"/>
+  <circle cx="670" cy="422" r="30" fill="#1976d2"/>
+  <text x="670" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">€</text>
+  <circle cx="734" cy="422" r="30" fill="#0f9d7a"/>
+  <text x="734" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">+</text>
+  <rect x="782" y="398" width="78" height="48" rx="16" fill="#ecf6ff"/>
+  <path d="M804 422h34M821 405v34" stroke="#1976d2" stroke-width="8" stroke-linecap="round"/>
+  <rect x="904" y="368" width="108" height="116" rx="26" fill="#f4f8fc" stroke="#dbe5ef"/>
+  <path d="M928 456l22-78 22 78" fill="none" stroke="#1976d2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M938 410h24" stroke="#0f9d7a" stroke-width="10" stroke-linecap="round"/>
+  <text x="948" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#14324a">Pomoc</text>
+</svg>

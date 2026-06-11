@@ -199,6 +199,18 @@ Priorytetowe tematy:
 
 Pierwszy następny artykuł: **ulga rehabilitacyjna**.
 
+## Aktualizacja — 11.06.2026
+
+Dodano nowy klaster treści w dziale `/swiadczenia/`:
+
+- `/swiadczenia/ulga-rehabilitacyjna/`,
+- `/swiadczenia/dofinansowanie-pfron/`,
+- `/swiadczenia/turnus-rehabilitacyjny-pfron/`,
+- `/swiadczenia/dofinansowanie-do-sprzetu-rehabilitacyjnego/`,
+- `/swiadczenia/dofinansowanie-do-likwidacji-barier/`.
+
+Klaster „ulgi i dofinansowania” został dołączony do hubu świadczeń, a istniejące artykuły o opiece i niepełnosprawności dostały linki do nowych poradników.
+
 ## Do pamiętania
 
 - Po dodaniu nowej strony trzeba zaktualizować `sitemap.xml`.

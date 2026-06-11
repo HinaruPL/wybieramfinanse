@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dofinansowanie do likwidacji barier</title>
+  <desc id="desc">Jasna ilustracja z domem, rampą i symbolem usuwania barier architektonicznych.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef8f4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f9d7a"/>
+      <stop offset="100%" stop-color="#1976d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <circle cx="1040" cy="108" r="124" fill="#dff4ee"/>
+  <circle cx="156" cy="518" r="166" fill="#e8f1ff"/>
+  <rect x="110" y="92" width="980" height="446" rx="34" fill="#ffffff" stroke="#dbe5ef"/>
+  <rect x="174" y="166" width="360" height="282" rx="28" fill="#f8fbff" stroke="#dbe5ef"/>
+  <path d="M214 400V238h160v162" fill="#ffffff" stroke="#1976d2" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M214 316h160" stroke="#dbe5ef" stroke-width="8"/>
+  <rect x="272" y="286" width="52" height="114" rx="18" fill="#d7e8ff"/>
+  <path d="M214 400h190l50-52h78" fill="none" stroke="url(#accent)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="460" y="252" width="64" height="164" rx="18" fill="#ecf6ff"/>
+  <path d="M444 384h84" stroke="#0f9d7a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M492 282l30 0M492 314l30 0M492 346l30 0" stroke="#1976d2" stroke-width="10" stroke-linecap="round"/>
+  <rect x="590" y="156" width="234" height="300" rx="28" fill="#ffffff" stroke="#dbe5ef"/>
+  <rect x="628" y="190" width="158" height="20" rx="10" fill="#d7e8ff"/>
+  <rect x="628" y="226" width="122" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="628" y="254" width="146" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="628" y="292" width="148" height="124" rx="24" fill="#ecf6ff"/>
+  <path d="M658 378h48M682 354v48" stroke="#0f9d7a" stroke-width="10" stroke-linecap="round"/>
+  <rect x="870" y="170" width="176" height="238" rx="28" fill="#f4f8fc" stroke="#dbe5ef"/>
+  <rect x="900" y="212" width="116" height="20" rx="10" fill="#d7e8ff"/>
+  <rect x="900" y="248" width="116" height="16" rx="8" fill="#eef3f8"/>
+  <rect x="900" y="276" width="116" height="16" rx="8" fill="#eef3f8"/>
+  <circle cx="988" cy="334" r="30" fill="#0f9d7a"/>
+  <path d="M974 334l10 10 18-22" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
