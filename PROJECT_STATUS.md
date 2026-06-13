@@ -118,6 +118,28 @@ Artykuły mają być pisane:
 - z linkowaniem wewnętrznym do powiązanych tematów,
 - z ostrożnym podejściem do kwot i terminów, jeżeli mogą się zmieniać.
 
+## Aktualizacja â€” 13.06.2026
+
+W kolejnym sprincie wzmocniliśmy warstwę zaufania, przejrzystości i jakości redakcyjnej serwisu po wykrytym sygnale dotyczącym treści o niskiej wartości.
+
+Wykonane zmiany:
+
+- dodano stronę `/jak-tworzymy-tresci/` opisującą proces tworzenia treści, źródła i zasady aktualizacji,
+- rozbudowano stronę `/o-nas/`, żeby lepiej wyjaśniała misję portalu i sposób pracy redakcji,
+- dodano bloki `editorial-note` w kluczowych hubach i artykułach,
+- wzmocniono linkowanie do strony o procesie tworzenia treści w stopkach,
+- dodano nowe ilustracje SVG dla stron redakcyjnych,
+- zaktualizowano `sitemap.xml` o nowy URL,
+- zachowano dotychczasowe treści, rankingi i afiliacyjne CTA bez skracania materiałów.
+
+Klaster tematyczny:
+
+- `ulgi i dofinansowania` dla osób z niepełnosprawnością został dopisany wcześniej i pozostaje częścią rozbudowy działu `/swiadczenia/`.
+
+Następny planowany kierunek:
+
+- rozszerzenie tematu kredytów gotówkowych, RRSO i kalkulatorów rat w kolejnych artykułach poradnikowych.
+
 Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, że artykuł ma charakter informacyjny i nie jest decyzją urzędu ani poradą prawną.
 
 ## Klastry SEO — aktualny stan
