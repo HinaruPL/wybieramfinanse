@@ -715,47 +715,6 @@ h1 {
   font-size: 14px;
 }
 
-.bank-offer {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.bank-offer .bank-logo {
-  width: 76px;
-  max-height: 42px;
-  object-fit: contain;
-  flex-shrink: 0;
-  background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 6px;
-}
-
-.bank-offer .bank-logo-pko {
-  max-width: 72px;
-  max-height: 38px;
-  transform: none;
-}
-
-.bank-logo-fallback {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  min-height: 38px;
-  padding: 6px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: #ffffff;
-  color: var(--navy);
-  font-size: 10px;
-  line-height: 1.15;
-  font-weight: 800;
-  text-align: center;
-  flex-shrink: 0;
-}
 
 .btn.small {
   min-height: 40px;
@@ -980,18 +939,6 @@ h1 {
     max-width: 96px;
     max-height: 32px;
     transform: scale(1.3);
-  }
-
-  .bank-offer {
-    gap: 10px;
-  }
-
-  .bank-offer .bank-logo,
-  .bank-logo-fallback {
-    width: 68px;
-    min-height: 36px;
-    padding: 5px;
-    font-size: 9px;
   }
 
   .bank-badge {

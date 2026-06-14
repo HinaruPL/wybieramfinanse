@@ -1,4 +1,4 @@
-﻿# Wybieram Finanse — status projektu
+# Wybieram Finanse — status projektu
 
 ## Cel projektu
 
@@ -219,6 +219,13 @@ Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, �
   - Santander Consumer Bank,
 - wszystkie 9 ofert w tabeli mają już graficzny element `<img>`,
 - nie użyto logo z Google Grafika ani przypadkowych źródeł.
+
+## Naprawa rankingu kont osobistych i ujednolicenie tabel rankingowych
+
+- naprawiono mojibake w `/rankingi/konta-osobiste/index.html`,
+- ujednolicono układ logo w `/rankingi/kredyty-gotowkowe/index.html` do stylu rankingu kont osobistych,
+- sprawdzono RRSO i linki afiliacyjne w rankingu kredytów,
+- wykonano skan końcowy na krzaki.
 
 ## Klastry SEO — aktualny stan
 
