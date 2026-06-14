@@ -362,3 +362,25 @@ Wykonane zmiany:
 - zachowano prosty, ostrożny ton i linkowanie do oficjalnych źródeł.
 
 Klaster "długi i komornik" został dołączony do głównej struktury portalu.
+
+## Aktualizacja - 14.06.2026 (klaster kredytowy)
+
+Dodano nowy klaster wokół kredytów gotówkowych, RRSO i zdolności kredytowej:
+
+- `/kredyty/`,
+- `/narzedzia/kalkulator-raty-kredytu/`,
+- `/poradniki/co-to-jest-rrso/`,
+- `/poradniki/zdolnosc-kredytowa/`,
+- `/poradniki/jak-poprawic-zdolnosc-kredytowa/`,
+- `/poradniki/kredyt-gotowkowy-a-pozyczka/`.
+
+Wykonane zmiany:
+
+- dodano nowy hub kredytowy,
+- dodano kalkulator raty kredytu,
+- dodano cztery poradniki o RRSO, zdolności kredytowej i różnicach między kredytem a pożyczką,
+- podlinkowano nowy klaster z home page, `/rankingi/`, `/narzedzia/` i `/poradniki/`,
+- zaktualizowano `sitemap.xml` o nowe URL-e,
+- zachowano ostrożny, informacyjny ton bez obiecywania decyzji banku.
+
+Klaster kredytowy został dołączony do głównej struktury portalu.

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Kredyt gotówkowy a pożyczka</title>
+  <desc id="desc">Ilustracja dwóch kart porównawczych, monet i dokumentów.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="120" y="130" width="430" height="330" rx="32" fill="#ffffff" stroke="#dbe7f5"/>
+  <rect x="150" y="170" width="170" height="52" rx="18" fill="#2563eb"/>
+  <text x="176" y="204" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Kredyt gotówkowy</text>
+  <rect x="150" y="252" width="310" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="150" y="286" width="250" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="150" y="328" width="150" height="92" rx="24" fill="#dbeafe"/>
+  <rect x="320" y="328" width="140" height="92" rx="24" fill="#dcfce7"/>
+  <circle cx="395" cy="374" r="26" fill="#16a34a"/>
+  <rect x="650" y="130" width="430" height="330" rx="32" fill="#ffffff" stroke="#dbe7f5"/>
+  <rect x="680" y="170" width="170" height="52" rx="18" fill="#16a34a"/>
+  <text x="720" y="204" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Pożyczka</text>
+  <rect x="680" y="252" width="310" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="680" y="286" width="250" height="18" rx="9" fill="#e2e8f0"/>
+  <rect x="680" y="328" width="150" height="92" rx="24" fill="#dcfce7"/>
+  <rect x="850" y="328" width="140" height="92" rx="24" fill="#dbeafe"/>
+  <circle cx="725" cy="374" r="26" fill="#2563eb"/>
+  <rect x="120" y="506" width="960" height="84" rx="26" fill="#10233f"/>
+  <text x="168" y="559" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Warto porównać RRSO, warunki i całkowity koszt przed decyzją</text>
+</svg>

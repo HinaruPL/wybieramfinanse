@@ -15,6 +15,7 @@
   <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/revolut-business/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/rankingi/kredyty-gotowkowe/</loc><lastmod>2026-06-14</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/dla-firm/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/kredyty/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
 
   <url><loc>https://wybieramfinanse.pl/narzedzia/</loc><lastmod>2026-06-05</lastmod><priority>0.6</priority></url>
   <url><loc>https://wybieramfinanse.pl/narzedzia/kiedy-przelew/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
@@ -25,6 +26,7 @@
   <url><loc>https://wybieramfinanse.pl/narzedzia/kalendarz-swiadczen/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-budzetu-domowego/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-limit-komorniczy/</loc><lastmod>2026-06-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/narzedzia/kalkulator-raty-kredytu/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
 
   <url><loc>https://wybieramfinanse.pl/dlugi/</loc><lastmod>2026-06-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/dlugi/ile-komornik-moze-zabrac-z-pensji/</loc><lastmod>2026-06-11</lastmod><priority>0.8</priority></url>
@@ -72,6 +74,10 @@
 
   <url><loc>https://wybieramfinanse.pl/poradniki/</loc><lastmod>2026-06-04</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/revolut/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/co-to-jest-rrso/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/zdolnosc-kredytowa/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/jak-poprawic-zdolnosc-kredytowa/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/kredyt-gotowkowy-a-pozyczka/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/co-to-jest-sesja-elixir/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/sesja-wychodzaca-i-przychodzaca/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/czy-przelewy-ida-w-weekend/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>

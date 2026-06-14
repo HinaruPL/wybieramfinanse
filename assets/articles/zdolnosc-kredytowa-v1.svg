@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Zdolność kredytowa</title>
+  <desc id="desc">Ilustracja zdolności kredytowej z domem, wykresem i znacznikiem akceptacji.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="124" y="130" width="350" height="320" rx="32" fill="#ffffff" stroke="#dbe7f5"/>
+  <path d="M180 298L246 244L314 298V396H180Z" fill="#dbeafe"/>
+  <rect x="214" y="326" width="64" height="70" rx="10" fill="#2563eb"/>
+  <rect x="352" y="182" width="70" height="220" rx="16" fill="#eff6ff"/>
+  <rect x="352" y="280" width="70" height="122" rx="16" fill="#2563eb"/>
+  <rect x="446" y="238" width="70" height="164" rx="16" fill="#dcfce7"/>
+  <rect x="540" y="198" width="70" height="204" rx="16" fill="#2563eb"/>
+  <path d="M352 182l70 36 70 22 70-42" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="660" y="116" width="420" height="356" rx="34" fill="#ffffff" stroke="#dbe7f5"/>
+  <circle cx="824" cy="256" r="112" fill="#dcfce7"/>
+  <circle cx="824" cy="256" r="74" fill="#ffffff" stroke="#16a34a" stroke-width="14"/>
+  <path d="M792 256l20 20 44-48" fill="none" stroke="#16a34a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="710" y="386" width="300" height="18" rx="9" fill="#dbeafe"/>
+  <rect x="120" y="500" width="960" height="90" rx="28" fill="#10233f"/>
+  <text x="168" y="558" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Stabilne dochody, niskie raty i porządek w zobowiązaniach pomagają</text>
+</svg>
