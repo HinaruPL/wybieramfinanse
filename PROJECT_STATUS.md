@@ -170,6 +170,14 @@ Następny krok:
 
 - Sprint 4B: kalkulator raty kredytu, RRSO, zdolność kredytowa i artykuły wspierające.
 
+## Audyt polskich znaków i tekstów roboczych
+
+- wykonano pełny audyt UTF-8 dla plików HTML, CSS, JS, SVG, XML i MD,
+- sprawdzono polskie znaki oraz typowe wzorce mojibake,
+- usunięto robocze teksty z publicznych stron, w tym z rankingu kredytów gotówkowych,
+- poprawiono ranking kredytów gotówkowych i powiązane strony, które miały problemy z kodowaniem,
+- Sprint 4B jest wstrzymany do czasu ręcznej kontroli po audycie.
+
 Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, że artykuł ma charakter informacyjny i nie jest decyzją urzędu ani poradą prawną.
 
 ## Klastry SEO — aktualny stan
