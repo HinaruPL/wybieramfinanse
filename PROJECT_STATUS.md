@@ -398,3 +398,14 @@ W ramach Mini Sprintu 4C:
 - sprawdzono kalkulator raty kredytu.
 
 Wynik: portal jest przygotowany do ręcznej kontroli przed ponownym zgłoszeniem AdSense, a klaster kredytowy jest spójnie połączony i opisany w sposób informacyjny.
+
+## Cookies i własna strona 404
+
+Aktualizacja sprintu z 14.06.2026:
+
+- dodano własną stronę `/cookies/` z prostym wyjaśnieniem cookies, Google Analytics, AdSense i linków afiliacyjnych,
+- dodano własną stronę `/404.html` z ustawieniem `noindex,follow`,
+- wdrożono wspólny banner cookies uruchamiany z `localStorage`,
+- Google Analytics 4 ładuje się dopiero po wyrażeniu zgody na cookies analityczne,
+- do stopki całego serwisu dodano link `Cookies`,
+- uzupełniono `sitemap.xml` o nowy adres `/cookies/`.
