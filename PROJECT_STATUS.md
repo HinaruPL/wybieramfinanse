@@ -195,6 +195,20 @@ Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, �
   - `/swiadczenia/renta-socjalna/`,
   - `/dlugi/jak-wyjsc-z-dlugow/`.
 
+## Poprawka rankingu kredytów gotówkowych
+
+- uzupełniono RRSO przy Santander Consumer Bank,
+- dodano logo tam, gdzie w repo były już bezpieczne assety,
+- przygotowano fallback badge dla banków bez pewnego oficjalnego logo w repo,
+- poprawiono kolumnę „Na co uważać” na język dla czytelnika,
+- sprawdzono, że każda oferta ma w tabeli RRSO,
+- do ręcznego uzupełnienia logo pozostają:
+  - VeloBank,
+  - Millennium,
+  - Alior Bank,
+  - Santander Consumer Bank,
+  - Raiffeisen Digital Bank.
+
 ## Klastry SEO — aktualny stan
 
 ### Konta i bankowość
