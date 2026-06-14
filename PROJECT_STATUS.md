@@ -140,6 +140,36 @@ Następny planowany kierunek:
 
 - rozszerzenie tematu kredytów gotówkowych, RRSO i kalkulatorów rat w kolejnych artykułach poradnikowych.
 
+## Sprint 4A â€” 14.06.2026
+
+Dodaliśmy nowy ranking kredytów gotówkowych pod adresem `/rankingi/kredyty-gotowkowe/`.
+
+Zakres sprintu:
+
+- utworzono nową stronę z rankingiem klasycznych kredytów i pożyczek gotówkowych bankowych,
+- dodano własną grafikę SVG dla tego rankingu,
+- wstawiono disclaimer, blok redakcyjny, metodologię, FAQ i oficjalne źródła,
+- dopisano link do nowego rankingu w hubie `/rankingi/`,
+- dopisano link do nowego rankingu na stronie głównej `/`,
+- zaktualizowano `sitemap.xml`,
+- zachowano ostrożny, informacyjny ton i oznaczenia afiliacyjne `rel="nofollow sponsored"` przy CTA.
+
+Lista ofert w rankingu:
+
+- Bank Pekao
+- VeloBank
+- Erste Bank Polska
+- Millennium
+- Alior Bank
+- Raiffeisen Digital Bank
+- BNP Paribas
+- Santander Consumer Bank
+- PKO BP
+
+Następny krok:
+
+- Sprint 4B: kalkulator raty kredytu, RRSO, zdolność kredytowa i artykuły wspierające.
+
 Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, że artykuł ma charakter informacyjny i nie jest decyzją urzędu ani poradą prawną.
 
 ## Klastry SEO — aktualny stan
