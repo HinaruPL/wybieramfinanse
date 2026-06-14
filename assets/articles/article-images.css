@@ -1,14 +1,19 @@
 /* Grafiki artykułów - lekkie obrazy SVG */
 .article-image-section,
 .article-hero-image {
-  padding: 34px 0;
+  position: relative;
+  z-index: 1;
+  padding: 40px 0;
+  margin: 0;
   background: #ffffff;
+  clear: both;
 }
 
 .article-image-section img,
 .article-hero-image img {
   display: block;
   width: min(1120px, calc(100% - 32px));
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
   border-radius: 28px;
@@ -16,15 +21,48 @@
   box-shadow: 0 22px 65px rgba(15, 23, 42, 0.08);
 }
 
+.article-image-section + .disclaimer,
+.article-hero-image + .disclaimer {
+  margin-top: 18px;
+}
+
+.disclaimer {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 28px 0;
+  clear: both;
+}
+
+.disclaimer + .editorial-note {
+  margin-top: 28px;
+}
+
+.editorial-note {
+  width: min(1120px, calc(100% - 32px));
+  margin: 28px auto;
+}
+
 @media (max-width: 720px) {
   .article-image-section,
   .article-hero-image {
-    padding: 20px 0;
+    padding: 24px 0;
   }
 
   .article-image-section img,
   .article-hero-image img {
-    width: calc(100% - 24px);
+    width: min(1120px, calc(100% - 24px));
     border-radius: 20px;
+  }
+
+  .article-image-section + .disclaimer,
+  .article-hero-image + .disclaimer {
+    margin-top: 14px;
+  }
+
+  .disclaimer + .editorial-note,
+  .editorial-note {
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 }

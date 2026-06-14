@@ -180,6 +180,21 @@ Następny krok:
 
 Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, że artykuł ma charakter informacyjny i nie jest decyzją urzędu ani poradą prawną.
 
+## Globalna poprawka layoutu grafik i disclaimerów
+
+- ujednolicono globalne odstępy dla `.article-image-section` i `.article-hero-image`,
+- dodano bezpieczny odstęp i wyższy stacking context dla `.disclaimer`,
+- poprawiono marginesy `.editorial-note`, żeby nie nachodziła na grafiki ani treść,
+- zmiany wprowadzono w `style.css` oraz `assets/articles/article-images.css`,
+- do testów kontrolnych wskazano strony:
+  - `/rankingi/kredyty-gotowkowe/`,
+  - `/rankingi/konta-osobiste/`,
+  - `/narzedzia/kalkulator-budzetu-domowego/`,
+  - `/poradniki/revolut/`,
+  - `/swiadczenia/800-plus/`,
+  - `/swiadczenia/renta-socjalna/`,
+  - `/dlugi/jak-wyjsc-z-dlugow/`.
+
 ## Klastry SEO — aktualny stan
 
 ### Konta i bankowość
