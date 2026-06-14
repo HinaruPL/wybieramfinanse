@@ -1,4 +1,4 @@
-# Wybieram Finanse — status projektu
+﻿# Wybieram Finanse — status projektu
 
 ## Cel projektu
 
@@ -118,7 +118,7 @@ Artykuły mają być pisane:
 - z linkowaniem wewnętrznym do powiązanych tematów,
 - z ostrożnym podejściem do kwot i terminów, jeżeli mogą się zmieniać.
 
-## Aktualizacja â€” 13.06.2026
+## Aktualizacja — 13.06.2026
 
 W kolejnym sprincie wzmocniliśmy warstwę zaufania, przejrzystości i jakości redakcyjnej serwisu po wykrytym sygnale dotyczącym treści o niskiej wartości.
 
@@ -140,7 +140,7 @@ Następny planowany kierunek:
 
 - rozszerzenie tematu kredytów gotówkowych, RRSO i kalkulatorów rat w kolejnych artykułach poradnikowych.
 
-## Sprint 4A â€” 14.06.2026
+## Sprint 4A — 14.06.2026
 
 Dodaliśmy nowy ranking kredytów gotówkowych pod adresem `/rankingi/kredyty-gotowkowe/`.
 
