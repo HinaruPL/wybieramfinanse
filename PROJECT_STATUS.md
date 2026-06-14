@@ -202,12 +202,23 @@ Przy świadczeniach i tematach prawno-urzędowych zawsze dodawać informację, �
 - przygotowano fallback badge dla banków bez pewnego oficjalnego logo w repo,
 - poprawiono kolumnę „Na co uważać” na język dla czytelnika,
 - sprawdzono, że każda oferta ma w tabeli RRSO,
-- do ręcznego uzupełnienia logo pozostają:
+- dla banków bez pewnego oficjalnego logo w repo przygotowano neutralne badge SVG, więc nie ma już brakujących elementów w tabeli.
+
+## Logo i badge w rankingu kredytów gotówkowych
+
+- z istniejących logo w repo użyto:
+  - Bank Pekao,
+  - Erste Bank Polska,
+  - BNP Paribas,
+  - PKO BP,
+- neutralne SVG badge przygotowano dla:
   - VeloBank,
   - Millennium,
   - Alior Bank,
+  - Raiffeisen Digital Bank,
   - Santander Consumer Bank,
-  - Raiffeisen Digital Bank.
+- wszystkie 9 ofert w tabeli mają już graficzny element `<img>`,
+- nie użyto logo z Google Grafika ani przypadkowych źródeł.
 
 ## Klastry SEO — aktualny stan
 

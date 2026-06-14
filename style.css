@@ -723,8 +723,8 @@ h1 {
 }
 
 .bank-offer .bank-logo {
-  width: 72px;
-  max-height: 38px;
+  width: 76px;
+  max-height: 42px;
   object-fit: contain;
   flex-shrink: 0;
   background: #ffffff;
@@ -988,8 +988,8 @@ h1 {
 
   .bank-offer .bank-logo,
   .bank-logo-fallback {
-    width: 64px;
-    min-height: 34px;
+    width: 68px;
+    min-height: 36px;
     padding: 5px;
     font-size: 9px;
   }
