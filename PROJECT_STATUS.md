@@ -384,3 +384,17 @@ Wykonane zmiany:
 - zachowano ostrożny, informacyjny ton bez obiecywania decyzji banku.
 
 Klaster kredytowy został dołączony do głównej struktury portalu.
+
+## Mini Sprint 4C — audyt jakości i gotowość AdSense
+
+W ramach Mini Sprintu 4C:
+
+- sprawdzono polskie znaki,
+- sprawdzono meta title, description i canonical,
+- sprawdzono `sitemap.xml`,
+- sprawdzono linkowanie wewnętrzne klastra kredytowego,
+- sprawdzono linki afiliacyjne,
+- sprawdzono layout grafik i disclaimerów,
+- sprawdzono kalkulator raty kredytu.
+
+Wynik: portal jest przygotowany do ręcznej kontroli przed ponownym zgłoszeniem AdSense, a klaster kredytowy jest spójnie połączony i opisany w sposób informacyjny.
