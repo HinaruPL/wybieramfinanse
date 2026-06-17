@@ -410,3 +410,11 @@ Aktualizacja sprintu z 14.06.2026:
 - Google Analytics 4 ładuje się dopiero po wyrażeniu zgody na cookies analityczne,
 - do stopki całego serwisu dodano link `Cookies`,
 - uzupełniono `sitemap.xml` o nowy adres `/cookies/`.
+
+## Aktualizacja logotypu Alior Banku i korekta ekspozycji w rankingach
+
+- podmieniono logo Alior Banku na `/assets/logos/alior.png`,
+- zaktualizowano ranking kont osobistych,
+- zaktualizowano ranking kont firmowych,
+- ranking kredytów gotówkowych dostał logo Aliora, bez zmiany kolejności ze względu na ostrożną ocenę kosztów,
+- uruchomiono `npm run check:encoding`.
