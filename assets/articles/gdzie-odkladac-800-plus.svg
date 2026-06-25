@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Gdzie odkładać 800 plus</title>
+  <desc id="desc">Ilustracja przedstawiająca oszczędzanie na przyszłość dziecka z motywem skarbonki i monet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eff6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  
+  <!-- Left panel: Piggy bank & coins -->
+  <rect x="124" y="130" width="420" height="320" rx="32" fill="#ffffff" stroke="#dbe7f5" stroke-width="2"/>
+  <!-- Piggy bank shape -->
+  <path d="M260 290c-40 0-70-30-70-70s30-70 70-70c30 0 50 15 60 35h30c10-20 30-35 60-35 40 0 70 30 70 70s-30 70-70 70h-80z" fill="#fecdd3"/>
+  <circle cx="280" cy="210" r="40" fill="#fda4af"/>
+  <circle cx="380" cy="210" r="40" fill="#fda4af"/>
+  <rect x="310" y="270" width="30" height="60" rx="10" fill="#fb7185"/>
+  <rect x="360" y="270" width="30" height="60" rx="10" fill="#fb7185"/>
+  <!-- Snout -->
+  <rect x="430" y="190" width="30" height="40" rx="10" fill="#f43f5e"/>
+  <circle cx="445" cy="205" r="4" fill="#ffffff"/>
+  <!-- Eye -->
+  <circle cx="270" cy="180" r="6" fill="#1e293b"/>
+  <!-- Coin slot -->
+  <rect x="320" y="130" width="40" height="12" rx="4" fill="#475569"/>
+  <!-- Golden coins -->
+  <circle cx="340" cy="100" r="22" fill="#f59e0b"/>
+  <circle cx="340" cy="100" r="16" fill="#fbbf24"/>
+  <circle cx="390" cy="120" r="22" fill="#f59e0b"/>
+  <circle cx="390" cy="120" r="16" fill="#fbbf24"/>
+  
+  <!-- Right panel: Growth & percentages -->
+  <rect x="620" y="130" width="460" height="320" rx="32" fill="#ffffff" stroke="#dbe7f5" stroke-width="2"/>
+  <!-- Trend line -->
+  <path d="M660 380l80-50 80 20 80-80 80-40 60-60" fill="none" stroke="#3b82f6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trend line dots -->
+  <circle cx="660" cy="380" r="10" fill="#2563eb"/>
+  <circle cx="740" cy="330" r="10" fill="#2563eb"/>
+  <circle cx="820" cy="350" r="10" fill="#2563eb"/>
+  <circle cx="900" cy="270" r="10" fill="#2563eb"/>
+  <circle cx="980" cy="230" r="10" fill="#2563eb"/>
+  <circle cx="1040" cy="170" r="10" fill="#16a34a"/>
+  
+  <!-- Growth text tags -->
+  <rect x="910" y="110" width="120" height="46" rx="14" fill="#dcfce7"/>
+  <text x="932" y="142" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">+8.0%</text>
+  
+  <!-- Bottom banner -->
+  <rect x="120" y="490" width="960" height="90" rx="28" fill="#10233f"/>
+  <text x="178" y="548" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Budowanie poduszki finansowej na przyszłość dziecka z 800+</text>
+</svg>

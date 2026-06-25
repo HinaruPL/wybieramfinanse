@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Darmowa karta kredytowa</title>
+  <desc id="desc">Ilustracja darmowej karty kredytowej z kalendarzem i tarczą bezpieczeństwa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fbf7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  
+  <!-- Left panel: Credit card & limit -->
+  <rect x="124" y="130" width="420" height="320" rx="32" fill="#ffffff" stroke="#f3e8ff" stroke-width="2"/>
+  <!-- Credit Card -->
+  <rect x="184" y="200" width="300" height="180" rx="20" fill="#6b21a8"/>
+  <!-- Card chip -->
+  <rect x="224" y="240" width="46" height="36" rx="8" fill="#fbbf24"/>
+  <!-- Card text -->
+  <text x="224" y="340" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" letter-spacing="2">**** **** **** 8820</text>
+  <!-- Card brand logo placeholder -->
+  <circle cx="414" cy="320" r="26" fill="#ef4444" opacity="0.8"/>
+  <circle cx="440" cy="320" r="26" fill="#f59e0b" opacity="0.8"/>
+  
+  <!-- Right panel: Calendar (grace period) & Shield -->
+  <rect x="620" y="130" width="460" height="320" rx="32" fill="#ffffff" stroke="#f3e8ff" stroke-width="2"/>
+  <!-- Calendar Grid -->
+  <rect x="670" y="190" width="180" height="180" rx="16" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="670" y="190" width="180" height="46" rx="16" fill="#ef4444"/>
+  <!-- Calendar Ring hooks -->
+  <rect x="700" y="174" width="12" height="32" rx="6" fill="#9ca3af"/>
+  <rect x="810" y="174" width="12" height="32" rx="6" fill="#9ca3af"/>
+  <!-- Calendar Day Text -->
+  <text x="760" y="222" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">56 DNI</text>
+  <text x="760" y="310" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#1f2937" text-anchor="middle">0%</text>
+
+  <!-- Security Shield -->
+  <path d="M940 180c40 0 70-20 70-20s30 20 70 20v60c0 50-30 90-70 110-40-20-70-60-70-110v-60z" fill="#d8b4fe"/>
+  <path d="M950 190c30 0 60-16 60-16s24 16 60 16v48c0 40-24 74-60 92-36-18-60-52-60-92v-48z" fill="#a855f7"/>
+  <!-- Checkmark in shield -->
+  <path d="M988 238l14 14 30-34" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom banner -->
+  <rect x="120" y="490" width="960" height="90" rx="28" fill="#10233f"/>
+  <text x="180" y="548" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Okres bezodsetkowy i zasady bezpiecznego korzystania z kart</text>
+</svg>

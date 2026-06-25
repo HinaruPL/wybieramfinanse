@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bankobranie</title>
+  <desc id="desc">Ilustracja bankobrania z kartą płatniczą i motywem bonusu gotówkowego.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f0fdf4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  
+  <!-- Left panel: Gift box and cashback -->
+  <rect x="124" y="130" width="420" height="320" rx="32" fill="#ffffff" stroke="#e6f4ea" stroke-width="2"/>
+  <!-- Gift Box -->
+  <rect x="234" y="220" width="200" height="180" rx="16" fill="#16a34a"/>
+  <rect x="214" y="190" width="240" height="40" rx="10" fill="#15803d"/>
+  <!-- Gift Ribbon -->
+  <rect x="314" y="190" width="40" height="210" fill="#eab308"/>
+  <rect x="234" y="290" width="200" height="40" fill="#eab308"/>
+  <!-- Gift Bow -->
+  <path d="M334 190c-30-30-60 10-20 20s50-10 20-20zm0 0c30-30 60 10 20 20s-50-10-20-20z" fill="#eab308"/>
+  <!-- Shiny stars -->
+  <path d="M190 170l5 15 15 5-15 5-5 15-5-15-15-5 15-5z" fill="#fbbf24"/>
+  <path d="M470 360l4 12 12 4-12 4-4 12-4-12-12-4 12-4z" fill="#fbbf24"/>
+
+  <!-- Right panel: Debit Card & Cash Bonus -->
+  <rect x="620" y="130" width="460" height="320" rx="32" fill="#ffffff" stroke="#e6f4ea" stroke-width="2"/>
+  <!-- Bank Card -->
+  <rect x="680" y="190" width="300" height="180" rx="20" fill="#1e3a8a"/>
+  <!-- Card chip -->
+  <rect x="720" y="230" width="46" height="36" rx="8" fill="#fbbf24"/>
+  <!-- Contactless waves -->
+  <path d="M800 230a20 20 0 0 1 0 36m8-44a30 30 0 0 1 0 52" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <!-- Card brand logo placeholder -->
+  <circle cx="910" cy="310" r="26" fill="#ef4444" opacity="0.8"/>
+  <circle cx="936" cy="310" r="26" fill="#f59e0b" opacity="0.8"/>
+
+  <!-- Cash tag overlay -->
+  <rect x="850" y="150" width="180" height="60" rx="20" fill="#fef08a" stroke="#facc15" stroke-width="3"/>
+  <text x="885" y="190" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#854d0e">+500 PLN</text>
+
+  <!-- Bottom banner -->
+  <rect x="120" y="490" width="960" height="90" rx="28" fill="#10233f"/>
+  <text x="210" y="548" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Zarabianie na darmowych promocjach i bonusach bankowych</text>
+</svg>
