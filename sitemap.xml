@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://wybieramfinanse.pl/</loc><lastmod>2026-06-03</lastmod><priority>1.0</priority></url>
   <url><loc>https://wybieramfinanse.pl/o-nas/</loc><lastmod>2026-06-03</lastmod><priority>0.5</priority></url>
@@ -14,6 +14,7 @@
   <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/zalozenie-firmy-z-kontem/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/rankingi/konta-firmowe/revolut-business/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/rankingi/kredyty-gotowkowe/</loc><lastmod>2026-06-14</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wybieramfinanse.pl/rankingi/lokaty/</loc><lastmod>2026-06-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/dla-firm/</loc><lastmod>2026-06-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://wybieramfinanse.pl/kredyty/</loc><lastmod>2026-06-14</lastmod><priority>0.7</priority></url>
 
@@ -91,6 +92,10 @@
   <url><loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-jdg/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/jak-zalozyc-spolke-zoo/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://wybieramfinanse.pl/poradniki/dzialalnosc-nierejestrowana/</loc><lastmod>2026-06-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/bankobranie/</loc><lastmod>2026-06-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/darmowa-karta-kredytowa/</loc><lastmod>2026-06-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/gdzie-odkladac-800-plus/</loc><lastmod>2026-06-25</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wybieramfinanse.pl/poradniki/lokata-czy-konto-oszczednosciowe/</loc><lastmod>2026-06-25</lastmod><priority>0.7</priority></url>
   <url>
     <loc>https://wybieramfinanse.pl/cookies/</loc>
     <lastmod>2026-06-14</lastmod>

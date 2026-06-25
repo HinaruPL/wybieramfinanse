@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="72" viewBox="0 0 220 72" role="img" aria-labelledby="title desc">
+  <title id="title">Credit Agricole</title>
+  <desc id="desc">Neutralny badge tekstowy dla Credit Agricole</desc>
+  <rect x="1" y="1" width="218" height="70" rx="16" fill="#ffffff" stroke="#dbe2ea"/>
+  <rect x="10" y="10" width="200" height="52" rx="12" fill="#f5fcf8"/>
+  <text x="110" y="39" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#005a36">Credit Agricole</text>
+</svg>
